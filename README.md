@@ -54,3 +54,9 @@ No Python? Open the repo's **Actions** tab, pick **build**, then **Run workflow*
 A mod that crashes a dedicated server goes into `CLIENT_ONLY` at the top of `build.py` instead. Resource packs never go into `server-mods.txt`; the check tells them apart by their absence from `modlist.html`.
 
 Jars that aren't on CurseForge go in `pack/overrides/mods/`. They ship in both zips.
+
+## License
+
+MIT (see `LICENSE`) for Kragnoth's own work in this repo: the build script, datapack, scripts, quests and pack configuration.
+The mods themselves are downloaded from CurseForge and keep their own licences; third-party assets and resource packs
+bundled under `pack/overrides/` stay under their authors' terms.
