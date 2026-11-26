@@ -14,10 +14,6 @@
       "required": false
     },
     {
-      "id": "atmospheric:rocky_dunes",
-      "required": false
-    },
-    {
       "id": "atmospheric:scrubland",
       "required": false
     },
@@ -35,14 +31,6 @@
     },
     {
       "id": "minecraft:desert",
-      "required": false
-    },
-    {
-      "id": "minecraft:eroded_badlands",
-      "required": false
-    },
-    {
-      "id": "minecraft:wooded_badlands",
       "required": false
     },
     {

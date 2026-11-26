@@ -18,10 +18,6 @@
       "required": false
     },
     {
-      "id": "minecraft:grove",
-      "required": false
-    },
-    {
       "id": "minecraft:old_growth_pine_taiga",
       "required": false
     },
@@ -79,18 +75,6 @@
     },
     {
       "id": "regions_unexplored:blackwood_taiga",
-      "required": false
-    },
-    {
-      "id": "environmental:pine_slopes",
-      "required": false
-    },
-    {
-      "id": "minecraft:windswept_forest",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:pine_slopes",
       "required": false
     }
   ]

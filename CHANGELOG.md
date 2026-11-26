@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+- Terrain: old terrain-overhaul leftovers removed; vanilla terrain softened (lower mountains, fewer cliffs/overhangs). New chunks only.
+- Villages and abandoned villages no longer generate in steep biomes.
 - Houses: no terrain inside rooms/attics; village and stronghold houses stand on a stone foundation (no air gaps on slopes).
 
 ## 1.0.6 Alpha (2026-11-26)

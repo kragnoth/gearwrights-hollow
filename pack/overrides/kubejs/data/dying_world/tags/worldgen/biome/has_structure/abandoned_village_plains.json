@@ -47,10 +47,6 @@
       "required": false
     },
     {
-      "id": "minecraft:meadow",
-      "required": false
-    },
-    {
       "id": "minecraft:old_growth_birch_forest",
       "required": false
     },
@@ -99,10 +95,6 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:mauve_hills",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:old_growth_forest",
       "required": false
     },
@@ -120,10 +112,6 @@
     },
     {
       "id": "regions_unexplored:pumpkin_fields",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:rocky_meadow",
       "required": false
     },
     {
@@ -147,19 +135,7 @@
       "required": false
     },
     {
-      "id": "minecraft:cherry_grove",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:highland_fields",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:eucalyptus_forest",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:windswept_maple_forest",
       "required": false
     },
     {
