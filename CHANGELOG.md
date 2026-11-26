@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Nether foundry no longer leaves invisible structure-void blocks in the world.
+
 ## 1.0.7 Alpha (2026-11-26)
 - Terrain: old terrain-overhaul leftovers removed; vanilla terrain softened (lower mountains, fewer cliffs/overhangs). New chunks only.
 - Villages and abandoned villages no longer generate in steep biomes.
