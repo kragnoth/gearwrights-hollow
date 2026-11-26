@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Houses: no terrain inside rooms/attics; village and stronghold houses stand on a stone foundation (no air gaps on slopes).
+
 ## 1.0.6 Alpha (2026-11-26)
 - Updated Cog & Cultivar 0.2.16, Hallmarked 1.20.3, Wasteland Visions 0.24.5.
 - Creative Engineering left out for now.
