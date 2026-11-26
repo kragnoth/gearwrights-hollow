@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "stages": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "spread_chance": 0.1,
+  "seeds": "regions_unexplored:spanish_moss",
+  "products": [
+    {
+      "item": "regions_unexplored:spanish_moss",
+      "min": 1,
+      "max": 2
+    }
+  ],
+  "requirements": [
+    {
+      "type": "cultivar:light",
+      "min": 8,
+      "max": 15,
+      "tolerance": 0.5
+    },
+    {
+      "type": "cultivar:humidity",
+      "value": "damp",
+      "comparison": "at_least",
+      "tolerance": 0.15
+    }
+  ]
+}

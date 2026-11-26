@@ -1,0 +1,191 @@
+{
+  "name": "hallmarked.set.hollowed",
+  "color": "dark_purple",
+  "chance": {},
+  "pieces": [
+    {
+      "key": "cowl",
+      "item": "minecraft:leather_helmet",
+      "base_stats": {
+        "armor": 3,
+        "toughness": 3,
+        "knockback_resistance": 0.1
+      },
+      "durability": 407,
+      "dye": "#1c1626",
+      "trim": {
+        "pattern": "minecraft:eye",
+        "material": "minecraft:amethyst"
+      },
+      "fire_resistant": true,
+      "modifiers": [
+        {
+          "name": "hollowed_cowl_resist",
+          "attribute": "lodestone:magic_resistance",
+          "operation": "addition",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "key": "vestment",
+      "item": "minecraft:chainmail_chestplate",
+      "base_stats": {
+        "armor": 8,
+        "toughness": 3,
+        "knockback_resistance": 0.1
+      },
+      "durability": 592,
+      "trim": {
+        "pattern": "minecraft:eye",
+        "material": "minecraft:amethyst"
+      },
+      "fire_resistant": true,
+      "modifiers": [
+        {
+          "name": "hollowed_vestment_health",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "addition",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "key": "greaves",
+      "item": "minecraft:iron_leggings",
+      "base_stats": {
+        "armor": 6,
+        "toughness": 3,
+        "knockback_resistance": 0.1
+      },
+      "durability": 555,
+      "trim": {
+        "pattern": "minecraft:eye",
+        "material": "minecraft:amethyst"
+      },
+      "fire_resistant": true,
+      "modifiers": [
+        {
+          "name": "hollowed_greaves_speed",
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.03
+        }
+      ]
+    },
+    {
+      "key": "treads",
+      "item": "minecraft:leather_boots",
+      "base_stats": {
+        "armor": 3,
+        "toughness": 3,
+        "knockback_resistance": 0.1
+      },
+      "durability": 481,
+      "dye": "#1c1626",
+      "trim": {
+        "pattern": "minecraft:eye",
+        "material": "minecraft:amethyst"
+      },
+      "fire_resistant": true,
+      "modifiers": [
+        {
+          "name": "hollowed_treads_fall",
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "operation": "addition",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "key": "censer",
+      "item": "hallmarked:emerald_amulet",
+      "glint": true,
+      "modifiers": [
+        {
+          "name": "hollowed_censer_luck",
+          "attribute": "minecraft:generic.luck",
+          "operation": "addition",
+          "value": 1
+        },
+        {
+          "name": "hollowed_censer_magic",
+          "attribute": "lodestone:magic_damage",
+          "operation": "addition",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "bonuses": [
+    {
+      "pieces": 2,
+      "modifiers": [
+        {
+          "name": "hollowed_2_magic",
+          "attribute": "caverns_and_chasms:magic_protection",
+          "operation": "addition",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "pieces": 3,
+      "modifiers": [],
+      "procs": [
+        {
+          "type": "leech",
+          "chance": 0.2,
+          "power": 0.15
+        }
+      ]
+    },
+    {
+      "pieces": 4,
+      "modifiers": [
+        {
+          "name": "hollowed_4_health",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "addition",
+          "value": 4
+        },
+        {
+          "name": "hollowed_4_damage",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.08
+        }
+      ],
+      "effects": [
+        {
+          "effect": "minecraft:night_vision",
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "pieces": 5,
+      "modifiers": [
+        {
+          "name": "hollowed_5_resist",
+          "attribute": "hallmarked:damage_resistance",
+          "operation": "multiply_total",
+          "value": 0.05
+        }
+      ],
+      "procs": [
+        {
+          "type": "reaper",
+          "chance": 1.0,
+          "power": 4
+        },
+        {
+          "type": "bleed",
+          "chance": 0.2,
+          "power": 1.5,
+          "duration": 80
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "environmental:old_growth_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:snowy_old_growth_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:snowy_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "minecraft:grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_pine_taiga",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_spruce_taiga",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "minecraft:taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:golden_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_golden_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:sparse_redwoods",
+      "required": false
+    },
+    {
+      "id": "windswept:chestnut_forest",
+      "required": false
+    },
+    {
+      "id": "windswept:pine_barrens",
+      "required": false
+    },
+    {
+      "id": "windswept:snowy_chestnut_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    },
+    {
+      "id": "environmental:pine_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_slopes",
+      "required": false
+    }
+  ]
+}

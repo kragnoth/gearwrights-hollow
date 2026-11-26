@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gearwright's Hollow: CurseForge description</title>
+<style>
+  body { margin: 0; background: #16181d; color: #d9dbe0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .bar { position: sticky; top: 0; display: flex; gap: 12px; align-items: center; padding: 12px 20px; background: #0f1115; border-bottom: 1px solid #2a2e37; }
+  .bar p { margin: 0; font-size: 14px; color: #9aa0ab; }
+  button { font: inherit; font-size: 14px; padding: 8px 14px; border-radius: 6px; border: 1px solid #c8a050; background: #2a2316; color: #f1d58e; cursor: pointer; min-height: 40px; }
+  button:hover { background: #3a3020; }
+  .sheet { max-width: 760px; margin: 28px auto 60px; padding: 8px 32px 24px; background: #1d2027; border: 1px solid #2c303a; border-radius: 8px; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <button id="copy" type="button">Copy description</button>
+  <p id="msg">Copies the formatted text below. Paste it into CurseForge's description editor.</p>
+</div>
+
+<div class="sheet">
+<div id="content">
+<h2 style="color: #d8b25e; margin-bottom: 4px;">Gearwright's Hollow</h2>
+<p style="color: #7fb9b4; margin-top: 0;"><em>A semi-sandbox pack for Minecraft 1.21.1 on NeoForge.</em></p>
+
+<p>The world has been abandoned for a while. Villages are empty, roads are overgrown and most of the old buildings are falling apart. You start with nothing and rebuild using Create, Immersive Engineering, Ender IO and a bit of blood magic.</p>
+
+<p>The pack is low magic and leans toward old machinery. Nothing is locked behind quests. They're there to point you in a direction if you want one.</p>
+
+<h3 style="color: #d8b25e;">What's in it</h3>
+<ul>
+<li>Hand-built ruined structures: villages, chapels, mine heads, outposts and a few stranger places</li>
+<li>Around 260 quests in 15 chapters</li>
+<li>A large skill tree with perks you unlock as you level</li>
+<li>Gear that rolls quality, plus named unique items to find</li>
+<li>Tougher mobs that can spawn with extra abilities</li>
+<li>Farming and cooking through Farmer's Delight and its add-ons</li>
+<li>An endgame that ties into the world's darker side</li>
+</ul>
+
+<p>Several mods were made for this pack: <span style="color: #d8b25e;">Hallmarked</span>, <span style="color: #d8b25e;">Wasteland Vision</span>, <span style="color: #d8b25e;">Mob Rules</span>, <span style="color: #d8b25e;">Kragnoth's Skill Perks</span>, <span style="color: #d8b25e;">Tarbound</span>, <span style="color: #d8b25e;">Rust and Rebar</span> and <span style="color: #d8b25e;">Cog &amp; Cultivar</span>.</p>
+
+<h3 style="color: #d8b25e;">Requirements</h3>
+<ul>
+<li>Minecraft 1.21.1, NeoForge 21.1.262, Java 21</li>
+<li>8 GB of RAM allocated is recommended</li>
+</ul>
+
+<h3 style="color: #d8b25e;">Multiplayer</h3>
+<p>The pack works on servers. Everyone's progress is tracked separately.</p>
+
+<h3 style="color: #d8b25e;">Bugs</h3>
+<p>This is still a release candidate. If something breaks, please post your <code>latest.log</code> (found in the <code>logs</code> folder) with your report.</p>
+
+<p style="color: #7fb9b4;"><em>Thanks to all the mod authors whose work is in here.</em></p>
+</div>
+</div>
+
+<script>
+  const btn = document.getElementById('copy');
+  const msg = document.getElementById('msg');
+  const content = document.getElementById('content');
+  function selectContent() {
+    const r = document.createRange();
+    r.selectNodeContents(content);
+    const s = window.getSelection();
+    s.removeAllRanges();
+    s.addRange(r);
+  }
+  btn.addEventListener('click', async () => {
+    try {
+      const html = new Blob([content.innerHTML], { type: 'text/html' });
+      const text = new Blob([content.innerText], { type: 'text/plain' });
+      await navigator.clipboard.write([new ClipboardItem({ 'text/html': html, 'text/plain': text })]);
+      msg.textContent = 'Copied. Paste it into the description editor.';
+    } catch (e) {
+      selectContent();
+      msg.textContent = "The text is selected. Press Ctrl+C to copy it.";
+    }
+  });
+</script>
+</body>
+</html>

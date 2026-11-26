@@ -1,0 +1,27 @@
+{
+  "_comment": "Fast, and leaps at you.",
+  "affix": {
+    "name": "Swift",
+    "weight": 4,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "attributes": {
+    "movement_speed": {
+      "multiply": 1.35
+    }
+  },
+  "abilities": [
+    {
+      "type": "leap",
+      "cooldown": 80
+    }
+  ],
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

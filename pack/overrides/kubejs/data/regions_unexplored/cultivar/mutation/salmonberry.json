@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "minecraft:sweet_berries",
+  "parent_b": "cultivar:madder_root",
+  "child": "regions_unexplored:salmonberry",
+  "chance": 0.25,
+  "conditions": [
+    {
+      "type": "cultivar:light",
+      "min": 10,
+      "max": 15,
+      "tolerance": 0
+    }
+  ]
+}

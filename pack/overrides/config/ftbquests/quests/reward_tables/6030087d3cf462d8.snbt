@@ -1,0 +1,14 @@
+{
+	icon: {
+		id: "neovitae:blood_orb_apprentice"
+	}
+	id: "6030087D3CF462D8"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "5CCDD213FAAC64D3", item: { count: 1, id: "neovitae:blood_orb_apprentice" } }
+		{ id: "787152A5E26B42BD", item: { count: 1, id: "neovitae:sigil_air" } }
+		{ id: "718E4F9DA41AE9F0", item: { count: 1, id: "neovitae:sigil_water" } }
+		{ id: "398871C20F171851", item: { count: 1, id: "neovitae:sigil_magnetism" } }
+	]
+}

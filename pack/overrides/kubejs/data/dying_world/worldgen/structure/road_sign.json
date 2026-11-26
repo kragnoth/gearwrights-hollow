@@ -1,0 +1,10 @@
+{
+  "type": "supplementaries:road_sign",
+  "biomes": "#dying_world:has_structure/road_sign",
+  "terrain_adaptation": "beard_thin",
+  "step": "strongholds",
+  "spawn_overrides": {},
+  "start_pool": "supplementaries:road_sign/start_pool",
+  "min_y": 40,
+  "max_y": 105
+}

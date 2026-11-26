@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Tidewell Log"
+                  },
+                  "author": "Keeper L. Moor",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Tidewell log. The sea cools the draught lines from the gatehouses. The guardians tolerate us if we keep to the lit halls.\"}",
+                    "{\"text\": \"Water in the cooling halls has gone dark. Not dirty. Dark, like the black seep from below, thinned out in brine.\\n\\nFish will not enter the halls.\"}",
+                    "{\"text\": \"Order from the Guild: hold the Tidewell at any cost.\\n\\nThe cost was decided for us. The great one woke. The halls are flooded by my hand. Nothing more will be cooled here.\"}",
+                    "{\"text\": \"If the gatehouses still run, they run hot. If they run hot, they leak.\\n\\nI am sorry for what the sea will carry. L.M.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

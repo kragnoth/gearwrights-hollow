@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Survey Stake Notes"
+                  },
+                  "author": "Guild Survey, Site 14",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Site fourteen. Foundation poured for a gatehouse: sound ground, two days from any town, water near.\\n\\nFrames due by autumn.\"}",
+                    "{\"text\": \"Frames not delivered. Crew paid off. Foundation left to cure.\\n\\nThe Guild has stopped building new gatehouses. No reason given.\\n\\nSite abandoned.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    }
+  ]
+}

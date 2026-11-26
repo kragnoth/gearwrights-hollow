@@ -1,0 +1,10 @@
+{
+  "type": "tarbound:dry_land",
+  "structure": "tarbound:wayside_shrine_layout",
+  "size_x": 7,
+  "size_z": 7,
+  "biomes": "#dying_world:has_structure/wayside_shrine",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Foundry Orders"
+                  },
+                  "author": "Foreman T. Gale",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Foundry orders. Kilns fired on draught alone, no coal. Output: brass that does not tarnish and takes a spirit like a lamp takes a flame.\\n\\nBlaze stock kept in cages.\"}",
+                    "{\"text\": \"The caged blazes are dimmer every month. The draught is feeding on them, or they on it. We call the spent ones weakened and sell them up top.\"}",
+                    "{\"text\": \"The men up top say that in the Hollow you can see our smoke on the horizon, rising over the hills.\\n\\nIt is not our smoke. Our stacks vent here, into this sky.\"}",
+                    "{\"text\": \"Order from the Guild: fire every kiln, double the draught.\\n\\nOrder refused. Kilns banked. If they want it done they can come down and do it.\\n\\nT. Gale\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ]
+    }
+  ]
+}

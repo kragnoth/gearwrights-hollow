@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Quarantine Notes"
+                  },
+                  "author": "Archivist P. Sallow",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"I kept the Guild's archive. Every register came across my desk.\\n\\nThe black gets into ink. Pages copied from the gatehouses darken by themselves, a little more every day.\"}",
+                    "{\"text\": \"My hands have gone the colour of the pages. The village nailed the door shut and I do not blame them.\\n\\nI am still lucid most days.\"}",
+                    "{\"text\": \"A golden apple and a draught of weakness would do it. The old cure. Nobody will bring me either.\\n\\nIf you do, I can trade you what I saved from the archive.\"}",
+                    "{\"text\": \"The registers all end the same way. The gate does not close as fast as it opens.\\n\\nSomeone has to close the first one. P.S.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

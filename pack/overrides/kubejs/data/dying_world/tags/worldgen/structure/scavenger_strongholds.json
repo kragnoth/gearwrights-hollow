@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dying_world:scavenger_stronghold",
+    "dying_world:scavenger_stronghold_plains",
+    "dying_world:scavenger_stronghold_taiga",
+    "dying_world:scavenger_stronghold_savanna",
+    "dying_world:scavenger_stronghold_desert",
+    "dying_world:scavenger_stronghold_snowy"
+  ]
+}

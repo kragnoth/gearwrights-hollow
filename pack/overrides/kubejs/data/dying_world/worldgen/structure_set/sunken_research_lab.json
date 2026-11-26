@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:sunken_research_lab",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1763891152,
+    "spacing": 32,
+    "separation": 5,
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "other_set": "dying_world:shipwrecks",
+      "chunk_count": 4
+    }
+  }
+}

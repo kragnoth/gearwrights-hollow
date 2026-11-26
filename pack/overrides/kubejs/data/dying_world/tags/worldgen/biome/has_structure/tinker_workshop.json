@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    "#dying_world:has_structure/scavenger_outpost_any"
+  ]
+}

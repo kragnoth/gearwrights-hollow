@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#glass"
+  },
+  "elements": [
+    {
+      "from": [3, 3, 3],
+      "to": [13, 13, 13],
+      "shade": false,
+      "neoforge_data": { "block_light": 15, "sky_light": 15, "ambient_occlusion": false },
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#core" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#core" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#core" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#core" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#core" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#core" }
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "south" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "east" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "west" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "up" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "down" }
+      }
+    }
+  ]
+}

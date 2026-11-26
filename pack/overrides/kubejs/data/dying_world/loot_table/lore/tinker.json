@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Apprentice's Notebook"
+                  },
+                  "author": "W. Tamsin",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Apprenticed to the Gearwrights at fourteen. I poured rebar for three gatehouses and cut frames for a fourth.\\n\\nGood work, all of it. I was proud of it.\"}",
+                    "{\"text\": \"The frames were drawn by the masters at the Hollow. Nobody below a master was allowed to see a whole one.\\n\\nI saw one. I wish I had not.\"}",
+                    "{\"text\": \"I will mend anything you bring me. Tools, locks, engines.\\n\\nI will not build a frame. Not for silver, not for the Guild, not for you.\\n\\n- W.T.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "environmental"
+    }
+  ],
+  "parent_a": "minecraft:sugar_cane",
+  "parent_b": "cultivar:clayreed",
+  "child": "environmental:cattail",
+  "chance": 0.25
+}

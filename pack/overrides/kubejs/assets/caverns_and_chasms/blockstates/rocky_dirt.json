@@ -1,0 +1,63 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt",
+        "weight": 4
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt",
+        "weight": 4,
+        "y": 90
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt",
+        "weight": 4,
+        "y": 180
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt",
+        "weight": 4,
+        "y": 270
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt1",
+        "weight": 2
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt1",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt1",
+        "weight": 2,
+        "y": 180
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt1",
+        "weight": 2,
+        "y": 270
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt2",
+        "weight": 2
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt2",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt2",
+        "weight": 2,
+        "y": 180
+      },
+      {
+        "model": "caverns_and_chasms:block/rocky_dirt2",
+        "weight": 2,
+        "y": 270
+      }
+    ]
+  }
+}

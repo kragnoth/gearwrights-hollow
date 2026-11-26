@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "stages": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "spread_chance": 0.1,
+  "seeds": "regions_unexplored:hanging_earlight_fruit",
+  "products": [
+    {
+      "item": "regions_unexplored:hanging_earlight_fruit",
+      "min": 1,
+      "max": 1,
+      "chance": 0.68
+    }
+  ],
+  "requirements": [
+    {
+      "type": "cultivar:light",
+      "min": 8,
+      "max": 15,
+      "tolerance": 0.5
+    },
+    {
+      "type": "cultivar:humidity",
+      "value": "damp",
+      "comparison": "at_least",
+      "tolerance": 0.15
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/scavenger_outpost_any",
+  "max_distance_from_center": 56,
+  "size": 4,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "weight": 3,
+          "minCount": 1,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 3,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "dying_world:station/gate_end_derelict/hall",
+  "step": "strongholds",
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": false,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "liquid_settings": "ignore_waterlogging"
+}

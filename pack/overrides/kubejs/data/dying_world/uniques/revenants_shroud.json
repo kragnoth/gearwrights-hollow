@@ -1,0 +1,30 @@
+{
+  "name": "hallmarked.unique.revenants_shroud",
+  "lore": "hallmarked.unique.revenants_shroud.lore",
+  "items": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "chance": {},
+  "chestplate": {
+    "modifiers": [
+      {
+        "name": "shroud_armor",
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 4
+      },
+      {
+        "name": "shroud_tough",
+        "attribute": "minecraft:generic.armor_toughness",
+        "operation": "addition",
+        "value": 2
+      },
+      {
+        "name": "shroud_health",
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 6
+      }
+    ]
+  }
+}

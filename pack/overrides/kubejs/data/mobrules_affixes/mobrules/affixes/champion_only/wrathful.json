@@ -1,0 +1,40 @@
+{
+  "_comment": "Champion only: roars and buffs itself at the start of a fight.",
+  "affix": {
+    "name": "Wrathful",
+    "weight": 2,
+    "pool": [
+      "champion"
+    ]
+  },
+  "abilities": [
+    {
+      "type": "buff",
+      "cooldown": 600,
+      "windup": 20,
+      "self_effects": [
+        {
+          "effect": "minecraft:strength",
+          "amplifier": 0,
+          "duration": 200
+        },
+        {
+          "effect": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 200
+        }
+      ],
+      "message": "You will fall!"
+    }
+  ],
+  "particles": {
+    "type": "minecraft:angry_villager",
+    "count": 1,
+    "interval": 20
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

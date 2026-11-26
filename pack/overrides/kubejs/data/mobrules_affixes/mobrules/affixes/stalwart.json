@@ -1,0 +1,39 @@
+{
+  "_comment": "Tough, no knockback, raises a shield when hurt.",
+  "affix": {
+    "name": "Stalwart",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "attributes": {
+    "max_health": {
+      "multiply": 1.8
+    },
+    "armor": {
+      "add": 4
+    }
+  },
+  "combat": {
+    "no_knockback": true
+  },
+  "abilities": [
+    {
+      "type": "shield",
+      "cooldown": 240,
+      "health_below": 0.6,
+      "duration": 50,
+      "range": [
+        0,
+        16
+      ]
+    }
+  ],
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,6 @@
+#If true, all schematic blocks consume Construction Materials regardless of tags, with required quantities preserved.
+useOnlyConstructionMaterials = false
+#Default material selection for newly printed clipboards and books. Selections can be changed afterwards and are saved on the output item.
+showSubstitutesInClipboard = true
+#If true, untagged blocks consume Construction Materials. If false, edit the tags to specify which Materials they consume.
+fallbackToConstructionWhenUntagged = true

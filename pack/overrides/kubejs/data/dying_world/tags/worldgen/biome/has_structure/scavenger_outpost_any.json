@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#dying_world:has_structure/concrete_pad_temperate",
+      "required": false
+    },
+    {
+      "id": "#dying_world:has_structure/concrete_pad_cold",
+      "required": false
+    },
+    {
+      "id": "#dying_world:has_structure/concrete_pad_arid",
+      "required": false
+    },
+    {
+      "id": "#dying_world:has_structure/concrete_pad_wild",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:ice_spikes",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_plains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_deciduous_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:frozen_pine_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:spires",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:tundra",
+      "required": false
+    },
+    {
+      "id": "windswept:tundra",
+      "required": false
+    },
+    {
+      "id": "windswept:snowy_pine_barrens",
+      "required": false
+    }
+  ]
+}

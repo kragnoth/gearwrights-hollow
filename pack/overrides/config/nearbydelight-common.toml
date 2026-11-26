@@ -1,0 +1,6 @@
+#Master toggle - if false, Cooking Pots will not search nearby containers at all
+nearbyCookingEnabled = true
+#How many blocks out (in each direction) to search for nearby containers
+# Default: 5
+# Range: 1 ~ 16
+searchRadius = 5

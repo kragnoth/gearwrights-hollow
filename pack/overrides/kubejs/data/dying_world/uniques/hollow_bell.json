@@ -1,0 +1,30 @@
+{
+  "name": "hallmarked.unique.hollow_bell",
+  "lore": "hallmarked.unique.hollow_bell.lore",
+  "items": {
+    "item": "hallmarked:emerald_amulet"
+  },
+  "chance": {},
+  "bauble": {
+    "modifiers": [
+      {
+        "name": "hollow_bell_luck",
+        "attribute": "minecraft:generic.luck",
+        "operation": "addition",
+        "value": 1.5
+      },
+      {
+        "name": "hollow_bell_resist",
+        "attribute": "hallmarked:damage_resistance",
+        "operation": "multiply_total",
+        "value": 0.05
+      },
+      {
+        "name": "hollow_bell_magic",
+        "attribute": "lodestone:magic_damage",
+        "operation": "addition",
+        "value": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Gatehouse Register, Below"
+                  },
+                  "author": "A. Venn, Clerk",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Gatehouse register, kept by order of the Guild.\\n\\nDraught drawn this week: forty measures. Heat in the sanctum within tolerance. Frames inspected, sound.\"}",
+                    "{\"text\": \"Draught drawn: sixty measures. The fitters ask for gloves. The pipes are warm on the outside now, not only within.\\n\\nStaff note a sound in the pipes like talking. Recorded as pressure.\"}",
+                    "{\"text\": \"Draught drawn: more than ordered. The gate does not close as fast as it opens.\\n\\nMaster Harrow has gone through to the station below to see why. Register to be kept until she returns.\"}",
+                    "{\"text\": \"No draught drawn. No draught ordered.\\n\\nThe gate is open anyway.\\n\\nRegister closed. A.V.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "dying_world:map/proving_grounds",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Requisition Route: Proving Grounds"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    }
+  ]
+}

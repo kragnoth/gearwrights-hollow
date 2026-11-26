@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "minecraft:village/taiga/houses",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "gearwrights:village/taiga/windmill",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    }
+  ]
+}

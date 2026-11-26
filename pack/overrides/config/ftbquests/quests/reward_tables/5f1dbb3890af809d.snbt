@@ -1,0 +1,66 @@
+{
+	empty_weight: 2.0f
+	icon: {
+		id: "neovitae:blood_orb_weak"
+	}
+	id: "5F1DBB3890AF809D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 8
+			id: "3CEA9D2920EEA4E0"
+			item: {
+				count: 1
+				id: "neovitae:tabula_rasa"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "4938FC3730F5851A"
+			item: {
+				count: 1
+				id: "tarbound:tar_bucket"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "240208245CB87479"
+			item: {
+				count: 1
+				id: "tarbound:tallow"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 6
+			id: "3ECB7688F5AA58EB"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_lead"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "4A74D6809440B0EF"
+			item: {
+				count: 1
+				id: "caverns_and_chasms:silver_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "6F6C51B2AF7BA04A"
+			item: {
+				count: 1
+				id: "neovitae:amethyst_dust"
+			}
+			weight: 2.0f
+		}
+		{ id: "3E6E48F42114A47C", item: { count: 1, id: "tarbound:votive_skull" } }
+	]
+}

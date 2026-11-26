@@ -1,0 +1,191 @@
+{
+  "fallback": "dying_world:mineshaft/caps",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_track_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_track_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_plain_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_plain_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_door_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/straight_door_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/corner_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/corner_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/tee_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/tee_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/hub_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/hub_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "location": "dying_world:mineshaft/yard_hall_1",
+            "processors": "dying_world:mineshaft_no_float",
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "location": "dying_world:mineshaft/yard_hall_1_boxes",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "location": "dying_world:mineshaft/yard_hall_2",
+            "processors": "dying_world:mineshaft_no_float",
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "location": "dying_world:mineshaft/yard_hall_2_boxes",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/flooded_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/tarred_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/flooded_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/tarred_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

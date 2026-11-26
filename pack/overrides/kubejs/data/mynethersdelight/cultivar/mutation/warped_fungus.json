@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mynethersdelight"
+    }
+  ],
+  "parent_a": "minecraft:brown_mushroom",
+  "parent_b": "minecraft:nether_wart",
+  "child": "mynethersdelight:warped_fungus",
+  "chance": 0.2
+}

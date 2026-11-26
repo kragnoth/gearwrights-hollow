@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:industrial_mineshaft",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:proving_grounds",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 10,
+    "salt": 44659483,
+    "exclusion_zone": {
+      "other_set": "dying_world:settlements",
+      "chunk_count": 6
+    }
+  }
+}

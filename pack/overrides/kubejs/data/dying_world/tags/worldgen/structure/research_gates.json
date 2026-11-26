@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dying_world:research_gate_nether",
+    "dying_world:research_gate_end",
+    "dying_world:research_gate_nether_derelict",
+    "dying_world:research_gate_end_derelict"
+  ]
+}

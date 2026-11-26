@@ -1,0 +1,105 @@
+{
+  "_comment": "pass 9-48: the Echo - a released player's repeat Hollow fight (lens on)",
+  "priority": 101,
+  "stop": true,
+  "conditions": {
+    "mobs": "mobrules:doppelganger",
+    "has_tags": [
+      "gh_hollow_echo"
+    ]
+  },
+  "attributes": {
+    "max_health": {
+      "set": 500
+    },
+    "knockback_resistance": {
+      "set": 0.8
+    },
+    "follow_range": {
+      "set": 64
+    },
+    "movement_speed": {
+      "multiply": 1.2
+    },
+    "armor_toughness": {
+      "add": 4
+    }
+  },
+  "heal": true,
+  "combat": {
+    "damage_dealt": [
+      {
+        "multiply": 2.0
+      }
+    ],
+    "regen": {
+      "amount": 2,
+      "interval": 40
+    },
+    "fire_immune": true,
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:darkness",
+          "duration": 80,
+          "chance": 0.35
+        },
+        {
+          "effect": "minecraft:wither",
+          "duration": 60,
+          "chance": 0.2
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "type": "blink",
+      "cooldown": 120,
+      "windup": 8
+    },
+    {
+      "type": "leap",
+      "cooldown": 80,
+      "range": [
+        4,
+        14
+      ],
+      "windup": 6
+    },
+    {
+      "type": "pull",
+      "cooldown": 160,
+      "health_below": 0.7,
+      "windup": 12
+    },
+    {
+      "type": "shield",
+      "cooldown": 300,
+      "health_below": 0.5,
+      "duration": 80
+    },
+    {
+      "type": "summon",
+      "cooldown": 400,
+      "health_below": 0.5,
+      "mobs": [
+        {
+          "mob": "incision:skeletoncultist",
+          "count": 3
+        }
+      ],
+      "message": "Those who stayed remember you."
+    }
+  ],
+  "boss_bar": {
+    "color": "purple",
+    "style": "notched_20",
+    "range": 48,
+    "darken_sky": true
+  },
+  "name": {
+    "text": "Echo of the Hollow",
+    "color": "dark_purple"
+  }
+}

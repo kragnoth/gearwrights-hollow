@@ -1,0 +1,5 @@
+#Which vision (folder name in config/wastelandvision/visions/) the toggle key shows.
+#The cycle key changes this and saves it.
+activeVision = "occult_foundry"
+#Start every session with the vision already on (e.g. a modpack built around it).
+startActive = true

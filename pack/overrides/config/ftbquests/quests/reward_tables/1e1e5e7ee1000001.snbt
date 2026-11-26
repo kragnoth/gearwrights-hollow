@@ -1,0 +1,64 @@
+{
+	icon: {
+		id: "immersiveengineering:ingot_steel"
+	}
+	id: "1E1E5E7EE1000001"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 4
+			id: "7072FEB4B70911F3"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "1189175FC6DF67AD"
+			item: {
+				count: 1
+				id: "immersiveengineering:component_iron"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "1C080181BDDBE8BF"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "2C6458526EE551A0"
+			item: {
+				count: 1
+				id: "immersiveengineering:coal_coke"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "1B04C57117841852"
+			item: {
+				count: 1
+				id: "immersiveengineering:component_steel"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "1CFA9C290D3F16A8"
+			item: {
+				count: 1
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			weight: 3.0f
+		}
+	]
+}

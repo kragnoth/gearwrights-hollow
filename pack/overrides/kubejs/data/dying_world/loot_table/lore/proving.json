@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Proving Ledger"
+                  },
+                  "author": "Sgt. R. Coyle",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Proving ledger. All gear bound for the far stations is tried here first: suits, breathing hoods, the wind-engines.\\n\\nVault keys issued to passing crews only.\"}",
+                    "{\"text\": \"Wind-engine trial: three crew winded, one lost a hand to the rotor. Passed for service.\\n\\nRequisitions from the Tidewell for sealed hoods. From the Listening Post: wax, for ears.\"}",
+                    "{\"text\": \"Requisitions stopped in the spring. No crews come through.\\n\\nWe keep testing. The engines run whether anyone watches or not.\"}",
+                    "{\"text\": \"Orders were to hold until relieved.\\n\\nNobody has come to relieve us. If you are reading this, you are the relief. The keys are in the vaults. Take them.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "dying_world:map/far_labs",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Supply Route: Far Laboratories"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    }
+  ]
+}

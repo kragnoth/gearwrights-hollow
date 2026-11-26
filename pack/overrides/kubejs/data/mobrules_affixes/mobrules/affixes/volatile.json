@@ -1,0 +1,37 @@
+{
+  "_comment": "Explodes on death (doesn't break blocks).",
+  "affix": {
+    "name": "Volatile",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "conditions": {
+    "none_of": [
+      {
+        "mobs": [
+          "minecraft:creeper"
+        ]
+      }
+    ]
+  },
+  "on_death": {
+    "explode": {
+      "power": 2,
+      "fire": false,
+      "break_blocks": false
+    }
+  },
+  "particles": {
+    "type": "minecraft:smoke",
+    "count": 1,
+    "interval": 4
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

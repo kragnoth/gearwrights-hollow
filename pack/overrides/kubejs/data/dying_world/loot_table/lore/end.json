@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Far Station: Observations"
+                  },
+                  "author": "Dr. I. Marsh",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Observations from the far station.\\n\\nThe void beneath us is not empty. Lights move in it, slowly, as if looking. The shell-creatures guard the towers and ignore us entirely.\"}",
+                    "{\"text\": \"The wing-harness works. A crewman glided the length of the island and back. The Guild wants a hundred.\\n\\nI want to know what the draught carries back with it.\"}",
+                    "{\"text\": \"Each measure of draught we send home carries passengers. The clerks call them lodgers. They ride the cold back into the world and they stay.\"}",
+                    "{\"text\": \"We are not drawing power. We are being drawn on.\\n\\nI have written this to the Guild four times. I will not write it a fifth. I.M.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

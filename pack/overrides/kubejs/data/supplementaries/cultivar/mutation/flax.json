@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "parent_a": "minecraft:wheat",
+  "parent_b": "cultivar:silkweed",
+  "child": "supplementaries:flax",
+  "chance": 0.25
+}

@@ -1,0 +1,92 @@
+{
+  "_comment": "1.5% of hostile mobs from day 3 become Champions: 3 to 4 affixes, a boss bar, more health and big loot.",
+  "priority": 100,
+  "group": "mobrules_affixes:tier",
+  "conditions": {
+    "hostile": true,
+    "spawn_types": [
+      "natural",
+      "spawner",
+      "structure",
+      "chunk_generation",
+      "patrol",
+      "event",
+      "trial_spawner"
+    ],
+    "none_of": [
+      {
+        "mobs": [
+          "minecraft:wither",
+          "minecraft:ender_dragon",
+          "minecraft:warden",
+          "minecraft:elder_guardian"
+        ]
+      }
+    ],
+    "chance": 0.015,
+    "day": {
+      "min": 3
+    }
+  },
+  "affixes": {
+    "pool": "champion",
+    "count": [
+      3,
+      4
+    ],
+    "color": "red"
+  },
+  "attributes": {
+    "max_health": {
+      "multiply": 1.5
+    }
+  },
+  "persistent": true,
+  "boss_bar": {
+    "color": "red",
+    "style": "notched_10",
+    "range": 32
+  },
+  "equipment": {
+    "drop_chance": {
+      "all": 0
+    }
+  },
+  "loot": {
+    "drops": [
+      {
+        "item": "minecraft:diamond",
+        "count": [
+          1,
+          2
+        ],
+        "chance": 0.5,
+        "player_kill_only": true
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": [
+          3,
+          6
+        ],
+        "player_kill_only": true,
+        "per_looting": 1
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": [
+          2,
+          4
+        ],
+        "player_kill_only": true
+      }
+    ],
+    "tables": [
+      "minecraft:chests/simple_dungeon"
+    ],
+    "xp": {
+      "multiply": 4,
+      "add": 30
+    }
+  }
+}

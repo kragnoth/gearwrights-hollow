@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Gatehouse Register, Beyond"
+                  },
+                  "author": "M. Ashdown, Clerk",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Gatehouse register, Beyond.\\n\\nTwelve frames set, twelve eyes seated. Draught from Beyond runs cold and clean, cleaner than Below. The Guild is pleased.\"}",
+                    "{\"text\": \"The cold does not leave the sanctum when the gate is shut. Frost on the inside of the frames in summer.\\n\\nThree of the fitters report they have stopped dreaming. Recorded.\"}",
+                    "{\"text\": \"Something came back through with the draught. Not a creature. A presence in the room, like being watched by someone politely.\\n\\nThe staff call them lodgers. I have asked them to stop.\"}",
+                    "{\"text\": \"Doctor Marsh writes from the far station that we are not drawing power. We are being drawn on.\\n\\nThe Guild has asked me to stop recording her letters.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "dying_world:map/proving_grounds",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Requisition Route: Proving Grounds"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    }
+  ]
+}

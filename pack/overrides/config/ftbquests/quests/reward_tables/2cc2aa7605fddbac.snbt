@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "minecraft:elytra"
+	}
+	id: "2CC2AA7605FDDBAC"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "124DD038DAD0A737", item: { count: 1, id: "minecraft:elytra" } }
+		{
+			count: 2
+			id: "3E411E3DFF9044D9"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{
+			count: 2
+			id: "1318D18585FA27CD"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{
+			count: 3
+			id: "670CBA5BB0FA9485"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+		}
+	]
+}

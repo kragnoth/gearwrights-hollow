@@ -1,0 +1,30 @@
+{
+  "name": "hallmarked.unique.kiln_hook",
+  "lore": "hallmarked.unique.kiln_hook.lore",
+  "items": {
+    "item": "minecraft:iron_sword"
+  },
+  "chance": {},
+  "tool": {
+    "modifiers": [
+      {
+        "name": "kiln_hook_damage",
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 0.15
+      },
+      {
+        "name": "kiln_hook_reach",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "operation": "addition",
+        "value": 0.75
+      },
+      {
+        "name": "kiln_hook_burn",
+        "attribute": "minecraft:generic.burning_time",
+        "operation": "multiply_base",
+        "value": -0.5
+      }
+    ]
+  }
+}

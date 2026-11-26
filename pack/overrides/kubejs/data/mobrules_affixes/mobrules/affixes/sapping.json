@@ -1,0 +1,37 @@
+{
+  "_comment": "Weakens and tires you on hit.",
+  "affix": {
+    "name": "Sapping",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:weakness",
+          "amplifier": 0,
+          "duration": 100
+        },
+        {
+          "effect": "minecraft:mining_fatigue",
+          "amplifier": 0,
+          "duration": 100
+        }
+      ]
+    }
+  },
+  "particles": {
+    "type": "minecraft:witch",
+    "count": 1,
+    "interval": 8
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

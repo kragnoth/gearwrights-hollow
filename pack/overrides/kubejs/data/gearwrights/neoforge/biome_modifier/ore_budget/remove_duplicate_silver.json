@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "immersiveengineering:silver",
+    "enderio_evolution:silver_ore",
+    "enderio_evolution:silver_ore_lower",
+    "enderio_evolution:silver_ore_extra"
+  ]
+}

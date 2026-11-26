@@ -1,0 +1,62 @@
+{
+	icon: {
+		id: "enderio:basic_capacitor"
+	}
+	id: "1E1E5E7EE1000002"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 6
+			id: "1CB395AFD0F53888"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_ingot"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 3
+			id: "176FC3004BDB6DC0"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "15A1B6229F7A6F49"
+			item: {
+				count: 1
+				id: "enderio:grains_of_infinity"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "612F1BB73F21B769"
+			item: {
+				count: 1
+				id: "enderio:double_layer_capacitor"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "6E86C70F4B0338F4"
+			item: {
+				count: 1
+				id: "enderio:conduit_binder"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "1A7ACF5BAB44154D"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_ingot"
+			}
+		}
+	]
+}

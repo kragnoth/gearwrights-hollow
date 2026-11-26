@@ -1,0 +1,11 @@
+#Lock every player into 'forcedVision': it turns on when they join and they can't toggle
+#it off or cycle away from it - unless they're allowed to bypass (below).
+forceVision = true
+#Vision folder name (config/wastelandvision/visions/<name>) to lock players into.
+forcedVision = "occult_foundry"
+#Players in creative (or spectator) mode may toggle/cycle freely.
+creativeBypass = true
+#Players with at least this permission level may toggle/cycle freely (2 = op/cheats; 5 = nobody).
+# Default: 2
+# Range: 0 ~ 5
+bypassPermissionLevel = 2

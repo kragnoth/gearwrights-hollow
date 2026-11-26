@@ -1,0 +1,39 @@
+{
+  "_comment": "Teleports behind you and blinks away when hit.",
+  "affix": {
+    "name": "Blinking",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "abilities": [
+    {
+      "type": "blink",
+      "cooldown": 140,
+      "range": [
+        4,
+        20
+      ]
+    }
+  ],
+  "combat": {
+    "on_hurt": {
+      "teleport": {
+        "chance": 0.15,
+        "range": 8
+      }
+    }
+  },
+  "particles": {
+    "type": "minecraft:portal",
+    "count": 2,
+    "interval": 4
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[Beams]
+	#Light pillars on dropped items whose grade has "beam": true (Masterwork, Gearwrought).
+	ItemBeams = true
+	#Light pillars on mobs carrying such gear.
+	MobBeams = true
+	#Show "<Mob>, Bearer of <item>" over mobs carrying gear whose grade has "champion": true.
+	MobTitles = true
+	#Max distance (blocks) at which beams are drawn.
+	# Default: 48
+	# Range: 8 ~ 256
+	Range = 48

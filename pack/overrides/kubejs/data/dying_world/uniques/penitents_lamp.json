@@ -1,0 +1,30 @@
+{
+  "name": "hallmarked.unique.penitents_lamp",
+  "lore": "hallmarked.unique.penitents_lamp.lore",
+  "items": {
+    "item": "hallmarked:emerald_amulet"
+  },
+  "chance": {},
+  "bauble": {
+    "modifiers": [
+      {
+        "name": "penitent_luck",
+        "attribute": "minecraft:generic.luck",
+        "operation": "addition",
+        "value": 1.5
+      },
+      {
+        "name": "penitent_health",
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 2
+      },
+      {
+        "name": "penitent_resist",
+        "attribute": "hallmarked:damage_resistance",
+        "operation": "multiply_total",
+        "value": 0.04
+      }
+    ]
+  }
+}

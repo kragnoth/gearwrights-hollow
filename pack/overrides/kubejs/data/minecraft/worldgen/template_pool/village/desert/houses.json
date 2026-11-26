@@ -1,0 +1,545 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 80,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_creole_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 120,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_creole_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_limestone_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 120,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_limestone_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_courtyard_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 72,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_courtyard_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_casita_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 72,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_casita_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_planter_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_planter_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 32,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_smokehouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_smokehouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 32,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_forge_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_forge_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 32,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_schoolhouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_schoolhouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_chapel_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_chapel_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 32,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_kitchen_garden_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 48,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_kitchen_garden_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_creole_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_creole_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_limestone_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_limestone_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_courtyard_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_courtyard_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_casita_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_casita_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_planter_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_planter_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_smokehouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_smokehouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_forge_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_forge_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_schoolhouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_schoolhouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_chapel_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_chapel_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_kitchen_garden_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_redpueblo_kitchen_garden_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_creole_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_creole_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_limestone_cottage_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_limestone_cottage_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_courtyard_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_courtyard_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_casita_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_casita_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_planter_house_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_planter_house_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_smokehouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_smokehouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_forge_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_forge_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_schoolhouse_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_schoolhouse_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_chapel_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_chapel_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_kitchen_garden_lived",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:desert/desert_r_bandadobe_kitchen_garden_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

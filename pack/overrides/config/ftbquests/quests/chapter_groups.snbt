@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ icon: { id: "minecraft:oak_sapling" }, id: "09EDFE5080C9B796" }
+		{ icon: { id: "create:cogwheel" }, id: "1DC99C37467B3A92" }
+		{ icon: { id: "neovitae:blood_orb_weak" }, id: "1C6C41D6798C3267" }
+		{ icon: { id: "enderio:vibrant_alloy_ingot" }, id: "18DA640722B0BF0D" }
+	]
+}

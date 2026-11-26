@@ -1,0 +1,232 @@
+[network]
+	#How far (in blocks, a cube) the radio reaches to touch tar, and to link antennas.
+	# Default: 3
+	# Range: 1 ~ 16
+	radioReach = 3
+	#Most tar blocks one scan walks, so a flooded area can't stall the server.
+	# Default: 8192
+	# Range: 64 ~ 1000000
+	maxTarBlocks = 8192
+	#Antenna link reach per stacked piece (1 piece = this, 3 pieces = 3x this).
+	# Default: 3
+	# Range: 1 ~ 32
+	antennaReachPerPiece = 3
+
+[jobs]
+	#Most single jobs plus orders one radio runs at once. An order counts once, however many
+	#sub-crafts it has (like an AE2 crafting CPU); how big an order can be is up to its Shade's rank.
+	# Default: 16
+	# Range: 1 ~ 256
+	maxJobs = 16
+	#Most operations one job may be ordered for.
+	# Default: 4096
+	# Range: 1 ~ 1000000
+	maxOpsPerJob = 4096
+	#Operations a job (or standing contract) may load per pass, across all its machines.
+	# Default: 8
+	# Range: 1 ~ 256
+	opsPerPass = 8
+	#Ticks between radio passes while jobs or standing contracts are running.
+	# Default: 5
+	# Range: 1 ~ 200
+	jobInterval = 5
+	#Ticks between radio passes when idle (draining machine outputs).
+	# Default: 20
+	# Range: 1 ~ 1200
+	idleInterval = 20
+	#A standing contract stops topping a machine up once it holds this many operations' worth.
+	# Default: 16
+	# Range: 1 ~ 1024
+	standingBufferOps = 16
+	#Crafts one crafting station (a Reliquary on a crafting table) makes per pass.
+	#Jobs spread across every station holding the contract, so more stations craft faster.
+	# Default: 2
+	# Range: 1 ~ 64
+	stationCraftsPerPass = 2
+	#Once a job has loaded everything, how long (seconds) it waits with no new outputs
+	#before closing itself anyway (chance outputs, items taken as they arrive, a stuck machine).
+	# Default: 120
+	# Range: 10 ~ 3600
+	jobStallSeconds = 120
+	#How many levels deep an order may plan sub-crafts (ingredients of ingredients...).
+	#A safety bound so a huge recipe tree can't stall the server; an AE2 256k cell needs about 10.
+	# Default: 16
+	# Range: 1 ~ 32
+	maxPlanDepth = 16
+	#Most lines (items to take or craft) one order's plan may have. An AE2 256k cell needs about 80.
+	# Default: 512
+	# Range: 4 ~ 4096
+	maxPlanNodes = 512
+	#A radio keeps its scan of the tar network until something next to the tar, a Reliquary or an antenna
+	#changes, or a bound block is broken or replaced; and rescans anyway after this many seconds. 0 rescans every pass.
+	# Default: 5
+	# Range: 0 ~ 600
+	networkRescanSeconds = 5
+	#Most lit Votive Racks one radio counts.
+	# Default: 4
+	# Range: 0 ~ 16
+	maxRacks = 4
+	#Extra jobs and orders a radio may run at once per lit Votive Rack.
+	# Default: 4
+	# Range: 0 ~ 64
+	rackJobs = 4
+	#Extra levels of sub-crafts an order may plan per lit Votive Rack (never past 32 in all).
+	# Default: 2
+	# Range: 0 ~ 16
+	rackPlanDepth = 2
+	#Extra plan lines an order may have per lit Votive Rack.
+	# Default: 128
+	# Range: 0 ~ 4096
+	rackPlanNodes = 128
+	#Spirit each lit Votive Rack burns per radio pass while jobs or orders run (a radio that can't pay snuffs them).
+	# Default: 1
+	# Range: 0 ~ 100
+	rackSpiritCost = 1
+	#How far from the radio a Votive Rack counts, sideways (it may sit 1 below to 2 above).
+	# Default: 3
+	# Range: 1 ~ 8
+	rackReach = 3
+	#The same with a Votive Skull set on the rack.
+	# Default: 5
+	# Range: 1 ~ 8
+	rackSkullReach = 5
+	#Items each Weeping Seep adds per radio pass to what it may make for that radio's jobs and orders (each still
+	#costs Spirit). Unused amounts bank up to four passes (always at least a stack), so a big single load still goes through.
+	# Default: 16
+	# Range: 0 ~ 4096
+	weepingSeepPerPass = 16
+	#Tell the player who asked (in chat, with a chime) when their job or order is done.
+	jobNotices = true
+
+[reliquary]
+	#Most FE per tick a Reliquary pushes into the machine beneath it (paid in Spirit, see spirit.fePerSpirit).
+	# Default: 4096
+	# Range: > 0
+	freeFePerTick = 4096
+	#Reliquaries keep the furnace beneath them lit without fuel.
+	spiritFire = true
+	#Allow the spirits' hoard on Reliquaries (a gold nugget: other mods' magnets can't pull drops near it).
+	antiMagnet = true
+	#Radius (in blocks, a sphere) of a Reliquary's hoard. 4 covers a Create fan's full processing run.
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	antiMagnetRadius = 3.0
+
+[spirit_board]
+	#How far (in blocks) a Spirit Board reaches its radio. 0 = anywhere in the same dimension.
+	# Default: 0
+	# Range: 0 ~ 100000
+	spiritBoardRange = 0
+
+[crafting_grid]
+	#Shift-clicking the radio's crafting result crafts at most this many stacks of it at once.
+	#(Right-click always crafts up to one stack onto the cursor.)
+	# Default: 1
+	# Range: 1 ~ 36
+	shiftCraftStacks = 1
+
+[spirit]
+	#Automation costs Spirit, which the radio holds and you feed with candles (or anything in the
+	#tarbound:spirit_offerings data map). Storage access is always free. False makes everything free.
+	spiritCosts = true
+	#Most Spirit one radio holds.
+	# Default: 4000
+	# Range: 100 ~ 1000000
+	spiritCapacity = 4000
+	#Spirit per job operation loaded into a machine.
+	# Default: 1
+	# Range: 0 ~ 10000
+	jobOpCost = 1
+	#Spirit per craft at a crafting station.
+	# Default: 1
+	# Range: 0 ~ 10000
+	stationCraftCost = 1
+	#Spirit per standing-contract operation.
+	# Default: 1
+	# Range: 0 ~ 10000
+	standingOpCost = 1
+	#Spirit per smelt's worth (200 ticks) of Spirit Fire in a bound furnace.
+	# Default: 4
+	# Range: 0 ~ 10000
+	spiritFireCost = 4
+	#Spirit per second while a Spirit Board holds a radio's screen open.
+	# Default: 1
+	# Range: 0 ~ 10000
+	boardCostPerSecond = 1
+	#Reliquaries feed FE to the machine beneath them (see reliquary.freeFePerTick for the rate).
+	machinePower = true
+	#FE a Reliquary delivers for one Spirit, once the radio's battery is empty.
+	# Default: 20000
+	# Range: > 1
+	fePerSpirit = 20000
+	#NeoVitae: Reliquaries feed Essentia Vitae to the Ara Vitae beneath them while it crafts (just what the craft
+	#needs), and keep stations in the tarbound:vitae_fed tag (the Athanor) topped up.
+	vitaeFeed = true
+	#Vitae (LP / mB) one Spirit buys. Vitae already in the pool is matched mB for mB by bought Vitae, so it
+	#arrives doubled: with pool Vitae, each Spirit goes twice as far.
+	# Default: 10
+	# Range: 1 ~ 1000000
+	vitaePerSpirit = 10
+	#Most Vitae per second a Reliquary feeds one station.
+	# Default: 500
+	# Range: 0 ~ 1000000
+	vitaePerSecond = 500
+	#mB of Vitae a Reliquary keeps in a tarbound:vitae_fed station's tank (the Athanor uses 100 per disenchant).
+	# Default: 1000
+	# Range: 0 ~ 1000000
+	vitaeTopUp = 1000
+
+[energy]
+	#FE the radio's built-in battery holds. It shows in the pool as Essence of the Void (1 FE = 1 mB),
+	#and Essence in the pool's tanks tops the battery back up.
+	# Default: 1000
+	# Range: > 0
+	batteryCapacity = 1000
+
+[transient_antenna]
+	#Ticks between a Transient Antenna's pulls or pushes.
+	# Default: 10
+	# Range: 1 ~ 200
+	transientInterval = 10
+	#Most items a Transient Antenna moves per operation.
+	# Default: 64
+	# Range: 1 ~ 4096
+	transientItemsPerOp = 64
+	#Most mB of fluid a Transient Antenna moves per operation.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	transientFluidPerOp = 1000
+	#Most FE a Transient Antenna moves per operation.
+	# Default: 10000
+	# Range: > 1
+	transientFePerOp = 10000
+
+[tar]
+	#Mobs standing in tar are poisoned and slowly hurt (players never are).
+	tarHarmsMobs = true
+	#Damage per second to a mob in tar.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	tarDamage = 1.0
+	#A mob that dies in a radio's tar feeds that radio this much Spirit per point of its max health
+	#(a zombie has 20). 0 turns it off.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	tarSpiritPerHealth = 1.0
+	#Items lying in a radio's tar sink and are swallowed into its pool (what doesn't fit is spat back up).
+	#Items a hoard pins are left alone. Wild tar no radio holds only drags items down.
+	tarSwallows = true
+	#Ticks an item sinks in tar before it's swallowed.
+	# Default: 40
+	# Range: 5 ~ 6000
+	tarSwallowTicks = 40
+	#Ticks before tar tries again to swallow an item it spat up because the pool was full.
+	# Default: 100
+	# Range: 5 ~ 6000
+	tarSwallowRetryTicks = 100
+
+[debug]
+	#Write what radios try to load into machines (items and fluids, and why a load is refused), pool tank
+	#drains, and Transient Antenna pushes and pulls to logs/tarbound-debug.log, for bug reports. Can be
+	#switched on while the game runs. Leave off normally.
+	traceLoading = false

@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:research_nether",
+      "weight": 4
+    },
+    {
+      "structure": "dying_world:research_nether_derelict",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 28,
+    "separation": 10,
+    "salt": 1729508356,
+    "exclusion_zone": {
+      "other_set": "dying_world:nether_foundries",
+      "chunk_count": 4
+    }
+  }
+}

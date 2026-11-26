@@ -1,0 +1,5 @@
+{
+  "_comment": "In Control rule 1: 75% of skeletons get a wooden or stone sword (equal odds).",
+  "conditions": { "mobs": "minecraft:skeleton", "chance": 0.75 },
+  "equipment": { "mainhand": ["minecraft:wooden_sword", "minecraft:stone_sword"] }
+}

@@ -1,0 +1,48 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "stages": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "spread_chance": 0.1,
+  "seeds": "regions_unexplored:salmonberry",
+  "products": [
+    {
+      "item": "regions_unexplored:salmonberry",
+      "min": 2,
+      "max": 3
+    }
+  ],
+  "requirements": [
+    {
+      "type": "cultivar:light",
+      "min": 10,
+      "max": 15,
+      "tolerance": 0.5
+    },
+    {
+      "type": "cultivar:humidity",
+      "value": "wet",
+      "tolerance": 0.15
+    },
+    {
+      "type": "cultivar:nutrients",
+      "value": "high",
+      "comparison": "at_least",
+      "tolerance": 0.1
+    }
+  ],
+  "render": {
+    "textures": [
+      "regions_unexplored:block/salmonberry_bush_stage0",
+      "regions_unexplored:block/salmonberry_bush_stage1",
+      "regions_unexplored:block/salmonberry_bush_stage2",
+      "regions_unexplored:block/salmonberry_bush_stage3"
+    ],
+    "shape": "cross"
+  }
+}

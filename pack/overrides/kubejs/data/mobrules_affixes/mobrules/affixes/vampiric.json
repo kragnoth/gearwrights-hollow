@@ -1,0 +1,26 @@
+{
+  "_comment": "Heals for 40% of the damage it deals.",
+  "affix": {
+    "name": "Vampiric",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "lifesteal": 0.4
+    }
+  },
+  "particles": {
+    "type": "minecraft:crimson_spore",
+    "count": 1,
+    "interval": 6
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_comment": "Splits into two copies on death.",
+  "affix": {
+    "name": "Splitting",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "conditions": {
+    "none_of": [
+      {
+        "mobs": [
+          "minecraft:creeper",
+          "minecraft:ghast"
+        ]
+      }
+    ]
+  },
+  "on_death": {
+    "summon": [
+      {
+        "count": 2
+      }
+    ]
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

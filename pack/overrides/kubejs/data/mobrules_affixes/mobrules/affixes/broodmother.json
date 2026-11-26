@@ -1,0 +1,34 @@
+{
+  "_comment": "Calls two of its kind once below half health, and every 20 seconds after.",
+  "affix": {
+    "name": "Brood",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "abilities": [
+    {
+      "type": "summon",
+      "cooldown": 400,
+      "health_below": 0.5,
+      "mobs": [
+        {
+          "count": 2
+        }
+      ],
+      "message": "To me!"
+    }
+  ],
+  "particles": {
+    "type": "minecraft:soul",
+    "count": 1,
+    "interval": 10
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

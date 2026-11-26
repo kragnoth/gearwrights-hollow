@@ -1,0 +1,13 @@
+{
+  "_comment": "In Control rules 2 and 4: no natural or reinforcement hostile spawns at Y 57 and above, except pillagers and endermen. OVERWORLD ONLY (the nether foundry/station sit at Y 40-80). Research gates are exempt (zombified piglins at the nether gate, endermen at the end gate).",
+  "conditions": {
+    "hostile": true,
+    "height": { "min": 57 },
+    "dimensions": "minecraft:overworld",
+    "mobs": ["!minecraft:pillager", "!minecraft:enderman"],
+    "none_of": [
+      { "structures": ["dying_world:research_gate_nether", "dying_world:research_gate_nether_derelict", "dying_world:research_gate_end", "dying_world:research_gate_end_derelict"] }
+    ]
+  },
+  "spawn": { "block": true, "types": ["natural", "reinforcement"] }
+}

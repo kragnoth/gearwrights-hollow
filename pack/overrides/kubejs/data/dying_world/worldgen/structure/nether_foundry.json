@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/nether_foundry",
+  "max_distance_from_center": 80,
+  "size": 6,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:blaze",
+          "weight": 10,
+          "minCount": 2,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:zombified_piglin",
+          "weight": 5,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "weight": 8,
+          "minCount": 5,
+          "maxCount": 5
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 2,
+          "minCount": 5,
+          "maxCount": 5
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "weight": 3,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 36
+    },
+    "max_inclusive": {
+      "absolute": 60
+    }
+  },
+  "start_pool": "dying_world:foundry/start",
+  "step": "underground_decoration",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

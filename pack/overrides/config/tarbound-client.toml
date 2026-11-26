@@ -1,0 +1,31 @@
+[sounds]
+	#The Scrying Font's idle static and the tune-in sound when opened.
+	radioSounds = true
+	#The Reliquary's occasional soul sound.
+	reliquarySounds = true
+	#The gulp when tar swallows an item, and the spit when the pool can't take it.
+	tarGulpSound = true
+
+[particles]
+	#Smoke and souls drifting from the radio's speaker.
+	radioParticles = true
+	#The Reliquary's candle flame, smoke and soul particles.
+	reliquaryParticles = true
+	#Wisps and a gold glint around a Reliquary whose spirits are hoarding (the anti-magnet ward).
+	wardParticles = true
+	#Smoke and souls at the tip of a tuned antenna.
+	antennaParticles = true
+	#Bubbles and soul wisps around items sinking in tar.
+	tarSwallowParticles = true
+
+[screen]
+	#Keep the radio's search box and JEI's / EMI's search in step (both ways).
+	#Also toggled with the ⇄ button beside the radio's search box.
+	syncViewerSearch = true
+	#List items a contract can make at the top of the radio's pool, whatever the sort.
+	#Also toggled with the ◆ button beside the search box.
+	craftablesFirst = false
+	#What the radio's pool shows: ITEMS, FLUIDS or BOTH (fluids first).
+	#Also cycled with the button left of the crafting grid.
+	#Allowed Values: ITEMS, FLUIDS, BOTH
+	poolView = "BOTH"

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:has_structure/village_snowy",
+    "minecraft:snowy_taiga",
+    "minecraft:grove",
+    {
+      "id": "#c:is_snowy_plains",
+      "required": false
+    }
+  ]
+}

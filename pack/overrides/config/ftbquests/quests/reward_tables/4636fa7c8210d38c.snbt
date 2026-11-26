@@ -1,0 +1,63 @@
+{
+	icon: {
+		id: "minecraft:bundle"
+	}
+	id: "4636FA7C8210D38C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "3FDC1E2D6C3F0CF5"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "1988F4C446FD2E6E"
+			item: {
+				count: 1
+				id: "minecraft:cooked_chicken"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "4C8CBD0694F79623"
+			item: {
+				count: 1
+				id: "minecraft:apple"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 12
+			id: "657878C94136ECDF"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 9
+			id: "1F2E56311CBF631A"
+			item: {
+				count: 1
+				id: "minecraft:iron_nugget"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "6313C019F2DC1ADB"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+	]
+}

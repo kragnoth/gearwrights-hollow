@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/sculk_research_site",
+  "max_distance_from_center": 64,
+  "size": 7,
+  "spawn_overrides": {},
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -45
+    },
+    "max_inclusive": {
+      "absolute": -30
+    }
+  },
+  "start_pool": "dying_world:sculk_camp/pit",
+  "step": "underground_decoration",
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": false
+}

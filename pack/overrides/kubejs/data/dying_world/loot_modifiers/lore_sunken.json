@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dying_world:chests/research_sunken_archive"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dying_world:chests/research_sunken_lab"
+        }
+      ]
+    }
+  ],
+  "table": "dying_world:lore/sunken"
+}

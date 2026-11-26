@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "entries": [
+    "dying_world:piglin_extra",
+    "dying_world:piglin_brute_extra",
+    "dying_world:drowned_extra",
+    "dying_world:lore_gate_nether",
+    "dying_world:lore_gate_end",
+    "dying_world:lore_proving",
+    "dying_world:lore_nether",
+    "dying_world:lore_end",
+    "dying_world:lore_sculk",
+    "dying_world:lore_sunken",
+    "dying_world:lore_foundry",
+    "dying_world:lore_pad",
+    "dying_world:lore_scavenger",
+    "dying_world:lore_hermit",
+    "dying_world:lore_plague",
+    "dying_world:lore_tinker",
+    "dying_world:lore_chapel",
+    "dying_world:lore_quiet"
+  ]
+}

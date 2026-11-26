@@ -1,0 +1,23 @@
+{
+  "_comment": "Permanently invisible (its gear and name still show).",
+  "affix": {
+    "name": "Unseen",
+    "weight": 1,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "effects": [
+    {
+      "effect": "minecraft:invisibility",
+      "duration": -1,
+      "particles": false
+    }
+  ],
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

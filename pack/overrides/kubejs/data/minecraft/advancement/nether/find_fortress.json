@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "dying_world:nether_foundry"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_bricks",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.nether.find_fortress.title"
+    },
+    "description": {
+      "translate": "advancements.nether.find_fortress.description"
+    }
+  },
+  "requirements": [
+    [
+      "fortress"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,93 @@
+{
+  "_comment": "pass 9-44: the Hollow's copy of whoever brought the seal down (spawned by kubejs 60_the_hollow.js)",
+  "priority": 100,
+  "stop": true,
+  "conditions": {
+    "mobs": "mobrules:doppelganger",
+    "has_tags": [
+      "gh_hollow"
+    ]
+  },
+  "attributes": {
+    "max_health": {
+      "set": 300
+    },
+    "knockback_resistance": {
+      "set": 0.6
+    },
+    "follow_range": {
+      "set": 64
+    },
+    "movement_speed": {
+      "multiply": 1.15
+    }
+  },
+  "heal": true,
+  "combat": {
+    "damage_dealt": [
+      {
+        "multiply": 1.5
+      }
+    ],
+    "regen": {
+      "amount": 1,
+      "interval": 40
+    },
+    "fire_immune": true,
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:darkness",
+          "duration": 60,
+          "chance": 0.25
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "type": "blink",
+      "cooldown": 160,
+      "windup": 10
+    },
+    {
+      "type": "leap",
+      "cooldown": 100,
+      "range": [
+        4,
+        12
+      ],
+      "windup": 8
+    },
+    {
+      "type": "pull",
+      "cooldown": 200,
+      "health_below": 0.6,
+      "windup": 15
+    },
+    {
+      "type": "shield",
+      "cooldown": 400,
+      "health_below": 0.4,
+      "duration": 60
+    },
+    {
+      "type": "summon",
+      "cooldown": 600,
+      "health_below": 0.3,
+      "mobs": [
+        {
+          "mob": "incision:skeletoncultist",
+          "count": 2
+        }
+      ],
+      "message": "Those who stayed answer it."
+    }
+  ],
+  "boss_bar": {
+    "color": "purple",
+    "style": "notched_10",
+    "range": 48,
+    "darken_sky": true
+  }
+}

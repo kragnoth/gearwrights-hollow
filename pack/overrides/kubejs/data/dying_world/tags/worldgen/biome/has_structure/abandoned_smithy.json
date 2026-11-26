@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#dying_world:has_structure/concrete_pad_temperate",
+    "#dying_world:has_structure/concrete_pad_cold",
+    "#dying_world:has_structure/concrete_pad_wild"
+  ]
+}

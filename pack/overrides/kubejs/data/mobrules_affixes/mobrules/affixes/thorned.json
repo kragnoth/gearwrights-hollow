@@ -1,0 +1,21 @@
+{
+  "_comment": "Hurts attackers who hit it in melee.",
+  "affix": {
+    "name": "Thorned",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hurt": {
+      "thorns": 3
+    }
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

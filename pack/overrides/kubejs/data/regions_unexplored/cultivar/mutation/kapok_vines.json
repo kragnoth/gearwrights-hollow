@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "minecraft:cocoa",
+  "parent_b": "cultivar:silkweed",
+  "child": "regions_unexplored:kapok_vines",
+  "chance": 0.2
+}

@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "regions_unexplored:kapok_vines",
+  "parent_b": "cultivar:inkcap",
+  "child": "regions_unexplored:spanish_moss",
+  "chance": 0.2
+}

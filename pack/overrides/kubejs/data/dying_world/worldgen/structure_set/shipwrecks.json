@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:shipwreck",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:shipwreck_beached",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 12,
+    "salt": 300934842
+  }
+}

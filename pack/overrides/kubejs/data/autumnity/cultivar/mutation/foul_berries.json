@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "autumnity"
+    }
+  ],
+  "parent_a": "minecraft:sweet_berries",
+  "parent_b": "cultivar:inkcap",
+  "child": "autumnity:foul_berries",
+  "chance": 0.2
+}

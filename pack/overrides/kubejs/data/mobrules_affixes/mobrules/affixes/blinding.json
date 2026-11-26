@@ -1,0 +1,33 @@
+{
+  "_comment": "Can blind you on hit.",
+  "affix": {
+    "name": "Blinding",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:darkness",
+          "amplifier": 0,
+          "duration": 80,
+          "chance": 0.35
+        }
+      ]
+    }
+  },
+  "particles": {
+    "type": "minecraft:squid_ink",
+    "count": 1,
+    "interval": 10
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

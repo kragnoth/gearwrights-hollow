@@ -1,0 +1,4 @@
+#Show stat values on seed tooltips (hold Shift for the full genome).
+genomeTooltips = true
+#Show Cultivar particles (sprinkler spray, steam mist, pollen).
+particles = true

@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ],
+  "stages": 6,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "spread_chance": 0.1,
+  "seeds": "atmospheric:aloe_kernels",
+  "products": [
+    {
+      "item": "atmospheric:aloe_leaves",
+      "min": 1,
+      "max": 2
+    }
+  ],
+  "requirements": [
+    {
+      "type": "cultivar:light",
+      "min": 10,
+      "max": 15,
+      "tolerance": 0.5
+    },
+    {
+      "type": "cultivar:humidity",
+      "value": "wet",
+      "tolerance": 0.15
+    },
+    {
+      "type": "cultivar:nutrients",
+      "value": "high",
+      "comparison": "at_least",
+      "tolerance": 0.1
+    }
+  ],
+  "render": {
+    "textures": [
+      "atmospheric:block/aloe_vera_stage0",
+      "atmospheric:block/aloe_vera_stage1",
+      "atmospheric:block/aloe_vera_stage2",
+      "atmospheric:block/aloe_vera_stage3",
+      "atmospheric:block/aloe_vera_stage4",
+      "atmospheric:block/aloe_vera_stage5"
+    ],
+    "shape": "cross"
+  }
+}

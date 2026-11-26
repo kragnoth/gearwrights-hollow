@@ -1,0 +1,10 @@
+#Turn nearby cooking off just for you
+nearbyCookingEnabled = true
+#Turn the Smoker support off just for you
+smokerEnabled = true
+#Turn the Monster Pot support off just for you
+dungeonsDelightEnabled = true
+#How many blocks out (in each direction) to search for nearby containers, the server can limit this
+# Default: 5
+# Range: 1 ~ 16
+searchRadius = 5

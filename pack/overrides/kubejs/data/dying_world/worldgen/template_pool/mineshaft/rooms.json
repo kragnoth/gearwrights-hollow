@@ -1,0 +1,128 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/storage_closet_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/storage_closet_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/storage_closet_3",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/workshop_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/office_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/fuel_store_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/workshop_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/office_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/fuel_store_2",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/stash_cell_1",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/spawner_zombie",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/spawner_skeleton",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:mineshaft/spawner_spider",
+        "processors": "dying_world:mineshaft_no_float",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

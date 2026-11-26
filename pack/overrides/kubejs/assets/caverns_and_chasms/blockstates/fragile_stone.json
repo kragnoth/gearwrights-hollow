@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "caverns_and_chasms:block/fragile_stone"
+      },
+      {
+        "model": "caverns_and_chasms:block/fragile_stone1"
+      },
+      {
+        "model": "caverns_and_chasms:block/fragile_stone2"
+      },
+      {
+        "model": "caverns_and_chasms:block/fragile_stone3"
+      },
+      {
+        "model": "caverns_and_chasms:block/fragile_stone4"
+      },
+      {
+        "model": "caverns_and_chasms:block/fragile_stone5"
+      }
+    ]
+  }
+}

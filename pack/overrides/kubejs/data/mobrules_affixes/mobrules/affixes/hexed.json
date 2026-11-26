@@ -1,0 +1,32 @@
+{
+  "_comment": "Curses whoever hits it with slowness.",
+  "affix": {
+    "name": "Hexing",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hurt": {
+      "attacker_effects": [
+        {
+          "effect": "minecraft:slowness",
+          "amplifier": 0,
+          "duration": 60
+        }
+      ]
+    }
+  },
+  "particles": {
+    "type": "minecraft:witch",
+    "count": 1,
+    "interval": 10
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "dying_world:chests/research_gate_nether_archive"
+    }
+  ],
+  "table": "dying_world:lore/gate_nether"
+}

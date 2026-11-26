@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/industrial_mineshaft",
+  "max_distance_from_center": 116,
+  "size": 16,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "weight": 100,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 80,
+          "minCount": 1,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 25,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:drowned",
+          "weight": 15,
+          "minCount": 1,
+          "maxCount": 3
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_pool": "dying_world:mineshaft/start",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

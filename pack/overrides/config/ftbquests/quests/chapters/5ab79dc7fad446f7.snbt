@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5ab79dc7fad446f7"
+	group: "09EDFE5080C9B796"
+	icon: {
+		id: "hallmarked:assay_anvil"
+	}
+	id: "5AB79DC7FAD446F7"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "hallmarked:assay_anvil"
+			}
+			id: "6CFFD5378624442A"
+			rewards: [{
+				id: "468EA82D78CA8A34"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "19987F1675DD0895"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CFFD5378624442A"]
+			icon: {
+				id: "hallmarked:assay_anvil"
+			}
+			id: "3995CD72FD8FED13"
+			rewards: [{
+				count: 4
+				id: "1E16C660AF31DD43"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15F9F992B2B12464"
+				item: { count: 1, id: "hallmarked:assay_anvil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3995CD72FD8FED13"]
+			icon: {
+				id: "hallmarked:smiths_scrap"
+			}
+			id: "1786F1158583BCD1"
+			rewards: [{
+				id: "0CCA2C2E653CB489"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 8L
+				id: "01F4B5E632B5672C"
+				item: { count: 1, id: "hallmarked:smiths_scrap" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6CFFD5378624442A"]
+			icon: {
+				id: "hallmarked:smiths_stamp"
+			}
+			id: "798301FF34AEBEA8"
+			rewards: [{
+				count: 4
+				id: "109F71F424B33578"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "16DF95E4E5402CE6"
+				item: { count: 1, id: "hallmarked:smiths_stamp" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["798301FF34AEBEA8"]
+			icon: {
+				id: "hallmarked:assay_anvil"
+			}
+			id: "6F66978E8F499CC8"
+			rewards: [
+				{
+					count: 8
+					id: "1169A20EEFACF21B"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5EBEB63E7B9B8BDF"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C76E3B849A51F73"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: [
+				"3995CD72FD8FED13"
+				"6A9C713BA1D81A63"
+			]
+			icon: {
+				id: "hallmarked:assay_anvil"
+			}
+			id: "67F3C299352EBFF5"
+			rewards: [{
+				id: "1BD7145141457E4C"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1634C5FACBE6184A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6CFFD5378624442A"]
+			icon: {
+				id: "hallmarked:emerald_ring"
+			}
+			id: "7535F0144D924FD5"
+			optional: true
+			rewards: [{
+				id: "19B3B4D2D4AC18DA"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					id: "15B11BE5A3933B90"
+					item: { count: 1, id: "hallmarked:emerald_ring" }
+					type: "item"
+				}
+				{
+					id: "0FA8C0CA11A739F9"
+					item: { count: 1, id: "hallmarked:emerald_amulet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6CFFD5378624442A"]
+			icon: {
+				id: "hallmarked:mountebank_coffer"
+			}
+			id: "15F28AA23EE0F6AC"
+			rewards: [{
+				count: 12
+				id: "34A5C371AF0145EA"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C848708D52944D7"
+					item: { count: 1, id: "hallmarked:mountebank_coffer" }
+					type: "item"
+				}
+				{
+					id: "10DD6E6C267BE5B3"
+					item: { count: 1, id: "hallmarked:parcel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["15F28AA23EE0F6AC"]
+			icon: {
+				id: "hallmarked:mountebank_token"
+			}
+			id: "428533C96962767F"
+			optional: true
+			rewards: [{
+				id: "2E69AFC2166D49D4"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 2L
+				id: "1B78DF78085C5913"
+				item: { count: 1, id: "hallmarked:mountebank_token" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"67F3C299352EBFF5"
+				"1425B0501B3F27A2"
+			]
+			icon: {
+				id: "hallmarked:ashen_altar"
+			}
+			id: "5D4DCC74CEDAF74B"
+			rewards: [{
+				id: "12E674C475F774B1"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "3B32C70C1E6B9629"
+				item: { count: 1, id: "hallmarked:ashen_altar" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: [
+				"6F66978E8F499CC8"
+				"4965BC2D6846DA0F"
+			]
+			icon: {
+				id: "hallmarked:gearwrights_seal"
+			}
+			id: "5286E4BAFA2210CD"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 2"
+					id: "6320602ED4FDC1F0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title {p} title {\"text\": \"Gearwright's Mark\", \"color\": \"gold\", \"italic\": false}"
+					id: "5F5F91AB6BC66E74"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "71F381FCD5B1EF8D"
+				item: { count: 1, id: "hallmarked:gearwrights_seal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+	]
+}

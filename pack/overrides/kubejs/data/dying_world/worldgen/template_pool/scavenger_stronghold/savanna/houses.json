@@ -1,0 +1,653 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_redmud_orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/savanna/houses/r_stonehacienda_orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

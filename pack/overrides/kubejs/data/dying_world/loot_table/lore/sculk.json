@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Listening Post Transcript"
+                  },
+                  "author": "Operator N. Brandt",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Transcript, listening post.\\n\\nThe deep growth answers sound. Set beneath the gates, it hums at the same pitch as the frames when the draught runs.\"}",
+                    "{\"text\": \"Something very large moves below the growth when the gates are open. The growth tells it where we are.\\n\\nOrders: speak quietly. Wear wax. Do not drop tools.\"}",
+                    "{\"text\": \"The hum continues with every gate shut.\\n\\nThe hum continues with every gate shut.\\n\\nIt is not listening to the gates anymore.\"}",
+                    "{\"text\": \"do not ring the bell\\ndo not ring the bell\\n\\nit comes at the bell\\n\\n- N.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

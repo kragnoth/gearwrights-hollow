@@ -1,0 +1,664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17ef47503a06bf01"
+	group: "09EDFE5080C9B796"
+	icon: {
+		id: "cultivar:timber_trellis"
+	}
+	id: "17EF47503A06BF01"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14DC927971B4192B"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "14CF30178E4475A0"
+			rewards: [
+				{
+					count: 8
+					id: "124AF387BAD09722"
+					item: {
+						count: 1
+						id: "cultivar:timber_trellis"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "213E676FAE9BCAC2"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "16FEE8A4ADD7EA64"
+				item: { count: 1, id: "cultivar:timber_trellis" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14CF30178E4475A0"]
+			icon: {
+				id: "cultivar:seed"
+			}
+			id: "1FEEEE58F254630A"
+			rewards: [{
+				id: "10D3DC854EDB1565"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 4L
+				id: "1C6748FBD96BDD92"
+				item: { count: 1, id: "cultivar:seed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1FEEEE58F254630A"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "1A3D5DEDBE681B89"
+			rewards: [{
+				count: 8
+				id: "5807C1D244C747FA"
+				item: {
+					count: 1
+					id: "cultivar:timber_trellis"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BF7FB9D7DC8E802"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"1A3D5DEDBE681B89"
+				"15981315D8E15640"
+			]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "60BFC287AF8AA251"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "13ABC616434466D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2A98C620CD025BB5"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				advancement: "cultivar:new_growth"
+				criterion: ""
+				id: "1869042DD1331396"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -4.375d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"18D84EB3B7A2DBD3"
+			]
+			icon: {
+				id: "cultivar:botanical_ledger"
+			}
+			id: "15981315D8E15640"
+			rewards: [{
+				id: "18CED58D8FA5ECE3"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "5124467732936925"
+				item: { count: 1, id: "cultivar:botanical_ledger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"15981315D8E15640"
+				"2957A8594BBB6732"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "cultivar:assaying_engine"
+			}
+			id: "1D80A2345C445B54"
+			rewards: [{
+				id: "10CAFA78D5CB9060"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11C9CEFA51398DEF"
+				item: { count: 1, id: "cultivar:assaying_engine" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["1D80A2345C445B54"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "53EF2F5E4594BF06"
+			rewards: [{
+				id: "1E028B8A19232C51"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "cultivar:field_notes"
+				criterion: ""
+				id: "1EFB9CEDCA0BD2D5"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"2341219980923606"
+			]
+			icon: {
+				id: "cultivar:iron_trellis"
+			}
+			id: "2344E3F3B68C7982"
+			rewards: [{
+				id: "5B335F122436F68D"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 4L
+				id: "616B74F90FB809CF"
+				item: { count: 1, id: "cultivar:iron_trellis" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"2341219980923606"
+				"18D84EB3B7A2DBD3"
+			]
+			icon: {
+				id: "cultivar:transplanting_spade"
+			}
+			id: "1862865E48071367"
+			rewards: [{
+				id: "1F84A2287036AAD0"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [
+				{
+					id: "165D6CE5B61A8EE0"
+					item: { count: 1, id: "cultivar:transplanting_spade" }
+					type: "item"
+				}
+				{
+					id: "1AC2CD272C2F1040"
+					item: { count: 1, id: "cultivar:pruning_shears" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1862865E48071367"]
+			icon: {
+				id: "cultivar:cutting"
+			}
+			id: "176C10B493F6F7F3"
+			optional: true
+			rewards: [{
+				id: "1E79103BA727A510"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "0F0BEF67016FFC8D"
+				item: { count: 1, id: "cultivar:cutting" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"18D84EB3B7A2DBD3"
+			]
+			icon: {
+				id: "cultivar:seed_satchel"
+			}
+			id: "1E13D3A6D92FBD98"
+			rewards: [{
+				id: "4CD201F205DBA855"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [
+				{
+					id: "12836CB12BEBDADB"
+					item: { count: 1, id: "cultivar:seed_satchel" }
+					type: "item"
+				}
+				{
+					id: "61A76BA8A043B244"
+					item: { count: 1, id: "cultivar:brass_dial" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"1A3D5DEDBE681B89"
+				"18D84EB3B7A2DBD3"
+			]
+			icon: {
+				id: "cultivar:bell_cloche"
+			}
+			id: "3F393C78A0D19093"
+			rewards: [{
+				id: "3A5DF0F7B2598D84"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "5FE559168D487A40"
+				item: { count: 1, id: "cultivar:bell_cloche" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1A3D5DEDBE681B89"]
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "144F00122523E223"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "71586A71E3E7262D"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19B02A17B0D4EF06"
+				item: { count: 1, id: "minecraft:beehive" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"1F3B0FA167BF8B66"
+			]
+			icon: {
+				id: "cultivar:sprinkler"
+			}
+			id: "66E1C915542C420B"
+			rewards: [{
+				id: "15B71DB40798E00E"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "176C01164FC3D657"
+				item: { count: 1, id: "cultivar:sprinkler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1E13D3A6D92FBD98"
+				"12014A0369691327"
+			]
+			icon: {
+				id: "cultivar:seed_meal"
+			}
+			id: "119B81FA1AC1F21E"
+			optional: true
+			rewards: [{
+				id: "135D737A0AD01D3E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 8L
+				id: "76735CBAF3A10A23"
+				item: { count: 1, id: "cultivar:seed_meal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.375d
+		}
+		{
+			dependencies: [
+				"1FEEEE58F254630A"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "1993FCBABEE79AD3"
+			optional: true
+			rewards: [{
+				id: "78A372AFF54D1643"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "2DD0B6B86D15DB16"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"14CF30178E4475A0"
+				"7541C864FF992537"
+			]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "17EEF2E5B661BE32"
+			optional: true
+			rewards: [{
+				id: "5B41786C9D822CAE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1C7B2D16A7A4F895"
+				structure: "cultivar:derelict_conservatory"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["60BFC287AF8AA251"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "47866910A4F16BE5"
+			rewards: [
+				{
+					id: "4E5AADCDFF9A0ABF"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "7A2A6015C3D0875E"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cultivar:coal_from_soil"
+				criterion: ""
+				id: "1B0E00E3253B7BAE"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47866910A4F16BE5"
+				"1D80A2345C445B54"
+				"02080E25D0CF6943"
+			]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "1BDACC7A44BE3DCC"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "2A47BBF1FE7A2B88"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1DF921DD89A05023"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "cultivar:iron_roots"
+				criterion: ""
+				id: "54E245F7DE08C795"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["47866910A4F16BE5"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "30F1EDF233EED7BF"
+			optional: true
+			rewards: [{
+				id: "1CB399D70ED19B5E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "cultivar:live_wire"
+				criterion: ""
+				id: "1CC6266242B54600"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1BDACC7A44BE3DCC"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "2A2F95179F516F61"
+			rewards: [
+				{
+					id: "111C368B35CAAED3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "15600DD56DC26766"
+					table_id: 684263201442110978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "cultivar:gilded_garden"
+				criterion: ""
+				id: "16EEBE41EE476E39"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D80A2345C445B54"
+				"66E1C915542C420B"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "cultivar:planter_bed"
+			}
+			id: "1E87B61D56F45826"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "55CDDB3C74AE4A1D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "635EC87617C553F3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					count: 2L
+					id: "3985B090C74381EE"
+					item: { count: 1, id: "cultivar:planter_bed" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F537C8A30155E3D"
+					item: { count: 1, id: "cultivar:trial_bed" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"2A2F95179F516F61"
+				"1E87B61D56F45826"
+			]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "1A1744C38956C9AA"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1BB598BBEA37C889"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "57BEC04B57A850A7"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				advancement: "cultivar:in_the_rough"
+				criterion: ""
+				id: "5087C5343A4173FB"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A1744C38956C9AA"]
+			icon: {
+				id: "cultivar:timber_trellis"
+			}
+			id: "254FBCAD082090D6"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 2"
+					id: "1A0183BBD65C9397"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title {p} title {\"text\": \"Master Botanist\", \"color\": \"green\", \"italic\": false}"
+					id: "64EF18A2A040A6F9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/playsound minecraft:ui.toast.challenge_complete master {p}"
+					id: "1021AF71294D03D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			tasks: [{
+				advancement: "cultivar:herbarium"
+				criterion: ""
+				id: "1D0810C86DEBBBFF"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}

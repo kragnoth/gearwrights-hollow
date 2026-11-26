@@ -1,0 +1,5 @@
+{
+  "fluid": "minecraft:lava",
+  "thrust_multiplier": 0.75,
+  "consumption_multiplier": 1.0
+}

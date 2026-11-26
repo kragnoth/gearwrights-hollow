@@ -1,0 +1,707 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 36,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 36,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_longhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_longhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_sawmill_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_sawmill_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_longhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_longhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_sawmill_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_sawmill_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_icehouse_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_longhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_longhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_sawmill_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_sawmill_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/snowy/houses/snowy_r_deepslate_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

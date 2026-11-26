@@ -1,0 +1,106 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:village_plains",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:village_taiga",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:village_savanna",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:village_desert",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:village_snowy",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_village_plains",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_village_taiga",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_village_savanna",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_village_desert",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_village_snowy",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_village_swamp",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_plains",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_taiga",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_savanna",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_desert",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_snowy",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:abandoned_hamlet_swamp",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold",
+      "weight": 10
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold_plains",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold_taiga",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold_savanna",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold_desert",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:scavenger_stronghold_snowy",
+      "weight": 6
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 22,
+    "separation": 11,
+    "salt": 999500457,
+    "exclusion_zone": {
+      "other_set": "dying_world:research_gates",
+      "chunk_count": 8
+    }
+  }
+}

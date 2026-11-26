@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "dying_world:village_plains",
+    "dying_world:village_taiga",
+    "dying_world:village_desert",
+    "dying_world:village_savanna",
+    "dying_world:village_snowy"
+  ]
+}

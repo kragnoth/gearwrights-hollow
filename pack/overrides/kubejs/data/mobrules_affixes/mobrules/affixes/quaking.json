@@ -1,0 +1,32 @@
+{
+  "_comment": "Slams the ground when you get close.",
+  "affix": {
+    "name": "Quaking",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "attributes": {
+    "scale": {
+      "multiply": 1.15
+    }
+  },
+  "abilities": [
+    {
+      "type": "slam",
+      "cooldown": 140,
+      "radius": 4,
+      "range": [
+        0,
+        4
+      ]
+    }
+  ],
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

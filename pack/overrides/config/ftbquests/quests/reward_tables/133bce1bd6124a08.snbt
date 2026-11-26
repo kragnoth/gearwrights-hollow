@@ -1,0 +1,63 @@
+{
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "133BCE1BD6124A08"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 8
+			id: "570079CC1A764EF3"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "68E921FCDEF715D5"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "04BBD8049EB9C21D"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 6
+			id: "3302B0F443D55AC5"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "3CD83B0469AA658A"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "2473A667A0B90480"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+	]
+}

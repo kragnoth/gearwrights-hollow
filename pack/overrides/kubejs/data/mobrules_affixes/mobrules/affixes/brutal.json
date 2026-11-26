@@ -1,0 +1,26 @@
+{
+  "_comment": "Hits 50% harder.",
+  "affix": {
+    "name": "Brutal",
+    "weight": 4,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "attributes": {
+    "attack_damage": {
+      "multiply": 1.5
+    }
+  },
+  "particles": {
+    "type": "minecraft:crit",
+    "count": 1,
+    "interval": 10
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

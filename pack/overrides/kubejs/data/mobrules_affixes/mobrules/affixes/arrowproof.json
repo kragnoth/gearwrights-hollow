@@ -1,0 +1,26 @@
+{
+  "_comment": "Takes 60% less projectile damage.",
+  "affix": {
+    "name": "Arrowproof",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "damage_taken": [
+      {
+        "types": [
+          "#minecraft:is_projectile"
+        ],
+        "multiply": 0.4
+      }
+    ]
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "156f61f3859c6d15"
+	group: "1DC99C37467B3A92"
+	icon: {
+		id: "create_new_age:basic_energiser"
+	}
+	id: "156F61F3859C6D15"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18D84EB3B7A2DBD3"
+				"197FA0167B33DAD3"
+			]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "144D3DB8A8212C23"
+			rewards: [{
+				id: "159FD5FB5D363D73"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "193B2B2AF94EFCFC"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					id: "7C25B5686BB93943"
+					item: { count: 1, id: "immersiveengineering:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144D3DB8A8212C23"]
+			icon: {
+				id: "create_new_age:copper_wire"
+			}
+			id: "1C5483584593A5FF"
+			rewards: [{
+				id: "791DD582D27A0CB0"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 16L
+				id: "11CEE782220502D9"
+				item: { count: 1, id: "create_new_age:copper_wire" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C5483584593A5FF"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "5321873E518AA3DE"
+			rewards: [{
+				id: "18B94D8972A4AA25"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [
+				{
+					id: "7D3D726DD0327D91"
+					item: { count: 1, id: "create_new_age:generator_coil" }
+					type: "item"
+				}
+				{
+					id: "1C9E9177E9FE68EF"
+					item: { count: 1, id: "create_new_age:carbon_brushes" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"5321873E518AA3DE"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "create_new_age:basic_energiser"
+			}
+			id: "10BC5205866CCBE0"
+			rewards: [{
+				id: "18EDDFD9A02918B6"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "63E120790BDC70CB"
+				item: { count: 1, id: "create_new_age:basic_energiser" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["5321873E518AA3DE"]
+			icon: {
+				id: "create_new_age:basic_motor"
+			}
+			id: "1AFD332FD6A46723"
+			rewards: [{
+				id: "1E85A7DBA7C9CD48"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "15F6BE962A76D55F"
+				item: { count: 1, id: "create_new_age:basic_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"1AFD332FD6A46723"
+				"10BC5205866CCBE0"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "create_new_age:advanced_motor"
+			}
+			id: "5104D335CD2940FB"
+			optional: true
+			rewards: [{
+				id: "1CCD533CC2D3DEE0"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "6A003C5BAEBD1606"
+				item: { count: 1, id: "create_new_age:advanced_motor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["10BC5205866CCBE0"]
+			icon: {
+				id: "create_new_age:basic_solar_heating_plate"
+			}
+			id: "1E025228F8BD35A9"
+			optional: true
+			rewards: [{
+				id: "1D265E4014B0C4CD"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				count: 4L
+				id: "1E9B2CB80D65D5A7"
+				item: { count: 1, id: "create_new_age:basic_solar_heating_plate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"5104D335CD2940FB"
+				"1F5719DABDF0AA60"
+			]
+			icon: {
+				id: "create_new_age:reactor_rod"
+			}
+			id: "1C94616AF7AFA114"
+			optional: true
+			rewards: [{
+				id: "1DC0685AA332A252"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1671DF475C9DA6A6"
+				item: { count: 1, id: "create_new_age:reactor_rod" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: [
+				"144D3DB8A8212C23"
+				"7F704BE48487E60B"
+			]
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "1AAC296738057B01"
+			rewards: [{
+				id: "470ED40D36E7A08C"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "6076504D975471D8"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"1AAC296738057B01"
+				"1F3B0FA167BF8B66"
+			]
+			icon: {
+				id: "create_enchantment_industry:printer"
+			}
+			id: "1A814004DE1E5793"
+			optional: true
+			rewards: [{
+				id: "1505AF417ED26E67"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "69D438DC30D2298B"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"144D3DB8A8212C23"
+				"1F3B0FA167BF8B66"
+				"5A578CF49600D837"
+			]
+			icon: {
+				id: "createpropulsion:thruster"
+			}
+			id: "00E6858C4D66AFEA"
+			rewards: [{
+				id: "1102FDD0D1A55F01"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "171A4AD7F43920FA"
+				item: { count: 1, id: "createpropulsion:thruster" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00E6858C4D66AFEA"]
+			icon: {
+				id: "createpropulsion:liquid_vector_thruster"
+			}
+			id: "024E9E3A769200FB"
+			optional: true
+			rewards: [{
+				id: "55723C6F560B9286"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "11327F1F13FB9121"
+				item: { count: 1, id: "createpropulsion:liquid_vector_thruster" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["144D3DB8A8212C23"]
+			icon: {
+				id: "immersive_aircraft:biplane"
+			}
+			id: "1D12C7F2B8996F30"
+			rewards: [{
+				id: "1FF89E29D7756C16"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1559C788282F6F94"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["144D3DB8A8212C23"]
+			icon: {
+				id: "offroad:tire"
+			}
+			id: "7E22D5FFB030228D"
+			optional: true
+			rewards: [{
+				id: "10076055D1DB0B53"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				count: 4L
+				id: "6C0ABC397818CF93"
+				item: { count: 1, id: "offroad:tire" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5104D335CD2940FB"
+				"1AAC296738057B01"
+				"1D12C7F2B8996F30"
+			]
+			icon: {
+				id: "create_new_age:advanced_motor"
+			}
+			id: "1F1A8EFA4F4B56C7"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1227394A70A1466E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2EE8ADEA009945C1"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					id: "0C37404E4B734CF7"
+					item: { count: 1, id: "create_new_age:advanced_motor" }
+					type: "item"
+				}
+				{
+					id: "5E6CF11B6BCD0E11"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+				{
+					id: "0D07ADA001280F1E"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+	]
+}

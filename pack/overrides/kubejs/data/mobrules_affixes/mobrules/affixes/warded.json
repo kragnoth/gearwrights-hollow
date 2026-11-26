@@ -1,0 +1,33 @@
+{
+  "_comment": "Takes 70% less magic and explosion damage.",
+  "affix": {
+    "name": "Warded",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "damage_taken": [
+      {
+        "types": [
+          "minecraft:magic",
+          "minecraft:indirect_magic",
+          "#minecraft:is_explosion"
+        ],
+        "multiply": 0.3
+      }
+    ]
+  },
+  "particles": {
+    "type": "minecraft:enchant",
+    "count": 2,
+    "interval": 6
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

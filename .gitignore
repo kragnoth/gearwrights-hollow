@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+# files the game rewrites at runtime (build.py skips them anyway)
+pack/overrides/config/jei/world/
+pack/overrides/config/wastelandvision/.generated/
+pack/overrides/config/wastelandvision/mappings-*.txt
+pack/overrides/config/**/*.bak.*

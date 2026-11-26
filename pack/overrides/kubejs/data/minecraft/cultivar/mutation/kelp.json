@@ -1,0 +1,14 @@
+{
+  "parent_a": "cultivar:slimecap",
+  "parent_b": "minecraft:sugar_cane",
+  "child": "minecraft:kelp",
+  "chance": 0.25,
+  "conditions": [
+    {
+      "type": "cultivar:humidity",
+      "value": "flooded",
+      "comparison": "equal",
+      "tolerance": 0
+    }
+  ]
+}

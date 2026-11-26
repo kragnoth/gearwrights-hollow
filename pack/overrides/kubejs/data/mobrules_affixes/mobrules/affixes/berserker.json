@@ -1,0 +1,35 @@
+{
+  "_comment": "Goes into a rage below 40% health.",
+  "affix": {
+    "name": "Berserk",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hurt": {
+      "enrage": {
+        "below": 0.4,
+        "effects": [
+          {
+            "effect": "minecraft:strength",
+            "amplifier": 1,
+            "duration": -1
+          },
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": -1
+          }
+        ]
+      }
+    }
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

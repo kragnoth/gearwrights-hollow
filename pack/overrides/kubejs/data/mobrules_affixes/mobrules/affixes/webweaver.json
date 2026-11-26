@@ -1,0 +1,32 @@
+{
+  "_comment": "Traps you in cobwebs that melt after 4 seconds.",
+  "affix": {
+    "name": "Webweaving",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "abilities": [
+    {
+      "type": "web",
+      "cooldown": 160,
+      "range": [
+        3,
+        14
+      ],
+      "duration": 80
+    }
+  ],
+  "particles": {
+    "type": "minecraft:white_ash",
+    "count": 2,
+    "interval": 6
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

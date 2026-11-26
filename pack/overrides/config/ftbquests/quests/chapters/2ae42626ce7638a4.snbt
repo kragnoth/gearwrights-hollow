@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2ae42626ce7638a4"
+	group: "1DC99C37467B3A92"
+	icon: {
+		id: "sophisticatedstorage:barrel"
+	}
+	id: "2AE42626CE7638A4"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "16FAC7ED36D37B93"
+			rewards: [{
+				id: "0A5DB56C1CD6DA60"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "11271A6F6155F2A4"
+				item: { count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16FAC7ED36D37B93"]
+			icon: {
+				id: "sophisticatedstorage:iron_barrel"
+			}
+			id: "46BD39B12D79FEFF"
+			rewards: [{
+				id: "14A2725DAFE3F50C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "11B4B729AE39336C"
+				item: { count: 1, id: "sophisticatedstorage:iron_barrel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46BD39B12D79FEFF"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "1779EFF92A4833D6"
+			rewards: [{
+				id: "44D0FE418A186C49"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [
+				{
+					id: "14929794A07700C9"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1DBE1B00D28AA241"
+					item: { count: 1, id: "sophisticatedstorage:storage_link" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["16FAC7ED36D37B93"]
+			icon: {
+				id: "toms_storage:inventory_connector"
+			}
+			id: "4B30B481AFDBE073"
+			rewards: [{
+				id: "1DD7DE4971780E02"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [
+				{
+					id: "1284340E8D419761"
+					item: { count: 1, id: "toms_storage:inventory_connector" }
+					type: "item"
+				}
+				{
+					id: "0606F0856BE61089"
+					item: { count: 1, id: "toms_storage:crafting_terminal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4B30B481AFDBE073"
+				"18D84EB3B7A2DBD3"
+				"32F0732C2DD29F30"
+			]
+			icon: {
+				id: "toms_storage:adv_wireless_terminal"
+			}
+			id: "13C9242AD1C383A9"
+			optional: true
+			rewards: [{
+				id: "1B96424CA9343C3D"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "35B0C81311983D61"
+				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16FAC7ED36D37B93"]
+			icon: {
+				id: "moderndynamics:item_pipe"
+			}
+			id: "2BCDDD34148FFD5E"
+			rewards: [{
+				id: "118EBF9FD24A0C80"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 8L
+				id: "14F14680F4D28D16"
+				item: { count: 1, id: "moderndynamics:item_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B30B481AFDBE073"
+				"18D84EB3B7A2DBD3"
+			]
+			icon: {
+				id: "sfm:manager"
+			}
+			id: "7D0A910209341E16"
+			rewards: [{
+				id: "6A2D448D1EE70A02"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "0DD0AD7B52475C82"
+					item: { count: 1, id: "sfm:manager" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "13CA3AAD67E46DBB"
+					item: { count: 1, id: "sfm:cable" }
+					type: "item"
+				}
+				{
+					id: "0C3690781274E597"
+					item: { count: 1, id: "sfm:disk" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"16FAC7ED36D37B93"
+				"3CA4380C39607708"
+			]
+			icon: {
+				id: "tarbound:scrying_font"
+			}
+			id: "27C8D5C6173BEEE8"
+			optional: true
+			rewards: [{
+				id: "0DB7EA00300A779E"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1C684B27B914BFB1"
+				item: { count: 1, id: "tarbound:scrying_font" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["16FAC7ED36D37B93"]
+			icon: {
+				id: "trashcans:item_trash_can"
+			}
+			id: "18043DBA9C6C7564"
+			optional: true
+			rewards: [{
+				id: "185754BCE023477D"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [
+				{
+					id: "1CB80B376C2D9089"
+					item: { count: 1, id: "trashcans:item_trash_can" }
+					type: "item"
+				}
+				{
+					id: "6332183D5FDC7F22"
+					item: { count: 1, id: "itemcollectors:basic_collector" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1779EFF92A4833D6"
+				"7D0A910209341E16"
+			]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "16C11D1CA0974225"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1E806EC4E581F24C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4FA6EB6CBFFE4988"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1703188100959CF4"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "1335D5EA32205E4B"
+					item: { count: 1, id: "toms_storage:crafting_terminal" }
+					type: "item"
+				}
+				{
+					id: "17524DAFC901EA29"
+					item: { count: 1, id: "sfm:manager" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

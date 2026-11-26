@@ -1,0 +1,22 @@
+{
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "64FE1CC657F0344B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "3FBB82804142D88B", item: { count: 1, id: "minecraft:iron_axe" } }
+		{ id: "1F7161BB6E8662EA", item: { count: 1, id: "minecraft:shield" } }
+		{ id: "502D4297EF040B49", item: { count: 1, id: "minecraft:crossbow" } }
+		{
+			count: 16
+			id: "73FF1A9F5A67B44F"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{ id: "7A16D1DEE56E9508", item: { count: 1, id: "minecraft:iron_pickaxe" } }
+	]
+}

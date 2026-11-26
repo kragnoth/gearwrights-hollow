@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "047b3beda87cb20d"
+	group: "18DA640722B0BF0D"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "047B3BEDA87CB20D"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["643F841BEB11A18B"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "19B194ACE385364D"
+			rewards: [{
+				id: "13E6F216B37DFE38"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "70531B434A2EC5B0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19B194ACE385364D"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "153A17B48234DF69"
+			rewards: [{
+				id: "15F6D1A53F3B2EA4"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 16L
+				id: "18D66A98FE96365D"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"19B194ACE385364D"
+				"1D08C7212F053161"
+			]
+			icon: {
+				id: "immersiveengineering:component_electronic"
+			}
+			id: "1FFEA22C220CA8CD"
+			rewards: [{
+				id: "1ACF87491601E5B8"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 16L
+				id: "31FDE7E4F6DEB3DB"
+				item: { count: 1, id: "immersiveengineering:component_electronic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"19B194ACE385364D"
+				"79956F1A7D01DDF1"
+			]
+			icon: {
+				id: "neovitae:deus_scribe_tool"
+			}
+			id: "298327E3CA3B811D"
+			rewards: [{
+				id: "104A3B5C8FBE1F96"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1FE49B5BE7AE1FEB"
+				item: { count: 1, id: "neovitae:deus_scribe_tool" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"19B194ACE385364D"
+				"5286E4BAFA2210CD"
+			]
+			icon: {
+				id: "hallmarked:gearwrights_seal"
+			}
+			id: "1B48676417F25F95"
+			rewards: [{
+				id: "49BE1DEAEFB22D71"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1A5F76D0876DA960"
+				item: { count: 1, id: "hallmarked:gearwrights_seal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"19B194ACE385364D"
+				"1473FE71148C64CD"
+			]
+			icon: {
+				id: "enderio_evolution:stellar_alloy_ingot"
+			}
+			id: "24FF8D3D7D8BAFF7"
+			rewards: [{
+				id: "1609615E6E17C298"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 8L
+				id: "1573C43104B23B35"
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"153A17B48234DF69"
+				"1FFEA22C220CA8CD"
+				"298327E3CA3B811D"
+				"1B48676417F25F95"
+				"24FF8D3D7D8BAFF7"
+				"4A437BA327C9FF46"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "173CBECFD212577A"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 3"
+					id: "1431FBE931CD62E7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1A352FFAB6F95926"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+				{
+					command: "/title {p} title {\"text\": \"Master of the Hollow\", \"color\": \"gold\", \"italic\": false}"
+					id: "0A73EF8472A4D598"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/playsound minecraft:ui.toast.challenge_complete master {p}"
+					id: "1F774A4D2092ECB9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B3B65D8009D65F9"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

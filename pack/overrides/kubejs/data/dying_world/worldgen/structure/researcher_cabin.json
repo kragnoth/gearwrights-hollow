@@ -1,0 +1,10 @@
+{
+  "type": "tarbound:dry_land",
+  "structure": "tarbound:researcher_cabin_layout",
+  "size_x": 11,
+  "size_z": 10,
+  "biomes": "#dying_world:has_structure/researcher_cabin",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

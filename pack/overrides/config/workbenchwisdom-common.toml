@@ -1,0 +1,40 @@
+[transfer]
+	#Reforging Bench: two tools (or two pieces of armour); the first gets the second's enchantments, name and
+	#other data, and the second is used up.
+	enabled = true
+	#Transfers cost experience, worked out like the anvil's but never "too expensive" (off: free).
+	costsExperience = true
+	#Also carry over how worn the second item is (off: the first keeps its own durability).
+	carryDamage = false
+
+[upgrades]
+	#Reforging Bench: tools and armour upgrade to the next tier, keeping their enchantments, for as much of the
+	#next tier's material as crafting the new item takes.
+	enabled = true
+	#Also work out upgrades for gear the upgrade paths don't name, from what the items are: each tool or armour
+	#piece into the next tier up of its kind, for that tier's repair material.
+	automatic = true
+
+[salvage]
+	#Reforging Bench: a tool or armour piece on its own breaks down into its material.
+	gear = true
+	#Reforging Bench: blocks made from a single other block (anything the stonecutter cuts from a block, and blocks
+	#crafted from one kind of block: slabs, stairs, walls, panes, catwalks...) break back down into it.
+	blocks = true
+	#How much of what an item took to make salvage gives back. Worn gear gives less in proportion.
+	# Default: 0.67
+	# Range: 0.0 ~ 1.0
+	returns = 0.67
+	#Salvaging enchanted gear gives back half of what its enchantments are worth in experience (curses nothing).
+	experience = true
+	#Gear made at the smithing table (netherite) salvages to one of what the smithing table added (a netherite
+	#ingot) while it's at least half whole. The template and the gear underneath stay lost.
+	smithedGear = true
+
+[blocks]
+	#The stonecutter cuts every mod's blocks into the stairs, slabs and walls named after them, and planks into
+	#their whole wood set. Recipes the stonecutter already has aren't doubled.
+	familyCutting = true
+	#Crafting: two slabs side by side make their block back, four stairs in a square make three blocks.
+	#Never where another recipe already uses that arrangement.
+	slabsAndStairsToBlocks = true

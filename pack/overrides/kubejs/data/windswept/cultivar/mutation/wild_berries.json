@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "windswept"
+    }
+  ],
+  "parent_a": "minecraft:sweet_berries",
+  "parent_b": "minecraft:beetroot",
+  "child": "windswept:wild_berries",
+  "chance": 0.25
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "dying_world:abandoned_village_plains",
+    "dying_world:abandoned_village_taiga",
+    "dying_world:abandoned_village_savanna",
+    "dying_world:abandoned_village_desert",
+    "dying_world:abandoned_village_snowy",
+    "dying_world:abandoned_village_swamp",
+    "dying_world:abandoned_hamlet_plains",
+    "dying_world:abandoned_hamlet_taiga",
+    "dying_world:abandoned_hamlet_savanna",
+    "dying_world:abandoned_hamlet_desert",
+    "dying_world:abandoned_hamlet_snowy",
+    "dying_world:abandoned_hamlet_swamp",
+    "dying_world:abandoned_ruin_plains",
+    "dying_world:abandoned_ruin_taiga",
+    "dying_world:abandoned_ruin_savanna",
+    "dying_world:abandoned_ruin_desert",
+    "dying_world:abandoned_ruin_snowy",
+    "dying_world:abandoned_ruin_swamp"
+  ]
+}

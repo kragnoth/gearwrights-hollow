@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": { "type": "neoforge:any" },
+  "features": [
+    "minecraft:monster_room",
+    "minecraft:monster_room_deep",
+    "minecraft:desert_well",
+    "realmrpg_skeletons:underground_chambers",
+    "realmrpg_skeletons:deep_underground_chambers"
+  ],
+  "steps": ["underground_structures", "surface_structures"]
+}

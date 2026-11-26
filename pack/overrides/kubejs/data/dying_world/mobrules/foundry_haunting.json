@@ -1,0 +1,38 @@
+{
+  "_comment": "pass 9-46: while a player is locked in the Occult Foundry (Hollowed, not yet escaped), those who stayed follow them",
+  "conditions": {
+    "mobs": "incision:skeletoncultist",
+    "dimensions": "minecraft:overworld",
+    "light": {
+      "max": 7
+    }
+  },
+  "spawner": {
+    "mob": "incision:skeletoncultist",
+    "interval": 400,
+    "attempts": 3,
+    "chance": 0.6,
+    "distance": {
+      "min": 20,
+      "max": 48
+    },
+    "group": [
+      1,
+      2
+    ],
+    "max_nearby": {
+      "count": 6,
+      "radius": 48
+    },
+    "players": {
+      "has_tags": [
+        "wv_occult_foundry",
+        "gh_hollow_defeated"
+      ],
+      "lacks_tags": [
+        "gh_escaped"
+      ]
+    }
+  },
+  "name": "Foundry Revenant"
+}

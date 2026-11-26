@@ -1,0 +1,65 @@
+{
+    "targets": [
+        "swap"
+    ],
+    "passes": [
+        {
+            "name": "occult:grade",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "Strength",
+                    "values": [
+                        1.0
+                    ]
+                },
+                {
+                    "name": "Shadow",
+                    "values": [
+                        0.3,
+                        0.42,
+                        0.46
+                    ]
+                },
+                {
+                    "name": "Highlight",
+                    "values": [
+                        1.0,
+                        0.84,
+                        0.58
+                    ]
+                },
+                {
+                    "name": "Split",
+                    "values": [
+                        0.22
+                    ]
+                },
+                {
+                    "name": "Muted",
+                    "values": [
+                        0.22
+                    ]
+                },
+                {
+                    "name": "Vignette",
+                    "values": [
+                        0.55
+                    ]
+                },
+                {
+                    "name": "Grain",
+                    "values": [
+                        0.012
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}

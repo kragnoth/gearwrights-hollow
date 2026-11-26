@@ -1,0 +1,37 @@
+name: build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version, e.g. 1.0.7 Alpha (leave empty to use pack/manifest.json). Makes a GitHub release.'
+        required: false
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check
+        if: github.event_name != 'workflow_dispatch'
+        run: python3 build.py check
+      - name: Build zips
+        if: github.event_name == 'workflow_dispatch'
+        id: build
+        run: |
+          V="${{ inputs.version }}"
+          [ -z "$V" ] && V=$(python3 -c "import json;print(json.load(open('pack/manifest.json'))['version'])")
+          python3 build.py "$V"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=v$(echo "$V" | tr ' A-Z' '-a-z')" >> "$GITHUB_OUTPUT"
+      - name: Release
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${{ steps.build.outputs.tag }}" dist/*.zip --title "${{ steps.build.outputs.version }}" --notes "See CHANGELOG.md"

@@ -1,0 +1,27 @@
+{
+  "_comment": "Sets you on fire and can't burn.",
+  "affix": {
+    "name": "Blazing",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "ignite_seconds": 4
+    },
+    "fire_immune": true
+  },
+  "particles": {
+    "type": "minecraft:flame",
+    "count": 1,
+    "interval": 5
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "In Control rule 3: 90% of creeper world spawns are blocked.",
+  "conditions": { "mobs": "minecraft:creeper", "chance": 0.9 },
+  "spawn": { "block": true }
+}

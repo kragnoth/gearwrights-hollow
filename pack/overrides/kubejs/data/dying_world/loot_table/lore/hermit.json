@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "A Penitent's Account"
+                  },
+                  "author": "the Hermit",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"I was chaplain to the Gearwrights. I blessed the First Gate when they cut it, at the Hollow, the valley the Guild is named for.\\n\\nI said the words. I believed them.\"}",
+                    "{\"text\": \"The draught came up through the Hollow first. The smoke on the horizon, the bell at midnight, the pale groves. All of it started there.\\n\\nThe Guild knew within a year.\"}",
+                    "{\"text\": \"They built more gates. Gatehouses in the wilds, a station Below, another Beyond. Each one to fix the last.\\n\\nI left. I keep a light on in case anyone comes asking.\"}",
+                    "{\"text\": \"You are asking. The nearest gatehouse is marked on the map in this chest.\\n\\nRead their registers. Then decide what you think of men who keep records instead of stopping.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "dying_world:research_gates",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "The Hermit's Directions"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

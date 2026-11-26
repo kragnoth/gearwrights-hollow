@@ -1,0 +1,28 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:research_gate_nether",
+      "weight": 5
+    },
+    {
+      "structure": "dying_world:research_gate_end",
+      "weight": 5
+    },
+    {
+      "structure": "dying_world:research_gate_nether_derelict",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:research_gate_end_derelict",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 20,
+    "spread": 4,
+    "count": 32,
+    "preferred_biomes": "#dying_world:has_structure/scavenger_outpost_any",
+    "salt": 1885383870
+  }
+}

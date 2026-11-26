@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mynethersdelight"
+    }
+  ],
+  "stages": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "spread_chance": 0.1,
+  "seeds": "minecraft:warped_fungus",
+  "products": [
+    {
+      "item": "minecraft:warped_fungus",
+      "min": 5,
+      "max": 5
+    }
+  ],
+  "requirements": [
+    {
+      "type": "cultivar:light",
+      "min": 8,
+      "max": 15,
+      "tolerance": 0.5
+    },
+    {
+      "type": "cultivar:humidity",
+      "value": "damp",
+      "comparison": "at_least",
+      "tolerance": 0.15
+    }
+  ],
+  "render": {
+    "textures": [
+      "mynethersdelight:block/warped_fungus_colony_stage0",
+      "mynethersdelight:block/warped_fungus_colony_stage1",
+      "mynethersdelight:block/warped_fungus_colony_stage2",
+      "mynethersdelight:block/warped_fungus_colony_stage3"
+    ],
+    "shape": "cross"
+  }
+}

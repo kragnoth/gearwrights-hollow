@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "create:brass_casing"
+	}
+	id: "097EFDC19ED41E02"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 8
+			id: "4B11A0EA2C61C822"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+		{
+			count: 2
+			id: "33F5D471CFF7E090"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+		}
+		{
+			count: 8
+			id: "1C26A0169A687DC2"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			count: 8
+			id: "490A6E3FE3CB3E5E"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+	]
+}

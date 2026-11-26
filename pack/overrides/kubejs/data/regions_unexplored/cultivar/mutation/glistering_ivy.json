@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "minecraft:glow_berries",
+  "parent_b": "cultivar:shardbloom",
+  "child": "regions_unexplored:glistering_ivy",
+  "chance": 0.15
+}

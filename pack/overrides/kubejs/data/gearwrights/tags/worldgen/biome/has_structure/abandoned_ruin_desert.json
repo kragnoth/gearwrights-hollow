@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:has_structure/village_desert",
+    {
+      "id": "#c:is_desert",
+      "required": false
+    }
+  ]
+}

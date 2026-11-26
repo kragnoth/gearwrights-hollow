@@ -1,0 +1,30 @@
+{
+  "_comment": "Huge, with more health and reach.",
+  "affix": {
+    "name": "Giant",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "attributes": {
+    "scale": {
+      "multiply": 1.6
+    },
+    "max_health": {
+      "multiply": 1.6
+    },
+    "attack_damage": {
+      "multiply": 1.25
+    },
+    "movement_speed": {
+      "multiply": 0.85
+    }
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

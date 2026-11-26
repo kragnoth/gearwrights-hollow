@@ -1,0 +1,31 @@
+{
+  "_comment": "Pulls you in from range.",
+  "affix": {
+    "name": "Grasping",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "abilities": [
+    {
+      "type": "pull",
+      "cooldown": 160,
+      "range": [
+        6,
+        16
+      ]
+    }
+  ],
+  "particles": {
+    "type": "minecraft:reverse_portal",
+    "count": 1,
+    "interval": 8
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_comment": "Inflicts Wither on hit.",
+  "affix": {
+    "name": "Withering",
+    "weight": 2,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:wither",
+          "amplifier": 0,
+          "duration": 80
+        }
+      ]
+    }
+  },
+  "particles": {
+    "type": "minecraft:ash",
+    "count": 2,
+    "interval": 4
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

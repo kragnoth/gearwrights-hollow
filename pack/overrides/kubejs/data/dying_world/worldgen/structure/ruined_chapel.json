@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/ruined_chapel",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:skeleton",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "dying_world:landmarks/ruined_chapel",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 40,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

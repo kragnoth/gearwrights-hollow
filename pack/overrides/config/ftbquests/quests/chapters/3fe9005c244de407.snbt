@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3fe9005c244de407"
+	group: "09EDFE5080C9B796"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "3FE9005C244DE407"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "09B0A9A33A74B374"
+			rewards: [
+				{
+					count: 8
+					id: "5BBCBF45ADCF97AC"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					command: "/title {p} title {\"text\": \"The Hollow Wakes\", \"color\": \"gold\", \"italic\": false}"
+					id: "0348EB8D740E4C35"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6DED4F9A1608F0C8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09B0A9A33A74B374"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "6CBDDBA7400112B7"
+			rewards: [{
+				command: "/puffish_skills points add {p} kskills:skill_tree 1"
+				id: "1C4069D7D47C3226"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "1471A14FB870BF22"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["09B0A9A33A74B374"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "51A51D42AFB7F6CC"
+			rewards: [{
+				count: 16
+				id: "1CCCE4A3A884D4AA"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D23C8387D5C9A4C"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["51A51D42AFB7F6CC"]
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "6E60DC2F0FE6F3A4"
+			rewards: [
+				{
+					id: "28F676D6CEFA686C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "182AE214525FB72F"
+					table_id: 7277285686081762379L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19511CEAF80BE479"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["51A51D42AFB7F6CC"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "1987E9725CC98C1F"
+			rewards: [{
+				id: "1404825C2163604B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "17206AC4DF5947D8"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E60DC2F0FE6F3A4"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "2341219980923606"
+			rewards: [
+				{
+					id: "145D2A78082CAAD0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "151E7F8DC25EEA87"
+					table_id: 7277285686081762379L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1631276F04C3297B"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A51D42AFB7F6CC"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "5B708E5DF1182DEA"
+			rewards: [{
+				count: 2
+				id: "1B3ED41413E94AFA"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78854B052C2AFAC6"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "003E06FFD3FB8871"
+			rewards: [{
+				id: "7E5E69C513E50450"
+				table_id: 5059506644062360460L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AC1222560D86C4D"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "paxels:iron_paxel"
+			}
+			id: "167DAAEEACAB3C58"
+			optional: true
+			rewards: [{
+				id: "155C909A56ADCE2A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1C1A2A23DCBC28DE"
+				item: { count: 1, id: "paxels:iron_paxel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "1123EACC1267BDDA"
+			rewards: [{
+				count: 2
+				id: "6E9C1C65ABC77F77"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19263608DE21C6B7"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "08184FBFE9956145"
+			rewards: [
+				{
+					id: "5298A4F60C14C36F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "2E9440A5F4A904AD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "19203D2F927596E7"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.625d
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"parent": "shaped",
+	"merge": {
+		"keys": true
+	},
+	"keys": [
+		{
+			"name": "quarter_turn",
+			"role": "other",
+			"type": "boolean",
+			"optional": false
+		},
+		{
+			"name": "eight_turn",
+			"role": "other",
+			"type": "boolean",
+			"optional": false
+		},
+		{
+			"name": "copyNBT",
+			"role": "other",
+			"type": {
+				"type": "list",
+				"component": "int"
+			},
+			"optional": []
+		}
+	]
+}

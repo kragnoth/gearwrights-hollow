@@ -1,0 +1,6 @@
+#Allow /mobrules_editor to start the browser editor (localhost only, needs the link's token).
+editorEnabled = true
+#Preferred port for the editor (a free one is picked if it's taken).
+# Default: 25599
+# Range: 1024 ~ 65535
+editorPort = 25599

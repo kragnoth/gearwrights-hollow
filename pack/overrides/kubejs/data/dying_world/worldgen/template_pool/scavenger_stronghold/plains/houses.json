@@ -1,0 +1,707 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 36,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 36,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_brick_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_dogtrot_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_dogtrot_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_orchard_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_orchard_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_barn_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/plains/houses/plains_r_mossy_barn_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "grove.crackle": {
+    "sounds": [
+      {
+        "name": "occult:grove/crackle",
+        "stream": true
+      }
+    ]
+  },
+  "grove.hum": {
+    "sounds": [
+      {
+        "name": "occult:grove/hum",
+        "stream": true
+      }
+    ]
+  },
+  "grove.whisper": {
+    "sounds": [
+      "occult:grove/whisper1",
+      "occult:grove/whisper2",
+      "occult:grove/whisper3",
+      "occult:grove/whisper4"
+    ]
+  },
+  "bell": {
+    "sounds": [
+      {
+        "name": "occult:bell",
+        "stream": true
+      }
+    ]
+  },
+  "grove.waltz1": {
+    "sounds": [
+      {
+        "name": "occult:grove/waltz1",
+        "stream": true
+      }
+    ]
+  },
+  "grove.waltz2": {
+    "sounds": [
+      {
+        "name": "occult:grove/waltz2",
+        "stream": true
+      }
+    ]
+  },
+  "grove.waltz3": {
+    "sounds": [
+      {
+        "name": "occult:grove/waltz3",
+        "stream": true
+      }
+    ]
+  },
+  "grove.waltz4": {
+    "sounds": [
+      {
+        "name": "occult:grove/waltz4",
+        "stream": true
+      }
+    ]
+  },
+  "grove.waltz5": {
+    "sounds": [
+      {
+        "name": "occult:grove/waltz5",
+        "stream": true
+      }
+    ]
+  },
+  "grove.radio1": {
+    "sounds": [
+      {
+        "name": "occult:grove/radio1",
+        "stream": true
+      }
+    ]
+  },
+  "grove.radio2": {
+    "sounds": [
+      {
+        "name": "occult:grove/radio2",
+        "stream": true
+      }
+    ]
+  },
+  "grove.radio3": {
+    "sounds": [
+      {
+        "name": "occult:grove/radio3",
+        "stream": true
+      }
+    ]
+  },
+  "grove.radio4": {
+    "sounds": [
+      {
+        "name": "occult:grove/radio4",
+        "stream": true
+      }
+    ]
+  }
+}

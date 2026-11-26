@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "dying_world:plains/ruined_houses",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "gearwrights:village/plains/windmill_abandoned",
+        "processors": "minecraft:zombie_plains"
+      }
+    }
+  ]
+}

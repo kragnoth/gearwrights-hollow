@@ -1,0 +1,27 @@
+{
+  "_comment": "Heals 1 health every 1.5 seconds.",
+  "affix": {
+    "name": "Regenerating",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "combat": {
+    "regen": {
+      "amount": 1,
+      "interval": 30
+    }
+  },
+  "particles": {
+    "type": "minecraft:happy_villager",
+    "count": 1,
+    "interval": 20
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

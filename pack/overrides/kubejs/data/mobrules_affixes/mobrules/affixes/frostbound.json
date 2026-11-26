@@ -1,0 +1,47 @@
+{
+  "_comment": "Slows on hit. Never in the Nether.",
+  "affix": {
+    "name": "Frostbound",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "conditions": {
+    "none_of": [
+      {
+        "dimensions": "minecraft:the_nether"
+      }
+    ]
+  },
+  "combat": {
+    "on_hit": {
+      "effects": [
+        {
+          "effect": "minecraft:slowness",
+          "amplifier": 1,
+          "duration": 60
+        }
+      ]
+    },
+    "damage_taken": [
+      {
+        "types": [
+          "minecraft:freeze"
+        ],
+        "multiply": 0
+      }
+    ]
+  },
+  "particles": {
+    "type": "minecraft:snowflake",
+    "count": 1,
+    "interval": 4
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

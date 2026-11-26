@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:glass" } ],
+      "conditions": [ { "condition": "minecraft:survives_explosion" } ] },
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:glowstone_dust" } ],
+      "conditions": [ { "condition": "minecraft:survives_explosion" } ] }
+  ],
+  "random_sequence": "kubejs:blocks/grow_lamp"
+}

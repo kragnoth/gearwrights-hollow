@@ -1,0 +1,25 @@
+{
+  "_comment": "Calls lightning when it dies (cosmetic) and glows.",
+  "affix": {
+    "name": "Stormcalling",
+    "weight": 1,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "glowing": true,
+  "on_death": {
+    "lightning": true
+  },
+  "particles": {
+    "type": "minecraft:electric_spark",
+    "count": 2,
+    "interval": 4
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

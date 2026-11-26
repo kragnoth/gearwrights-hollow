@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:research_end",
+      "weight": 4
+    },
+    {
+      "structure": "dying_world:research_end_derelict",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 11,
+    "spread_type": "triangular",
+    "salt": 1921872073
+  }
+}

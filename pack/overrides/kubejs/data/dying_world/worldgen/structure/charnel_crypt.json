@@ -1,0 +1,10 @@
+{
+  "type": "tarbound:dry_land",
+  "structure": "tarbound:charnel_crypt_layout",
+  "size_x": 9,
+  "size_z": 9,
+  "biomes": "#dying_world:has_structure/charnel_crypt",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

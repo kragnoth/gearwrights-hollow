@@ -1,0 +1,108 @@
+{
+	"title": {
+		"text": "Skill Tree",
+		"color": "gold",
+		"bold": true
+	},
+	"description": {
+		"text": "One wheel, seven disciplines. Start in the centre, walk the spokes and the ring, and build whatever you want.",
+		"color": "gray"
+	},
+	"extra_description": [
+		"",
+		{
+			"text": "Bulwark",
+			"color": "#c8c8c8"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Warpath",
+			"color": "#e05050"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Deadeye",
+			"color": "#7fd16b"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Pathfinder",
+			"color": "#5fb8e8"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Foreman",
+			"color": "#e0a040"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Occult",
+			"color": "#b070e0"
+		},
+		{
+			"text": " • ",
+			"color": "dark_gray"
+		},
+		{
+			"text": "Industry",
+			"color": "#c08a4a"
+		}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:nether_star"
+		}
+	},
+	"background": {
+		"texture": "minecraft:textures/block/polished_blackstone_bricks.png",
+		"width": 16,
+		"height": 16,
+		"position": "tile"
+	},
+	"colors": {
+		"connections": {
+			"locked": {
+				"fill": "#3a3a3a",
+				"stroke": "#000000"
+			},
+			"available": {
+				"fill": "#9a9a9a",
+				"stroke": "#000000"
+			},
+			"affordable": {
+				"fill": "#ffffff",
+				"stroke": "#000000"
+			},
+			"unlocked": {
+				"fill": "#e8b84a",
+				"stroke": "#000000"
+			},
+			"excluded": {
+				"fill": "#6b1010",
+				"stroke": "#000000"
+			}
+		},
+		"points": {
+			"fill": "#e8b84a",
+			"stroke": "#000000"
+		}
+	},
+	"unlocked_by_default": true,
+	"starting_points": 1
+}

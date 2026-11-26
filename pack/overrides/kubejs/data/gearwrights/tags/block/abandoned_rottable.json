@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:planks",
+    "#minecraft:wool",
+    "#minecraft:wool_carpets",
+    "#minecraft:wooden_stairs",
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_trapdoors",
+    "#minecraft:wooden_fences",
+    "minecraft:glass_pane",
+    "minecraft:hay_block",
+    "minecraft:white_terracotta"
+  ]
+}

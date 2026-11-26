@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "parent_a": "minecraft:beetroot",
+  "parent_b": "cultivar:madder_root",
+  "child": "neovitae:weak_tau",
+  "chance": 0.2
+}

@@ -1,0 +1,6 @@
+{
+  "parent_a": "minecraft:nether_wart",
+  "parent_b": "minecraft:glow_berries",
+  "child": "minecraft:twisting_vines",
+  "chance": 0.2
+}

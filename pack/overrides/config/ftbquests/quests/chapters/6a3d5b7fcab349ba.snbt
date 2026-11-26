@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6a3d5b7fcab349ba"
+	group: "09EDFE5080C9B796"
+	icon: {
+		id: "minecraft:blaze_rod"
+	}
+	id: "6A3D5B7FCAB349BA"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2341219980923606"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "070E24F3E92D4B6F"
+			rewards: [{
+				id: "1CB4715E8CAFB6B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "523E0994C42D7D77"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["070E24F3E92D4B6F"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "35B1CCDBAD614213"
+			rewards: [{
+				id: "1D6A045F8F53BCED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "132011FF9E64261F"
+				structure: "#dying_world:nether_foundries"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["070E24F3E92D4B6F"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "1425B0501B3F27A2"
+			rewards: [{
+				count: 8
+				id: "1D6B20B01C7C893A"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16CD0F969A73CEBD"
+				structure: "#dying_world:scavenger_strongholds"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35B1CCDBAD614213"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "60D4C0E4C7720E32"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "193FE7A3FEB093FE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "1BE833E8EF1DC1D5"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "41FB1F4526941C61"
+				type: "kill"
+				value: 8L
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["070E24F3E92D4B6F"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "5207C9DA4C228358"
+			rewards: [{
+				id: "16E65B0329B734B0"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 2L
+				id: "1BF6B9EBC5790385"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5207C9DA4C228358"]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "32F0732C2DD29F30"
+			rewards: [{
+				id: "22CC9C54EACEF087"
+				table_id: 5072943234471139557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AFF4AAD00B1A8C4"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35B1CCDBAD614213"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "3D4A1BEBF9C314F1"
+			rewards: [{
+				id: "1400F27FC3AACEAC"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 3L
+				id: "156A09E9474E9B46"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3D4A1BEBF9C314F1"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "4965BC2D6846DA0F"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1BF1E4A539AD48F2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "57ADFEB2B111301A"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "12E0C61E00D2373B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["60D4C0E4C7720E32"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "10A4CC779CC59E78"
+			rewards: [{
+				id: "6065355FC2CB8B9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 12L
+				id: "66886C0CAE1E29CD"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["10A4CC779CC59E78"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "17C8F9BB8620D884"
+			rewards: [{
+				id: "314409DDCFF02C05"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1DCB5F667263FF1C"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17C8F9BB8620D884"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "244DF6AF8B1FC0A4"
+			rewards: [{
+				id: "16230D05238F0A0D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1098834DC50B4891"
+				type: "dimension"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["244DF6AF8B1FC0A4"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "4A437BA327C9FF46"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 2"
+					id: "1A512CA12CCE0C80"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4622CC43169AE11D"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+				{
+					command: "/title {p} title {\"text\": \"Dragonslayer\", \"color\": \"dark_purple\", \"italic\": false}"
+					id: "20CD26254AD05BF8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6F88078EF09A7B0B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

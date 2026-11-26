@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "minecraft:melon",
+  "parent_b": "cultivar:inkcap",
+  "child": "regions_unexplored:duskmelon",
+  "chance": 0.2,
+  "conditions": [
+    {
+      "type": "cultivar:light",
+      "min": 9,
+      "max": 11,
+      "tolerance": 0
+    }
+  ]
+}

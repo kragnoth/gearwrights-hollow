@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent_a": "minecraft:glow_berries",
+  "parent_b": "minecraft:beetroot",
+  "child": "regions_unexplored:hanging_earlight",
+  "chance": 0.2
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hallmarked.unique.marshs_field_boots",
+  "lore": "hallmarked.unique.marshs_field_boots.lore",
+  "items": {
+    "item": "minecraft:iron_boots"
+  },
+  "chance": {},
+  "boots": {
+    "modifiers": [
+      {
+        "name": "marsh_fall",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "operation": "addition",
+        "value": 4
+      },
+      {
+        "name": "marsh_land",
+        "attribute": "minecraft:generic.fall_damage_multiplier",
+        "operation": "multiply_total",
+        "value": -0.25
+      },
+      {
+        "name": "marsh_speed",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_total",
+        "value": 0.03
+      }
+    ]
+  }
+}

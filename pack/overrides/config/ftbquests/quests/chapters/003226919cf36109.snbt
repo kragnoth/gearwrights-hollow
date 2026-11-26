@@ -1,0 +1,814 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "003226919cf36109"
+	group: "1C6C41D6798C3267"
+	icon: {
+		id: "neovitae:blood_orb_weak"
+	}
+	id: "003226919CF36109"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18D84EB3B7A2DBD3"]
+			icon: {
+				id: "neovitae:blood_orb_weak"
+			}
+			id: "0BCCE13FE16F5EFD"
+			rewards: [
+				{
+					id: "3786F2A98F3961E4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					command: "/title {p} title {\"text\": \"Beyond the Veil\", \"color\": \"dark_purple\", \"italic\": false}"
+					id: "612946E116D7796B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/playsound minecraft:block.portal.trigger master {p}"
+					id: "1AD185A7E6195937"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1462D7B5AC910DA8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0BCCE13FE16F5EFD"
+				"070E24F3E92D4B6F"
+			]
+			icon: {
+				id: "neovitae:ara_vitae"
+			}
+			id: "676BFBF2B0FA5E96"
+			rewards: [{
+				id: "19C5917DB50DC0E3"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "663B030EE9F1B16F"
+				item: { count: 1, id: "neovitae:ara_vitae" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["676BFBF2B0FA5E96"]
+			icon: {
+				id: "neovitae:blood_orb_weak"
+			}
+			id: "3E6EAE7C7791FCEB"
+			rewards: [{
+				id: "1B2CD9E5E35D7889"
+				table_id: 6931049160509776600L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C4BF17DD3370DE0"
+				item: { count: 1, id: "neovitae:blood_orb_weak" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["676BFBF2B0FA5E96"]
+			icon: {
+				id: "neovitae:tabula_rasa"
+			}
+			id: "60DBB225B57F41C9"
+			rewards: [{
+				id: "19B36ADCE2616743"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 4L
+				id: "78755E75F63F9642"
+				item: { count: 1, id: "neovitae:tabula_rasa" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"60DBB225B57F41C9"
+				"3E6EAE7C7791FCEB"
+			]
+			icon: {
+				id: "neovitae:tabula_vitae"
+			}
+			id: "1AA8F55AA07123FE"
+			rewards: [{
+				id: "655419B6F041E977"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1F6619A079B1EBEF"
+				item: { count: 1, id: "neovitae:tabula_vitae" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1AA8F55AA07123FE"]
+			icon: {
+				id: "neovitae:sigil_divination"
+			}
+			id: "02125D4D8DD1ED8B"
+			rewards: [{
+				id: "540A773FA729E561"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "58A52479FBA1DB21"
+				item: { count: 1, id: "neovitae:sigil_divination" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["02125D4D8DD1ED8B"]
+			icon: {
+				id: "neovitae:sigil_water"
+			}
+			id: "00A027F0F6E654B9"
+			rewards: [{
+				id: "119FEF80C17C18FD"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [
+				{
+					id: "2FC59A09B0BA96AD"
+					item: { count: 1, id: "neovitae:sigil_water" }
+					type: "item"
+				}
+				{
+					id: "1685DBE9733C385E"
+					item: { count: 1, id: "neovitae:sigil_lava" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["60DBB225B57F41C9"]
+			icon: {
+				id: "neovitae:rune_blank"
+			}
+			id: "33E5B1351885CBCE"
+			rewards: [{
+				id: "1D5B69D731E149A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 8L
+				id: "37DEC9AB23157629"
+				item: { count: 1, id: "neovitae:rune_blank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E5B1351885CBCE"]
+			icon: {
+				id: "neovitae:blood_orb_apprentice"
+			}
+			id: "10718B2480884D37"
+			rewards: [{
+				id: "19019F15D4923401"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1114758258DDBBE9"
+				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["60DBB225B57F41C9"]
+			icon: {
+				id: "neovitae:hellfire_forge"
+			}
+			id: "14499DB1DC5AABD0"
+			rewards: [{
+				id: "781FED07C71A9FAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "280D1AD27C4A51FD"
+				item: { count: 1, id: "neovitae:hellfire_forge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["14499DB1DC5AABD0"]
+			icon: {
+				id: "neovitae:spiritus_gem_petty"
+			}
+			id: "1210AF3C76111BF1"
+			rewards: [{
+				id: "611F5EBCBD691A75"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "437CFD746C51A905"
+				item: { count: 1, id: "neovitae:spiritus_gem_petty" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1210AF3C76111BF1"]
+			icon: {
+				id: "neovitae:sentient_sword"
+			}
+			id: "1043FBC3EE5F85BB"
+			rewards: [{
+				id: "1796FBB31BB6B670"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "0950D16B65DDA177"
+				item: { count: 1, id: "neovitae:sentient_sword" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10718B2480884D37"]
+			icon: {
+				id: "neovitae:master_ritual_stone"
+			}
+			id: "6678398A93730B68"
+			rewards: [{
+				id: "2EC60BA7A6DD3B76"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "43E889A5D792E6FE"
+					item: { count: 1, id: "neovitae:master_ritual_stone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "102B456FF4D78663"
+					item: { count: 1, id: "neovitae:ritual_stone" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6678398A93730B68"]
+			icon: {
+				id: "neovitae:activation_crystal_weak"
+			}
+			id: "6DE4A25BC52F5DCB"
+			rewards: [{
+				id: "14479FCA14FB0D99"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "1FF02C61442DFA7A"
+				item: { count: 1, id: "neovitae:activation_crystal_weak" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["33E5B1351885CBCE"]
+			icon: {
+				id: "neovitae:incense_altar"
+			}
+			id: "10D5F4379889D914"
+			optional: true
+			rewards: [{
+				id: "1E57152507DF78B7"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "7910D669905C9A75"
+				item: { count: 1, id: "neovitae:incense_altar" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1043FBC3EE5F85BB"]
+			icon: {
+				id: "neovitae:athanor"
+			}
+			id: "26A86968083FBC04"
+			rewards: [{
+				id: "007C2FCA2985AB80"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "195D3B76C25D8F08"
+				item: { count: 1, id: "neovitae:athanor" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"10718B2480884D37"
+				"26A86968083FBC04"
+			]
+			icon: {
+				id: "neovitae:blood_orb_magician"
+			}
+			id: "57BA6B8AE5057DBC"
+			rewards: [{
+				id: "196500619B4A00E8"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "17CD1B3421DD7875"
+				item: { count: 1, id: "neovitae:blood_orb_magician" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57BA6B8AE5057DBC"
+				"10A4CC779CC59E78"
+			]
+			icon: {
+				id: "neovitae:teleposer"
+			}
+			id: "1ABA65DC155850C5"
+			optional: true
+			rewards: [{
+				id: "2B974BF7075D4291"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1CD7ADCC769B82E9"
+				item: { count: 1, id: "neovitae:teleposer" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.875d
+		}
+		{
+			dependencies: [
+				"57BA6B8AE5057DBC"
+				"32F0732C2DD29F30"
+			]
+			icon: {
+				id: "neovitae:lex_vitae"
+			}
+			id: "0D00FBD6E5D00B30"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1ECD789D95AE8507"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1012DCB7771C2911"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				id: "2480F2C5ED3CF55E"
+				item: { count: 1, id: "neovitae:lex_vitae" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["0D00FBD6E5D00B30"]
+			icon: {
+				id: "neovitae:deus_scribe_tool"
+			}
+			id: "79956F1A7D01DDF1"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "22F1E9712D140D4F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "17E496E6C9A4E63F"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "12806FCF558AF1E8"
+				item: { count: 1, id: "neovitae:deus_scribe_tool" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCCE13FE16F5EFD"]
+			icon: {
+				id: "neovitae:guide_book"
+			}
+			id: "05618F9306EA04D2"
+			rewards: [{
+				id: "3D96504FEF832853"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "60C83416166A6757"
+				item: { count: 1, id: "neovitae:guide_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["14499DB1DC5AABD0"]
+			icon: {
+				id: "neovitae:throwing_dagger"
+			}
+			id: "686BBB6FCE3719DC"
+			rewards: [{
+				id: "31D67E6F53034F9B"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "neovitae:neovitae/throwing_dagger"
+				criterion: ""
+				id: "3DBDB582363C46E4"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33E5B1351885CBCE"]
+			icon: {
+				id: "neovitae:blood_lantern"
+			}
+			id: "6D9C3E6DBF8F2976"
+			rewards: [{
+				id: "4A728A1A3F5EF1E0"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "5636115F593B9EC1"
+				item: { count: 1, id: "neovitae:blood_lantern" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00A027F0F6E654B9"]
+			icon: {
+				id: "neovitae:sigil_holding"
+			}
+			id: "679FB6B2F879995D"
+			rewards: [{
+				id: "6967C6D24D88B26D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47788C9CEE0E93B2"
+				item: { count: 1, id: "neovitae:sigil_holding" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["00A027F0F6E654B9"]
+			icon: {
+				id: "neovitae:sigil_green_grove"
+			}
+			id: "1350FB05A3F1E8AC"
+			rewards: [{
+				id: "4DF52EB7AD179B7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F49CA3868E4EBAE"
+				item: { count: 1, id: "neovitae:sigil_green_grove" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6DE4A25BC52F5DCB"]
+			icon: {
+				id: "neovitae:master_ritual_stone"
+			}
+			id: "12566167BEFCCF0A"
+			rewards: [{
+				id: "137957E344F86E88"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				advancement: "neovitae:neovitae/first_ritual"
+				criterion: ""
+				id: "5F42EC0CF0573927"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"12566167BEFCCF0A"
+				"57BA6B8AE5057DBC"
+			]
+			icon: {
+				id: "neovitae:dungeon_eye"
+			}
+			id: "4060040CD98A95BE"
+			rewards: [
+				{
+					id: "74A085A95EF15AF1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					command: "/title {p} title {\"text\": \"A Crack in the Veil\", \"color\": \"dark_red\", \"italic\": false}"
+					id: "6012859D92AF53F7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2EFA2C458EE83C17"
+					table_id: 6931049160509776600L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				advancement: "neovitae:neovitae/edge_of_hidden_realm"
+				criterion: ""
+				id: "2D66D2564BE679A7"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["4060040CD98A95BE"]
+			icon: {
+				id: "neovitae:raw_demonite"
+			}
+			id: "60DBF1D87DA15350"
+			rewards: [{
+				id: "3EC52F674B8671D6"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				advancement: "neovitae:neovitae/demonite"
+				criterion: ""
+				id: "168CFDA051FCB0B6"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4060040CD98A95BE"]
+			icon: {
+				id: "neovitae:bloodstone_brick"
+			}
+			id: "494EEC611CFA869C"
+			rewards: [{
+				id: "5A5A214558F49AA8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 4L
+				id: "4A2667D506286662"
+				item: { count: 1, id: "neovitae:bloodstone_brick" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"494EEC611CFA869C"
+				"57BA6B8AE5057DBC"
+			]
+			icon: {
+				id: "neovitae:blood_orb_master"
+			}
+			id: "0DB354D68F862E86"
+			rewards: [
+				{
+					id: "2933965FF7C8309F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "5846ED107602B9E9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "706E2DFE042A0B3F"
+				item: { count: 1, id: "neovitae:blood_orb_master" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["0DB354D68F862E86"]
+			icon: {
+				id: "neovitae:blood_orb_archmage"
+			}
+			id: "600D5D480975FE2D"
+			rewards: [
+				{
+					id: "7F8D5DDE5B22A766"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "48E2B588EFB1D0D3"
+					table_id: 6931049160509776600L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7723DD09CD6A4AE9"
+					item: { count: 1, id: "neovitae:hellforged_block" }
+					type: "item"
+				}
+				{
+					id: "62A2EBD40F646429"
+					item: { count: 1, id: "neovitae:blood_orb_archmage" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["600D5D480975FE2D"]
+			icon: {
+				id: "neovitae:crystal_cluster"
+			}
+			id: "273598A81C9EC9AA"
+			rewards: [{
+				id: "0EC497DCC7295F98"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 4L
+				id: "751ADA69E7930580"
+				item: { count: 1, id: "neovitae:crystal_cluster" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["273598A81C9EC9AA"]
+			icon: {
+				id: "neovitae:blood_orb_transcendent"
+			}
+			id: "0C4D9A5C8A9B4AB0"
+			rewards: [
+				{
+					id: "74D8944BB905F81E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "1400E0FB3AC438F0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title {p} title {\"text\": \"Divinus\", \"color\": \"dark_red\", \"italic\": false}"
+					id: "4F1754D2941371FF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "59F4F85C57DE6107"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				id: "73C239F276179E2E"
+				item: { count: 1, id: "neovitae:blood_orb_transcendent" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1210AF3C76111BF1"]
+			icon: {
+				id: "neovitae:raw_spiritus_crystal"
+			}
+			id: "36C14B7B7950F73C"
+			rewards: [{
+				id: "4682DA4C4718D7D8"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				advancement: "neovitae:neovitae/aspectum_omnia"
+				criterion: ""
+				id: "1A659FA54776EF82"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+	]
+}

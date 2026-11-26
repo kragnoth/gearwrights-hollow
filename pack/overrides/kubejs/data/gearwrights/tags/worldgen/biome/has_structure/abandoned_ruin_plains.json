@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:has_structure/village_plains",
+    "#minecraft:is_forest",
+    {
+      "id": "#c:is_plains",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10e207a2a56a7ab6"
+	group: "09EDFE5080C9B796"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "10E207A2A56A7AB6"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51A51D42AFB7F6CC"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "7541C864FF992537"
+			rewards: [{
+				id: "775A4069D3D2BD01"
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "13A3E8F877649117"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7541C864FF992537"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "1DB9AC93B6A15FCE"
+			rewards: [{
+				id: "1EF6238A9B859DB4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "22336352719B5690"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["1DB9AC93B6A15FCE"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "0B385E6864BCD839"
+			rewards: [{
+				id: "4A687BE79934D003"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "19A23160D1B62A21"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["7541C864FF992537"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "1774B9311712BB20"
+			rewards: [
+				{
+					id: "16E7F6A799066C20"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "40BDF9C3960AA04B"
+					table_id: 7277285686081762379L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DBC0A8FA30DBBBA"
+				structure: "#dying_world:abandoned_settlements"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1774B9311712BB20"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "1D3F59246D486289"
+			rewards: [{
+				count: 2
+				id: "1F377FFA8486F3C7"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1879D2A05C5F764D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["1774B9311712BB20"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "6A9C713BA1D81A63"
+			rewards: [
+				{
+					id: "2E2CFDD3E3E9828B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "445E0EF680AF9709"
+					table_id: 5072943234471139557L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "16C4592352688ACD"
+				structure: "#dying_world:landmarks"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6A9C713BA1D81A63"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "58CB18617B1DD9BC"
+			optional: true
+			rewards: [{
+				id: "17C816C12ED84224"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "4065D933F98165A9"
+				structure: "dying_world:ruined_chapel"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6A9C713BA1D81A63"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "1FEE284A9EE61BA6"
+			optional: true
+			rewards: [{
+				id: "1E481C75F250708B"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1DC7E385A749EF8C"
+				structure: "dying_world:plague_house"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6A9C713BA1D81A63"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "60619758FD3C6B9D"
+			optional: true
+			rewards: [{
+				id: "1A2EE2E1626E6143"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "5F008F6088AF7059"
+				structure: "dying_world:collapsed_minehead"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1DB9AC93B6A15FCE"]
+			icon: {
+				id: "regions_unexplored:redwood_log"
+			}
+			id: "07268CF115C7FA2E"
+			rewards: [{
+				id: "1F3DE4F269547235"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 16L
+				id: "42200D56C0CFB7F5"
+				item: { count: 1, id: "regions_unexplored:redwood_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1DB9AC93B6A15FCE"]
+			icon: {
+				id: "atmospheric:rosewood_log"
+			}
+			id: "37D2498EB5D60EE3"
+			rewards: [{
+				id: "193A1C1DC0FE7A32"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 16L
+				id: "1C40AF8736828583"
+				item: { count: 1, id: "atmospheric:rosewood_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1DB9AC93B6A15FCE"]
+			icon: {
+				id: "autumnity:maple_log"
+			}
+			id: "1633BC0C0E33DDE5"
+			optional: true
+			rewards: [{
+				id: "062678A8CB473927"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 16L
+				id: "1399A6068876B658"
+				item: { count: 1, id: "autumnity:maple_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1DB9AC93B6A15FCE"]
+			icon: {
+				id: "windswept:holly_log"
+			}
+			id: "578AC9E8AC1A8009"
+			optional: true
+			rewards: [{
+				id: "57DE7B5508A71EA8"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 16L
+				id: "14ACF7CA1337F8D3"
+				item: { count: 1, id: "windswept:holly_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.375d
+		}
+		{
+			dependencies: [
+				"2341219980923606"
+				"7541C864FF992537"
+			]
+			icon: {
+				id: "caverns_and_chasms:silver_ingot"
+			}
+			id: "186327154F8BCBBD"
+			rewards: [{
+				id: "102874BFF3A6F0E8"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 4L
+				id: "45FB1B52CE6D0199"
+				item: { count: 1, id: "caverns_and_chasms:silver_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["186327154F8BCBBD"]
+			icon: {
+				id: "caverns_and_chasms:spinel"
+			}
+			id: "1A832FD6078FBC3B"
+			optional: true
+			rewards: [{
+				id: "11A6B9F241F5EDFA"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 4L
+				id: "113EE16347F2F397"
+				item: { count: 1, id: "caverns_and_chasms:spinel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.125d
+		}
+		{
+			dependencies: [
+				"2341219980923606"
+				"7541C864FF992537"
+			]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "5963DB0E92299570"
+			rewards: [
+				{
+					id: "120B5D75E73DB24A"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "5F0A6DC5AE9B199A"
+					table_id: 5072943234471139557L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "214F22A1414D1B43"
+				structure: "dying_world:proving_grounds"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"6A9C713BA1D81A63"
+				"5963DB0E92299570"
+				"0B385E6864BCD839"
+			]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "63BEA6A674BACF06"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "7E1D52A09DB192DE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "15A19EC5FDB3F5A8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "438D2B6E5889AC90"
+					structure: "#dying_world:landmarks"
+					type: "structure"
+				}
+				{
+					id: "1BA7B0B1535B8012"
+					structure: "dying_world:proving_grounds"
+					type: "structure"
+				}
+				{
+					id: "79AE552CEFD4214D"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.625d
+		}
+	]
+}

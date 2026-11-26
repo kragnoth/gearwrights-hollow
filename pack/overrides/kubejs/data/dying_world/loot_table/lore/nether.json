@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Station Below: Day Book"
+                  },
+                  "author": "Wright E. Harrow",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Day book of the station below.\\n\\nThe draught here is not heat, though it comes with heat. It is closer to will. The furnaces burn hotter when the crew is angry.\"}",
+                    "{\"text\": \"The gold-wearers traded with us for a season. Then they stopped trading and started watching the gate.\\n\\nSome have gone through it. We did not stop them. I am not sure we could.\"}",
+                    "{\"text\": \"A black seep under the overworld frames. It does not burn and does not dry. It is coming through from our side.\\n\\nThe Guild calls it slag. It is not slag.\"}",
+                    "{\"text\": \"The foundry is past the lava field. Every measure of draught is fired there before it goes up.\\n\\nIf the draught is the wound, the foundry is where we kept it open. Map enclosed.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "dying_world:nether_foundries",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Route to the Foundry"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

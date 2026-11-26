@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/sunken_research_lab",
+  "max_distance_from_center": 64,
+  "size": 8,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:guardian",
+          "weight": 1,
+          "minCount": 2,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "dying_world:station/sunken/hub",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": false,
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG"
+}

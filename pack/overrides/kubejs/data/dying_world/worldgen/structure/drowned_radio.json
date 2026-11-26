@@ -1,0 +1,10 @@
+{
+  "type": "tarbound:dry_land",
+  "structure": "tarbound:drowned_radio_layout",
+  "size_x": 9,
+  "size_z": 9,
+  "biomes": "#dying_world:has_structure/drowned_radio",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

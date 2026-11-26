@@ -1,0 +1,44 @@
+{
+  "_comment": "Ranged mobs only: projectiles hit 60% harder.",
+  "affix": {
+    "name": "Deadeye",
+    "weight": 3,
+    "pool": [
+      "elite",
+      "champion"
+    ]
+  },
+  "conditions": {
+    "mobs": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:bogged",
+      "minecraft:pillager",
+      "minecraft:piglin",
+      "minecraft:drowned",
+      "minecraft:witch",
+      "minecraft:blaze",
+      "minecraft:ghast"
+    ]
+  },
+  "combat": {
+    "damage_dealt": [
+      {
+        "types": [
+          "#minecraft:is_projectile"
+        ],
+        "multiply": 1.6
+      }
+    ]
+  },
+  "particles": {
+    "type": "minecraft:enchanted_hit",
+    "count": 1,
+    "interval": 10
+  },
+  "loot": {
+    "xp": {
+      "multiply": 1.3
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/straight16_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/straight16_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/straight10_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/cross_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/tee_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/tee_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/corner_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:swamp/abandoned/streets/end_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      }
+    }
+  ]
+}

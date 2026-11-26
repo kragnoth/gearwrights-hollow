@@ -1,0 +1,166 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:abandoned_ruin_plains",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_ruin_taiga",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_ruin_savanna",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_ruin_desert",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_ruin_snowy",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_ruin_swamp",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:abandoned_cabin",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:abandoned_cabin_oak",
+      "weight": 5
+    },
+    {
+      "structure": "dying_world:abandoned_cabin_dark_oak",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:abandoned_smithy",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:abandoned_smithy_arid",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:hermit_cottage",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:tinker_workshop",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:plague_house",
+      "weight": 8
+    },
+    {
+      "structure": "dying_world:ruined_chapel",
+      "weight": 5
+    },
+    {
+      "structure": "dying_world:charnel_crypt",
+      "weight": 5
+    },
+    {
+      "structure": "dying_world:collapsed_minehead",
+      "weight": 9
+    },
+    {
+      "structure": "dying_world:concrete_pad_temperate",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:concrete_pad_cold",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:concrete_pad_arid",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:concrete_pad_wild",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:dig_site_arid",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:dig_site_temp",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:researcher_cabin",
+      "weight": 6
+    },
+    {
+      "structure": "dying_world:wayside_shrine",
+      "weight": 12
+    },
+    {
+      "structure": "dying_world:wells/temperate",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:wells/cold",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:wells/arid",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:wells/wild",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:wells/washhouse",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_temperate",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_cold",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_arid",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_wild",
+      "weight": 2
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_abandoned",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:scavenger_outpost_raiders",
+      "weight": 1
+    },
+    {
+      "structure": "dying_world:lighthouse",
+      "weight": 3
+    },
+    {
+      "structure": "dying_world:drowned_radio",
+      "weight": 12
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 11,
+    "separation": 5,
+    "salt": 1657606845,
+    "exclusion_zone": {
+      "other_set": "dying_world:settlements",
+      "chunk_count": 7
+    }
+  }
+}

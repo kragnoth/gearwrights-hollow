@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6e5c1a7d0b9f4a21"
+	group: "1C6C41D6798C3267"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
+	id: "6E5C1A7D0B9F4A21"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BCCE13FE16F5EFD"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "1B305531C9754245"
+			rewards: [{
+				id: "739F82B22438898E"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "55408875CD332775"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B305531C9754245"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "0367FB39849A0B1B"
+			rewards: [{
+				id: "582F2DE5BC09F869"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "122C7A271643B984"
+				structure: "dying_world:hermit_cottage"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1B305531C9754245"]
+			icon: {
+				id: "minecraft:reinforced_deepslate"
+			}
+			id: "4304179F7BF9D77A"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_2"
+					id: "3D978561F0AE258D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7CCEB986173CE4AD"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "5FBC8A94180285EB"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "653397D5FF1C128C"
+				structure: "#dying_world:research_gates"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B305531C9754245"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "67FF97C261DB7159"
+			rewards: [{
+				id: "544073C8E1A36014"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "257A7695271BBCAE"
+				structure: "dying_world:plague_house"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1B305531C9754245"]
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "1F60B04AB8499F43"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_1"
+					id: "5971F2124AE74F0D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "625F511F7F5DF6D8"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "7640346FCDD27155"
+				structure: "dying_world:tinker_workshop"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4304179F7BF9D77A"]
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "1846668C3317855B"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_3"
+					id: "182EFE13D578E81C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2BC8B30C4709F5C0"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [{
+				id: "072A276DDE9CE8BB"
+				structure: "dying_world:proving_grounds"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1846668C3317855B"]
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "21F2227B14BC1310"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_3"
+					id: "7D9B6604012A9588"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7E19033754174F4F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "51DAFEBB2FD143D6"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2521669BBD25B189"
+				structure: "dying_world:sunken_research_lab"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["1846668C3317855B"]
+			icon: {
+				id: "minecraft:calibrated_sculk_sensor"
+			}
+			id: "0E0F7020DA98D7FA"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_3"
+					id: "23C80EBAC0BC26FB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/hallmarked generate for {p} 1 unique=brandts_waxed_hood"
+					id: "6C0A22CA7D0D6DCE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0D66CCF15FC0C6AA"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1A2D1A696DDF500C"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44D72005CDC043CA"
+				structure: "dying_world:sculk_research_site"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["4304179F7BF9D77A"]
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "4D0B9594321F0785"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_4"
+					id: "04BCAE5F0A1E734E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "474CD693E28E08D9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "7B81B08430D3B72F"
+				structure: "#dying_world:nether_stations"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["4D0B9594321F0785"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "111B2C7B9D27BC0F"
+			rewards: [
+				{
+					command: "/hallmarked generate for {p} 1 unique=gales_bank_shovel"
+					id: "6AB2990670A3961B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "64925E2735B5DA4E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "277E8CB2E797B946"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "48860317BED00D43"
+				structure: "#dying_world:nether_foundries"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["4304179F7BF9D77A"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "7229A829F49344D4"
+			rewards: [
+				{
+					command: "/tag {p} add gh_residue_4"
+					id: "6A9D8948C7D5C319"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/hallmarked generate for {p} 1 unique=marshs_field_boots"
+					id: "19D85A37678279B3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "22714F8D85078893"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "74CF9C88D53B3AA6"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23E5CDCBB3942133"
+				structure: "#dying_world:end_stations"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["4D0B9594321F0785"]
+			icon: {
+				id: "incision:carrion"
+			}
+			id: "1A3E1F30A5BA9297"
+			rewards: [{
+				id: "4CD18F8B47C5D829"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				biome: "incision:eroded_yard"
+				id: "035D4E3A6853C540"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1A3E1F30A5BA9297"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "71AE846C5B761176"
+			rewards: [
+				{
+					id: "4B89AFAD52EF26E4"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "285C16CB208F27E0"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "incision:skeletoncultist"
+				id: "575DBE5CA81F7238"
+				type: "kill"
+				value: 3L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A3E1F30A5BA9297"]
+			icon: {
+				id: "incision:burial_knife"
+			}
+			id: "145E2E5CADBEDC99"
+			rewards: [{
+				id: "21880F7748531F12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18E899A2E020F949"
+				item: { count: 1, id: "incision:burial_knife" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"111B2C7B9D27BC0F"
+				"1C4C5E5A4D91FB07"
+			]
+			icon: {
+				id: "create:chromatic_compound"
+			}
+			id: "422704930DFDEDE0"
+			rewards: [{
+				id: "669D70E9F5BB7BC5"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7AC5E41CFA683FEB"
+				item: { count: 1, id: "create:chromatic_compound" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["422704930DFDEDE0"]
+			icon: {
+				id: "create:shadow_steel"
+			}
+			id: "7C7AF263DF9FAD3D"
+			rewards: [{
+				id: "73354C963CE4359E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "476117F5153A4078"
+				item: { count: 1, id: "create:shadow_steel" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["422704930DFDEDE0"]
+			icon: {
+				id: "create:refined_radiance"
+			}
+			id: "0E6E2FD709279ED7"
+			rewards: [{
+				id: "2677BE9903235A00"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "608F06FC880321A6"
+				item: { count: 1, id: "create:refined_radiance" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"7C7AF263DF9FAD3D"
+				"0E6E2FD709279ED7"
+			]
+			icon: {
+				id: "hallmarked:gearwrights_seal"
+			}
+			id: "525BBB1B92B4A239"
+			rewards: [
+				{
+					command: "/loot give {p} loot dying_world:map/the_hollow"
+					id: "550F32369548722F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "60D9896EA22764EB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0B9A96F2DCCE1DCF"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "367537DA21FCF075"
+				item: { count: 1, id: "hallmarked:gearwrights_seal" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21F2227B14BC1310"
+				"0E0F7020DA98D7FA"
+				"7229A829F49344D4"
+				"525BBB1B92B4A239"
+			]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "54A48D92052194BA"
+			rewards: [
+				{
+					command: "/hallmarked generate for {p} 1 unique=penitents_lamp"
+					id: "075F5C17B43DEC89"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0CFDA155E739BCE4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "7E7D81F9F3EFBA50"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title {p} title {\"text\": \"What They Opened\", \"color\": \"dark_purple\", \"italic\": false}"
+					id: "37A775F92B823B8E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "04CF135E28904BDD"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "07E86BA017B85A28"
+				stage: "gh_hollow_defeated"
+				type: "gamestage"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F60B04AB8499F43"]
+			icon: {
+				id: "gearwrights:foundry_residue"
+			}
+			id: "2818380DD10682E5"
+			rewards: [{
+				id: "48F5F4374303103A"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2088BC68A2BEB5F9"
+				item: { count: 1, id: "gearwrights:foundry_residue" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["54A48D92052194BA"]
+			icon: {
+				id: "gearwrights:escapement"
+			}
+			id: "7EC8AFFE4D90AD2F"
+			rewards: [
+				{
+					id: "49558698ECBAAF41"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "4A1440684DACC211"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "4D7D2D4910944881"
+				item: { count: 1, id: "gearwrights:escapement" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "hallmarked.unique.gales_bank_shovel",
+  "lore": "hallmarked.unique.gales_bank_shovel.lore",
+  "items": {
+    "item": "minecraft:iron_shovel"
+  },
+  "chance": {},
+  "tool": {
+    "modifiers": [
+      {
+        "name": "gale_dig",
+        "attribute": "minecraft:player.block_break_speed",
+        "operation": "multiply_total",
+        "value": 0.2
+      },
+      {
+        "name": "gale_burn",
+        "attribute": "minecraft:generic.burning_time",
+        "operation": "multiply_base",
+        "value": -0.4
+      }
+    ]
+  }
+}

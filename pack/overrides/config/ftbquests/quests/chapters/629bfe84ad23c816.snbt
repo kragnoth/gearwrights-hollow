@@ -1,0 +1,496 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "629bfe84ad23c816"
+	group: "1C6C41D6798C3267"
+	icon: {
+		id: "tarbound:spirit_board"
+	}
+	id: "629BFE84AD23C816"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0BCCE13FE16F5EFD"
+				"4DD6EF4C9ACAD67F"
+			]
+			icon: {
+				id: "tarbound:tar_bucket"
+			}
+			id: "1C4C5E5A4D91FB07"
+			rewards: [{
+				id: "4A08510C8FBD86A7"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "59C8107AAC6DF8D5"
+				item: { count: 1, id: "tarbound:tar_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "tarbound:spirit_board"
+			}
+			id: "3CA4380C39607708"
+			rewards: [{
+				id: "3FB8237222C4496A"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "166A6DC46583AAF4"
+				item: { count: 1, id: "tarbound:spirit_board" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA4380C39607708"]
+			icon: {
+				id: "tarbound:scrying_font"
+			}
+			id: "05C1A55100CFBB38"
+			rewards: [{
+				id: "140A281060CB7E8B"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1DD4CF0909873713"
+				item: { count: 1, id: "tarbound:scrying_font" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["3CA4380C39607708"]
+			icon: {
+				id: "tarbound:spirit_board"
+			}
+			id: "3E961021C0E5BA63"
+			rewards: [{
+				id: "18F8509F3C8D158D"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				entity: "tarbound:weakened_blaze"
+				id: "5F2D0C48B6C977CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["05C1A55100CFBB38"]
+			icon: {
+				id: "tarbound:blank_contract"
+			}
+			id: "0D546E2ACE78BCE6"
+			rewards: [{
+				id: "0BF224BD4BA7F588"
+				table_id: 7620387735345317284L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F652839C85E9B4A"
+				item: { count: 1, id: "tarbound:blank_contract" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D546E2ACE78BCE6"]
+			icon: {
+				id: "tarbound:reliquary"
+			}
+			id: "59CF596AC2C13B60"
+			rewards: [{
+				id: "5AE72238EE97F195"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19C5AD8B4E116D5C"
+				item: { count: 1, id: "tarbound:reliquary" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59CF596AC2C13B60"
+				"3D4A1BEBF9C314F1"
+			]
+			icon: {
+				id: "tarbound:steward"
+			}
+			id: "111DF059A82E0716"
+			rewards: [{
+				id: "64D88E7F9AF8068B"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "1770DCC423182D4E"
+				item: { count: 1, id: "tarbound:steward" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["111DF059A82E0716"]
+			icon: {
+				id: "tarbound:tar_antenna"
+			}
+			id: "679E22B36236EB13"
+			rewards: [{
+				id: "7F7524092D06D613"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "1D4FD872356E5427"
+				item: { count: 1, id: "tarbound:tar_antenna" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59CF596AC2C13B60"
+				"4A437BA327C9FF46"
+				"3D4A1BEBF9C314F1"
+			]
+			icon: {
+				id: "tarbound:votive_skull"
+			}
+			id: "1EB49F9792831E37"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 1"
+					id: "16D66105CDD3FFB9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1ACBC0C6DBEAAE11"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				id: "13306A71CC8EFE72"
+				item: { count: 1, id: "tarbound:votive_skull" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["0BCCE13FE16F5EFD"]
+			icon: {
+				id: "tarbound:weakened_soul"
+			}
+			id: "4DD6EF4C9ACAD67F"
+			rewards: [{
+				id: "7B3D317084CCAC1D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "14834559D39D640F"
+				item: { count: 1, id: "tarbound:weakened_soul" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E961021C0E5BA63"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "04678A5E0FD64487"
+			rewards: [{
+				id: "0F885BDF2C11AED8"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				advancement: "tarbound:scorched_spawner"
+				criterion: ""
+				id: "65E934759B8714C0"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["05C1A55100CFBB38"]
+			icon: {
+				id: "minecraft:candle"
+			}
+			id: "63443DC43CBDEA67"
+			rewards: [{
+				id: "43844D79690EE345"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "tarbound:feed_radio"
+				criterion: ""
+				id: "3F23EC7A1A4950A4"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["59CF596AC2C13B60"]
+			icon: {
+				id: "tarbound:spirit_contract"
+			}
+			id: "468B1993B7E5B2D2"
+			rewards: [{
+				id: "52605A67CF7AF244"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "tarbound:first_order"
+				criterion: ""
+				id: "774D89E8CBB73C86"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["468B1993B7E5B2D2"]
+			icon: {
+				id: "tarbound:shade"
+			}
+			id: "2604B72385407A09"
+			rewards: [{
+				id: "6FC9224BD0387645"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				advancement: "tarbound:shade"
+				criterion: ""
+				id: "67A9783B28A62201"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["111DF059A82E0716"]
+			icon: {
+				id: "tarbound:ossuary"
+			}
+			id: "6CE83700F1014A22"
+			rewards: [{
+				id: "3097B39FFEB9AC22"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				advancement: "tarbound:ossuary"
+				criterion: ""
+				id: "47E8F800D6882E5D"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["679E22B36236EB13"]
+			icon: {
+				id: "tarbound:tar_antenna"
+			}
+			id: "05AFF3BA28CE976A"
+			rewards: [{
+				id: "4F67FA6FB3598F4E"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				advancement: "tarbound:cell_tower"
+				criterion: ""
+				id: "399D8B1FDE6ED9D5"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["05AFF3BA28CE976A"]
+			icon: {
+				id: "tarbound:transient_antenna"
+			}
+			id: "33C617431F051EB9"
+			rewards: [{
+				id: "0CF0A49744D6FEA5"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				advancement: "tarbound:transient_antenna"
+				criterion: ""
+				id: "58C31962A8999B28"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["59CF596AC2C13B60"]
+			icon: {
+				id: "minecraft:candle"
+			}
+			id: "0EC548C0E8795C69"
+			rewards: [
+				{
+					id: "07B83D00432CED6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AA3087DB0E11AD7"
+					table_id: 7620387735345317284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "tarbound:sixteen_candles"
+				criterion: ""
+				id: "54544E9FBF700C5C"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "tarbound:essence_of_the_void_bucket"
+			}
+			id: "485C09286B93C404"
+			rewards: [{
+				id: "18D18EA70D7A0145"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				advancement: "tarbound:essence"
+				criterion: ""
+				id: "14C4C93322073459"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "minecraft:spruce_door"
+			}
+			id: "6DC75C3C4F11BF6F"
+			rewards: [{
+				id: "113D87153B0535AB"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "tarbound:researcher_cabin"
+				criterion: ""
+				id: "5BDEAA02467C02AA"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "minecraft:candle"
+			}
+			id: "068325E50C620419"
+			rewards: [{
+				id: "5F879D1B44EC94B8"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "tarbound:wayside_shrine"
+				criterion: ""
+				id: "067A479D5BB85F88"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "43C410D1E680B619"
+			rewards: [{
+				id: "263DFF0D213110CD"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "tarbound:drowned_radio"
+				criterion: ""
+				id: "3FEE7D6FD004495F"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C4C5E5A4D91FB07"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "23C03FFD02803CD3"
+			rewards: [{
+				id: "2FD3FCC3C4459FD9"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				advancement: "tarbound:charnel_crypt"
+				criterion: ""
+				id: "1772E0F3C60EB46E"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+	]
+}

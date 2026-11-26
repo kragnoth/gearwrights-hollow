@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "windswept"
+    }
+  ],
+  "parent_a": "minecraft:carrot",
+  "parent_b": "cultivar:madder_root",
+  "child": "windswept:ginger",
+  "chance": 0.25
+}

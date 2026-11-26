@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "caverns_and_chasms:block/fragile_deepslate_top",
+    "top": "caverns_and_chasms:block/fragile_deepslate_top",
+    "side": "caverns_and_chasms:block/fragile_deepslate1"
+  }
+}

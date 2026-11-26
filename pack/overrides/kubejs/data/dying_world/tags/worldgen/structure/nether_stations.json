@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dying_world:research_nether",
+    "dying_world:research_nether_derelict"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/lighthouse",
+  "max_distance_from_center": 40,
+  "size": 1,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 40,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "dying_world:lighthouse/start",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false
+}

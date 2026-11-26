@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:grove",
+  "features": [
+    "gearwrights:trees/windswept/holly_trees_on_snow",
+    "gearwrights:trees/windswept/spruce_trees_on_snow"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,53 @@
+{
+  "_comment": "8% of hostile mobs become Elites with 1 to 2 affixes.",
+  "priority": 90,
+  "group": "mobrules_affixes:tier",
+  "conditions": {
+    "hostile": true,
+    "spawn_types": [
+      "natural",
+      "spawner",
+      "structure",
+      "chunk_generation",
+      "patrol",
+      "event",
+      "trial_spawner"
+    ],
+    "none_of": [
+      {
+        "mobs": [
+          "minecraft:wither",
+          "minecraft:ender_dragon",
+          "minecraft:warden",
+          "minecraft:elder_guardian"
+        ]
+      }
+    ],
+    "chance": 0.08
+  },
+  "affixes": {
+    "pool": "elite",
+    "count": [
+      1,
+      2
+    ],
+    "color": "gold"
+  },
+  "loot": {
+    "drops": [
+      {
+        "item": "minecraft:emerald",
+        "count": [
+          1,
+          2
+        ],
+        "chance": 0.5,
+        "player_kill_only": true,
+        "per_looting": 0.5
+      }
+    ],
+    "xp": {
+      "multiply": 2
+    }
+  }
+}

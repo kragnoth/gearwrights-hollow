@@ -1,0 +1,468 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1596da5ced2f4715"
+	group: "18DA640722B0BF0D"
+	icon: {
+		id: "enderio:vibrant_alloy_ingot"
+	}
+	id: "1596DA5CED2F4715"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18D84EB3B7A2DBD3"
+				"197FA0167B33DAD3"
+			]
+			icon: {
+				id: "enderio:grains_of_infinity"
+			}
+			id: "6820D6A44DE1E5E0"
+			rewards: [{
+				id: "1319BA6CCEF4C51A"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "1C3CE958A39A3C30"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6820D6A44DE1E5E0"
+				"00E2BA4FA89B0FA6"
+			]
+			icon: {
+				id: "enderio:void_chassis"
+			}
+			id: "151752E057C6E8BD"
+			rewards: [{
+				id: "1103395C9F9BBABD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BF14BF6E9166E04"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151752E057C6E8BD"]
+			icon: {
+				id: "enderio:alloy_smelter"
+			}
+			id: "31D1DD15F8E1717E"
+			rewards: [{
+				id: "186D367DA0C19E03"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "10559344EC171679"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["151752E057C6E8BD"]
+			icon: {
+				id: "enderio:stirling_generator"
+			}
+			id: "0DF300F6E16E2372"
+			rewards: [{
+				id: "1736D3D44C9C45E1"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "15ACB1EDF68436DA"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"151752E057C6E8BD"
+				"1F5719DABDF0AA60"
+			]
+			icon: {
+				id: "enderio:sag_mill"
+			}
+			id: "6A1F0339E7EA6AD7"
+			rewards: [{
+				id: "49FC3EBBE2D5CD64"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1672D5DC02CDF717"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["31D1DD15F8E1717E"]
+			icon: {
+				id: "enderio:conductive_alloy_ingot"
+			}
+			id: "3482EC3D6857F4C0"
+			rewards: [{
+				id: "1D47A557DA76A091"
+				table_id: 2170275969472921602L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "5608F6CB62DD7822"
+					item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "119E0585FD50E1FD"
+					item: { count: 1, id: "enderio:redstone_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1A621ED8575326DD"
+					item: { count: 1, id: "enderio:dark_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3482EC3D6857F4C0"]
+			icon: {
+				id: "enderio:conduit_binder"
+			}
+			id: "7C4AC0DDE7E1C0A9"
+			rewards: [{
+				id: "1F85E73161F5A857"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "19E5CEFDF4A11AB0"
+					item: { count: 1, id: "enderio:conduit_binder" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1726A7CD4F77C50F"
+					item: { count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["3482EC3D6857F4C0"]
+			icon: {
+				id: "enderio:basic_capacitor"
+			}
+			id: "1171D34458A76C8C"
+			rewards: [{
+				id: "1E6930E0489840C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1CEFB34A5880E7B4"
+					item: { count: 1, id: "enderio:basic_capacitor" }
+					type: "item"
+				}
+				{
+					id: "1BF7CB43900134CD"
+					item: { count: 1, id: "enderio:double_layer_capacitor" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1171D34458A76C8C"]
+			icon: {
+				id: "enderio:energetic_alloy_ingot"
+			}
+			id: "03604322E3B8EAA1"
+			rewards: [
+				{
+					id: "12D47849218ECF81"
+					table_id: 2170275969472921602L
+					type: "random"
+				}
+				{
+					id: "18E02923620C3043"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8L
+					id: "042BF3B71084C672"
+					item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "12E4ECC63051FCEC"
+					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CFCAC802E82F936"
+					item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03604322E3B8EAA1"]
+			icon: {
+				id: "enderio:octadic_capacitor"
+			}
+			id: "1DA7932FFF339A21"
+			rewards: [{
+				id: "2D3B34963B6C7F52"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "133675C8E9FBFC23"
+				item: { count: 1, id: "enderio:octadic_capacitor" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"03604322E3B8EAA1"
+				"070E24F3E92D4B6F"
+			]
+			icon: {
+				id: "enderio:soularium_ingot"
+			}
+			id: "1A1F1B5F4FABD86B"
+			rewards: [{
+				id: "0F5B16C573E3812B"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6A0BBDC6FAD7739F"
+					item: { count: 1, id: "enderio:soularium_ingot" }
+					type: "item"
+				}
+				{
+					id: "063DE98058CC5F84"
+					item: { count: 1, id: "enderio:soul_vial" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A1F1B5F4FABD86B"
+				"1DA7932FFF339A21"
+			]
+			icon: {
+				id: "enderio:soul_binder"
+			}
+			id: "1AA3A8364A645A71"
+			rewards: [{
+				id: "7FB3542C807FCB41"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1CAA798124507A90"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AA3A8364A645A71"]
+			icon: {
+				id: "enderio:staff_of_travelling"
+			}
+			id: "6D2A5A9B3FEE36A7"
+			optional: true
+			rewards: [{
+				id: "38659C5AC33E471B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "261B63532FB3EFC3"
+				item: { count: 1, id: "enderio:staff_of_travelling" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["03604322E3B8EAA1"]
+			icon: {
+				id: "enderio_evolution:crude_steel_ingot"
+			}
+			id: "5546B2118F187120"
+			rewards: [{
+				id: "0E31D9A82D7EABE6"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 8L
+				id: "1338FABDD5C0065B"
+				item: { count: 1, id: "enderio_evolution:crude_steel_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"5546B2118F187120"
+				"1AA3A8364A645A71"
+			]
+			icon: {
+				id: "enderio_evolution:crystalline_alloy_ingot"
+			}
+			id: "1834DD7C470E7D35"
+			rewards: [{
+				id: "1ADB6490F516DBA8"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				count: 4L
+				id: "150338ADC1825EA9"
+				item: { count: 1, id: "enderio_evolution:crystalline_alloy_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: [
+				"1834DD7C470E7D35"
+				"4A437BA327C9FF46"
+			]
+			icon: {
+				id: "enderio_evolution:melodic_alloy_ingot"
+			}
+			id: "7FA2D4388268577E"
+			rewards: [{
+				id: "5E442D465A2368C1"
+				type: "xp"
+				xp: 350
+			}]
+			tasks: [{
+				count: 4L
+				id: "1ED90118EF727398"
+				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7FA2D4388268577E"
+				"4965BC2D6846DA0F"
+			]
+			icon: {
+				id: "enderio_evolution:stellar_alloy_ingot"
+			}
+			id: "1473FE71148C64CD"
+			rewards: [
+				{
+					command: "/puffish_skills points add {p} kskills:skill_tree 2"
+					id: "45010FC4000A422F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "13420ACDB2AE2270"
+					table_id: 3225327707034082220L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "3396F1DC5272041E"
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1473FE71148C64CD"]
+			icon: {
+				id: "enderio_evolution:stellar_infinity_generator"
+			}
+			id: "23019BC6BBA03951"
+			rewards: [{
+				id: "4D973BDBF6B88E12"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				id: "3ACBEB12C4C2B178"
+				item: { count: 1, id: "enderio_evolution:stellar_infinity_generator" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+	]
+}

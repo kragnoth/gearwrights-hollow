@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Scavenger's Tally"
+                  },
+                  "author": "the Keep",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Tally of Guild crates taken: thirty-one. Good brass, rope, lamp oil, a crate of frame bolts we could not sell.\\n\\nThe gold-wearers came up through a gatehouse and stayed.\"}",
+                    "{\"text\": \"They hold the keep and we hold the walls. They want gold and we want quiet. It works.\\n\\nNobody goes near the gatehouses after dark. Not them, not us.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    }
+  ]
+}

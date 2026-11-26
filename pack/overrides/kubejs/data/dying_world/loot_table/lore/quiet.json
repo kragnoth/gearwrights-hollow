@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Letter, Unsent"
+                  },
+                  "author": "Edda",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Dear Tom,\\n\\nThe Guild men came through again, hiring for the gatehouse up the valley. Good silver. Your father signed on.\\n\\nThe well water tastes of pennies since.\"}",
+                    "{\"text\": \"He came home grey and quiet. The cows will not go to the north field.\\n\\nWe are leaving after the harvest, everyone is. Come find us at Aunt Bet's.\\n\\nEdda\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Notice of Closure"
+                  },
+                  "author": "the Parish",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"By order of the parish, this village is closed.\\n\\nThe sickness from the gatehouse road has taken eleven. Those who remain will go south with the carts.\"}",
+                    "{\"text\": \"Do not drink from the well. Do not stay after dark. Do not open the doors that are nailed shut.\\n\\nGod keep whoever reads this.\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ]
+    }
+  ]
+}

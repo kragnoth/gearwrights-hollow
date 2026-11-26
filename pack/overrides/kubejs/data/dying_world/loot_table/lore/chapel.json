@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Sermon, Unfinished"
+                  },
+                  "author": "unsigned",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"They call it draught, as if it were wind through a door.\\n\\nIt is a door. And we have propped it open to warm our hands at what stands on the other side.\"}",
+                    "{\"text\": \"Each night the bell in the Hollow tolls twelve, and nobody rings it. Each night after, the dead walk a little longer.\\n\\nThe Guild says it is a fault in the clockwork.\"}",
+                    "{\"text\": \"I will preach this on the morrow, whatever the Guild pays our\"}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

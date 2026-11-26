@@ -1,0 +1,545 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_redpueblo_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_creole_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_creole_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_limestone_cottage_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_limestone_cottage_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_courtyard_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_courtyard_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_casita_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_casita_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_planter_house_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_planter_house_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_smokehouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_smokehouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_forge_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_forge_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_schoolhouse_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_schoolhouse_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_chapel_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_chapel_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_kitchen_garden_ruined_plain",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dying_world:scavenger_stronghold/desert/houses/desert_r_bandadobe_kitchen_garden_ruined_fort",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

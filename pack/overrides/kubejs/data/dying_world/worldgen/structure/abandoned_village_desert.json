@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/abandoned_village_desert",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:husk",
+          "weight": 70,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 30,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:spider",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "dying_world:desert/abandoned/town_centers",
+  "size": 6,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": true,
+  "liquid_settings": "ignore_waterlogging"
+}

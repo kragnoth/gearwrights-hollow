@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#dying_world:has_structure/hermit_cottage",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "dying_world:landmarks/hermit_cottage",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 32,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

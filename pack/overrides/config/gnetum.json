@@ -1,0 +1,410 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 60,
+  "screenMaxFps": 20,
+  "mapVanillaElements": {
+    "minecraft:spectator_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "create_cyber_goggles:tip_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:toolbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create_cyber_goggles:tooltip_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:status_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:subtitle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:active_abilities": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "relics:stun_effect": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "ars_nouveau:spell_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:selectable_container_item": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "naturescompass:natures_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:scoreboard_sidebar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ars_nouveau:mana_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "artifacts:artifact_cooldowns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:minecraft_hand": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "malum:staff_charges": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "ars_nouveau:tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "immersiveengineering:blocks": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:saving_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "nomansland:dialogue": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "sophisticatedstorage:storage_tool_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:title": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create_cyber_goggles:force_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:value_settings": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:selected_item_name": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "sophisticateditemactions:highlight_directions": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "modonomicon:multiblock_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:schematic": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sophisticatedstorage:paintbrush_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:radiation_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ars_nouveau:scry_camera": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:blueprint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "simulated:linked_typewriter_binding": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "relics:info_tile": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:track_placement": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:sleep_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "malum:touch_of_darkness": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:boss_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:piglin_mask/teeth": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "immersiveengineering:items": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:linked_controller": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "malum:hidden_blade_cooldown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:leafy_ring_hide": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "nomansland:dream_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "explorerscompass:explorers_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:book_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:slimed": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:tab_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "nuggets:in_world_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:goggle_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:chat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  },
+  "mapModdedElementsPre": {
+    "journeymap": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "powah": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "jade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
+}

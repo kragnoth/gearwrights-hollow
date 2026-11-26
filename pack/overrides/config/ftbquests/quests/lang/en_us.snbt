@@ -1,0 +1,720 @@
+{
+	chapter_group.09EDFE5080C9B796.title: "&aFoundations"
+	chapter_group.1DC99C37467B3A92.title: "&6Industry"
+	chapter_group.1C6C41D6798C3267.title: "&5Arcana"
+	chapter_group.18DA640722B0BF0D.title: "&bEndgame"
+	chapter.3FE9005C244DE407.title: "Awakening"
+	chapter.3FE9005C244DE407.chapter_subtitle: ["The first days in the Hollow"]
+	quest.09B0A9A33A74B374.title: "Awaken"
+	quest.09B0A9A33A74B374.quest_subtitle: "Every legend starts with a first breath"
+	quest.09B0A9A33A74B374.quest_desc: ["&6Welcome, wanderer.", "The world is old, hungry, and full of gears, ghosts and things that should stay buried.", "The villages you find have mostly gone quiet. Burnt shells, empty hamlets, the odd waystone left standing. Someone lived well here once.", "Click the checkmark when you're ready to begin."]
+	quest.6CBDDBA7400112B7.title: "Wake the Wheel"
+	quest.6CBDDBA7400112B7.quest_subtitle: "Spend your first point"
+	quest.6CBDDBA7400112B7.quest_desc: ["Open the &6Skill Tree&r (default key &eK&r) and spend your starting point.", "Seven disciplines, one wheel: &7Bulwark&r, &cWarpath&r, &aDeadeye&r, &bPathfinder&r, &6Foreman&r, &5Occult&r and &6Industry&r.", "Every level earns more points, and many quest milestones hand out more. Choose your path."]
+	quest.51A51D42AFB7F6CC.title: "Workbench"
+	quest.51A51D42AFB7F6CC.quest_desc: ["Wood in, tools out. Craft a crafting table.", "Trees are thinner on the ground than you remember. Plant what you cut."]
+	quest.6E60DC2F0FE6F3A4.title: "Stone Age"
+	quest.6E60DC2F0FE6F3A4.quest_desc: ["A proper pickaxe makes a proper start."]
+	quest.1987E9725CC98C1F.title: "Hearth and Home"
+	quest.1987E9725CC98C1F.quest_subtitle: "Set your spawn"
+	quest.1987E9725CC98C1F.quest_desc: ["Sleep in a bed to set your respawn point.", "Later, the &6Hearth&r perk rewards you for staying close to it. A &eSleeping Bag&r from Comforts lets you skip the night without moving your spawn."]
+	quest.2341219980923606.title: "Iron Resolve"
+	quest.2341219980923606.quest_desc: ["Smelt 8 iron ingots. Almost everything you build from here starts with iron."]
+	quest.5B708E5DF1182DEA.title: "Pack Mule"
+	quest.5B708E5DF1182DEA.quest_subtitle: "Carry more"
+	quest.5B708E5DF1182DEA.quest_desc: ["Craft a backpack. You're going to need the room.", "Backpacks take &eupgrades&r: pickup, magnet, feeding, crafting. Upgrade the backpack itself with iron, gold, diamond and netherite as you go."]
+	quest.003E06FFD3FB8871.title: "Something Warm"
+	quest.003E06FFD3FB8871.quest_desc: ["Build a cooking pot. A fed adventurer is a living adventurer.", "The &6Hearth \\& Harvest&r chapter takes it from here."]
+	quest.167DAAEEACAB3C58.title: "One Tool to Dig Them All"
+	quest.167DAAEEACAB3C58.quest_desc: ["Paxels are pickaxe, axe and shovel in one. One less slot to juggle on long trips."]
+	quest.1123EACC1267BDDA.title: "Waystone"
+	quest.1123EACC1267BDDA.quest_subtitle: "Never walk home again"
+	quest.1123EACC1267BDDA.quest_desc: ["Craft a waystone and save yourself a lot of walking.", "The abandoned villages often still have one standing, mossy and half buried. Activate it and it joins your network."]
+	quest.08184FBFE9956145.title: "The Hum of Gears"
+	quest.08184FBFE9956145.quest_subtitle: "Where industry begins"
+	quest.08184FBFE9956145.quest_desc: ["Mix andesite with iron nuggets (or zinc) for &6Andesite Alloy&r: the humble backbone of all machinery.", "The &6Gears and Steam&r chapter begins here."]
+	chapter.4A323720B3EA4178.title: "Hearth \\& Harvest"
+	chapter.4A323720B3EA4178.chapter_subtitle: ["Fields, kitchens and full bellies"]
+	quest.14DC927971B4192B.title: "Kitchen Knife"
+	quest.14DC927971B4192B.quest_subtitle: "Farmer's Delight"
+	quest.14DC927971B4192B.quest_desc: ["Knives harvest straw from grass and crops, and cut ingredients on a &6Cutting Board&r.", "Farmer's Delight turns cooking into a craft: boards, pots, skillets and stoves."]
+	quest.173B132B7DB42AE6.title: "Cutting Board"
+	quest.173B132B7DB42AE6.quest_desc: ["Place ingredients on the board and hit them with a knife (or an axe, pickaxe or shovel for other recipes). Fish fillets, sliced meat, kelp rolls."]
+	quest.17625355F3CCB5EE.title: "Hot Stove"
+	quest.17625355F3CCB5EE.quest_desc: ["A stove cooks six things at once and heats any pot or skillet placed on top. A campfire works in a pinch."]
+	quest.0886FE6172DC6BC8.title: "Skillet"
+	quest.0886FE6172DC6BC8.quest_desc: ["Cooks on a stove one item at a time, or swing it as a heavy weapon. Hold-and-place to cook in-world."]
+	quest.19DE950E16E573C8.title: "Rich Soil"
+	quest.19DE950E16E573C8.quest_subtitle: "Feed the earth"
+	quest.19DE950E16E573C8.quest_desc: ["Organic compost rots into &6Rich Soil&r over time. Crops on rich soil grow faster, and mushrooms grow into colonies."]
+	quest.2B2626D1078397C0.title: "Paddy Field"
+	quest.2B2626D1078397C0.quest_desc: ["Rice grows in shallow water. Plant it in a single block of water on dirt."]
+	quest.55B592ECD3E28640.title: "Market Day"
+	quest.55B592ECD3E28640.quest_subtitle: "Farming for Blockheads"
+	quest.55B592ECD3E28640.quest_desc: ["A &6Market&r trades emeralds for seeds, saplings and animals you'd otherwise have to hunt for. Its fertilizers make farmland healthier and richer."]
+	quest.3AA434B3A5757F79.title: "Feeding Trough"
+	quest.3AA434B3A5757F79.quest_desc: ["Animals near a filled trough breed by themselves. A small ranch runs itself."]
+	quest.1947632930DD2ED5.title: "Miner's Lunch"
+	quest.1947632930DD2ED5.quest_subtitle: "Miner's Delight"
+	quest.1947632930DD2ED5.quest_desc: ["A copper pot for cooking underground: cave carrots, bat wings and squid stew. Tunnelling is hungry work."]
+	quest.1B170298E9E96C9D.title: "Rustic Fare"
+	quest.1B170298E9E96C9D.quest_subtitle: "Rustic Delight"
+	quest.1B170298E9E96C9D.quest_desc: ["Cotton, bell peppers, coffee and calamari: Rustic Delight widens the kitchen. Cotton also makes string."]
+	quest.1FFFE7E38426A925.title: "Cooking in Hell"
+	quest.1FFFE7E38426A925.quest_subtitle: "My Nether's Delight"
+	quest.1FFFE7E38426A925.quest_desc: ["A Nether brick stove for strider steaks, hoglin ribs and ghasta. You'll find the ingredients on the other side."]
+	quest.5C314A044EB796F4.title: "Spice of Life"
+	quest.5C314A044EB796F4.quest_subtitle: "Variety is health"
+	quest.5C314A044EB796F4.quest_desc: ["Every new food you eat raises your maximum health (Spice of Life: Carrot Edition). The book tracks what you've tried. Cook widely."]
+	quest.1D2D1B253C070038.title: "Head Chef"
+	quest.1D2D1B253C070038.quest_subtitle: "A kitchen worth the name"
+	quest.1D2D1B253C070038.quest_desc: ["A working kitchen: pot, stove and a proper field of rich soil. The &6Foreman&r branch of the skill tree likes a well-fed crew."]
+	chapter.17EF47503A06BF01.title: "Seed and Sprocket"
+	chapter.17EF47503A06BF01.chapter_subtitle: ["Cog \\& Cultivar: crop genetics and breeding"]
+	quest.14CF30178E4475A0.title: "Something to Climb"
+	quest.14CF30178E4475A0.quest_subtitle: "Cog \\& Cultivar"
+	quest.14CF30178E4475A0.quest_desc: ["&2Every seed carries a genome.&r Gain, Growth, Strength and Vigour: four stats, two alleles each, and you can breed them up.", "Craft timber trellises (sticks and string), set one on farmland and plant ordinary wheat or potato seeds on it. They become &6Cultivar Seeds&r with base stats.", "The soil sets humidity, acidity and nutrients, and every plant has its preferences. Hold &eShift&r on any Cultivar item for a full description."]
+	quest.1FEEEE58F254630A.title: "A Seed with a Story"
+	quest.1FEEEE58F254630A.quest_desc: ["Grow a crop on a trellis and harvest it (right-click when mature). It returns Cultivar Seeds, each with its own genome.", "A seed's stats stay &ehidden&r until it's assayed, and a growing crop keeps its stats to itself until its genome is known. After that, Create's &6Engineer's Goggles&r show its readout."]
+	quest.1A3D5DEDBE681B89.title: "The Grafting Frame"
+	quest.1A3D5DEDBE681B89.quest_subtitle: "Two parents, one frame"
+	quest.1A3D5DEDBE681B89.quest_desc: ["Right-click the &eside&r of an empty trellis with another trellis to make a &6grafting frame&r.", "Set it between mature plants. With one mature neighbour it may &aclone&r; with two it &acrosses&r them, mixing their alleles. Higher &bVigour&r makes a parent join more often.", "Parents and frame share light, so every cross has a light level all three can live with.", "Tick this once your first frame is set."]
+	quest.60BFC287AF8AA251.title: "New Growth"
+	quest.60BFC287AF8AA251.quest_subtitle: "Your first mutation"
+	quest.60BFC287AF8AA251.quest_desc: ["Cross two different species until something new comes up, for example &eWheat × Potato → Beetroot&r on damp soil.", "A mutation only fires when the frame recreates the &achild's habitat&r: its soil, light and humidity. Water beside the soil, a Bell Cloche or a heat source shifts humidity a step.", "Completed when a bred species is &erecorded in your Ledger&r, so have the next two quests done too."]
+	quest.15981315D8E15640.title: "Botanical Ledger"
+	quest.15981315D8E15640.quest_subtitle: "Field notes"
+	quest.15981315D8E15640.quest_desc: ["A book, a brass nugget and a wheat seed. The Ledger records every species you study and the mutations that link them. JEI hides a cross recipe until you've learned it.", "Knowledge belongs to &eyou&r and survives death. Carrying or reading a Ledger merges it both ways, so a shared Ledger teaches its reader."]
+	quest.1D80A2345C445B54.title: "Assaying Engine"
+	quest.1D80A2345C445B54.quest_subtitle: "Read the genome"
+	quest.1D80A2345C445B54.quest_desc: ["Glass panes, an electron tube, a shaft and brass casing. Give it rotation from below, load seeds and it &ereveals their stats&r: faster with more RPM.", "Load a Ledger as well, and every species that passes through is recorded.", "Assayed seeds can be sorted by Create filters, by species or by stat."]
+	quest.53EF2F5E4594BF06.title: "Field Notes"
+	quest.53EF2F5E4594BF06.quest_desc: ["Record your first plant in a Ledger."]
+	quest.2344E3F3B68C7982.title: "Iron Trellis"
+	quest.2344E3F3B68C7982.quest_subtitle: "Hardier stock"
+	quest.2344E3F3B68C7982.quest_desc: ["Iron nuggets around iron bars. Plants on an iron trellis are &emore tolerant&r of imperfect conditions: a free Strength bonus.", "At &cStrength 10&r a plant turns Hardy and ignores humidity, acidity and nutrients."]
+	quest.1862865E48071367.title: "Gardener's Kit"
+	quest.1862865E48071367.quest_desc: ["The &6Transplanting Spade&r lifts a whole plant, genome and growth intact, so you can move a mature parent next to a frame.", "&6Pruning Shears&r knock a plant back one stage for a &eCutting&r: an exact clone. Whether it takes depends on Strength. Mature plants also give clip products."]
+	quest.176C10B493F6F7F3.title: "Take a Cutting"
+	quest.176C10B493F6F7F3.quest_desc: ["Shear a plant at stage 2 or later. Plant the cutting on an empty trellis: if it takes, it starts part-grown with the parent's exact genome.", "This is how you keep a good line without risking it in a cross."]
+	quest.1E13D3A6D92FBD98.title: "Seed Satchel"
+	quest.1E13D3A6D92FBD98.quest_subtitle: "Keep the best"
+	quest.1E13D3A6D92FBD98.quest_desc: ["A satchel holds one species, sorted by genome, and picks up matching seeds. Using it on a mature plant harvests it and may keep a seed (better odds with Vigour). &eOre-blooms have no seed item: the satchel is the only way to keep theirs.&r", "Fit a &6Brass Dial&r and the satchel plants the best seed for the dial's stat and culls the worst. Sneak-right-click cycles the stat."]
+	quest.3F393C78A0D19093.title: "Bell Cloche"
+	quest.3F393C78A0D19093.quest_desc: ["A glass bell for one trellis. It speeds growth, keeps &eblight&r from spawning and raises humidity a step. A blaze burner, campfire or magma block beside the soil dries it a step.", "Blight (rust-rot, bog-rot, sour moss and six more) grows on untended trellises; clear it with a &ehoe&r. Mature blight drops something for your trouble."]
+	quest.144F00122523E223.title: "Pollinators"
+	quest.144F00122523E223.quest_subtitle: "Bees in the breeding field"
+	quest.144F00122523E223.quest_desc: ["A beehive within 5 blocks of your frames boosts crossing and mutation rates and holds blight back. The fuller the hive's honey, the stronger the effect.", "Harvesting the honey resets it, so you can have honey or pollination, not both at once."]
+	quest.66E1C915542C420B.title: "Sprinkler"
+	quest.66E1C915542C420B.quest_subtitle: "Water by pipe"
+	quest.66E1C915542C420B.quest_desc: ["Copper, a brass sheet and a fluid pipe. Feed it water from any pipe: it adds growth ticks and the odd bone-meal pulse in a 9×9, and keeps farmland moist.", "Redstone switches it off; the wrench turns or picks it up."]
+	quest.119B81FA1AC1F21E.title: "The Cull Loop"
+	quest.119B81FA1AC1F21E.quest_subtitle: "Nothing goes to waste"
+	quest.119B81FA1AC1F21E.quest_desc: ["Mill or crush your culled seeds into &eSeed Meal&r: a gentle fertilizer that advances one growth stage and never triggers a mutation."]
+	quest.1993FCBABEE79AD3.title: "Mechanical Harvest"
+	quest.1993FCBABEE79AD3.quest_desc: ["Create's Mechanical Harvester works on Cultivar crops: the plant returns to its after-harvest stage and keeps its genome.", "Pair it with assayed-seed filters and you've automated a field."]
+	quest.17EEF2E5B661BE32.title: "Derelict Conservatory"
+	quest.17EEF2E5B661BE32.quest_subtitle: "Someone studied here"
+	quest.17EEF2E5B661BE32.quest_desc: ["Broken iron-frame glasshouses and lean-tos, overgrown with blight. Their chests hold Ledgers, gardening tools, cloches, brass scraps and seeds for crops that are hard to find: torchflower, pitcher pods, nether wart, cocoa."]
+	quest.47866910A4F16BE5.title: "Coal from the Soil"
+	quest.47866910A4F16BE5.quest_subtitle: "Ore-blooms"
+	quest.47866910A4F16BE5.quest_desc: ["The resource line starts with stepping-stone blooms: Bonecap (wheat × red mushroom, twilight) and Inkcap (brown mushroom × sugar cane, flooded). &8Coalroot&r is Inkcap × Bonecap, grown in the dark (light 7 or less).", "Check JEI's Crossbreeding page once a cross is known."]
+	quest.1BDACC7A44BE3DCC.title: "Iron in the Roots"
+	quest.1BDACC7A44BE3DCC.quest_desc: ["&7Ferrous Bloom&r: Rustwort × Coalroot, in the dark. It drops &ecrushed raw iron&r straight into Create's washing chain.", "Rustwort is Coalroot × Flintwort on flooded soil; Flintwort is Bonecap × Cactus on sand."]
+	quest.30F1EDF233EED7BF.title: "Live Wire"
+	quest.30F1EDF233EED7BF.quest_desc: ["&cRedstone Fern&r: Brimstone Puff × Madder Root, in the dark. Brimstone Puff needs Coalroot × Nether Wart on arid ground."]
+	quest.2A2F95179F516F61.title: "Gilded Garden"
+	quest.2A2F95179F516F61.quest_desc: ["&6Aurum Thistle&r, seven crosses deep: Brassleaf (crushed zinc) × Silkweed, on arid soil.", "Brassleaf is Verdigris Vine (crushed copper) × Ferrous Bloom."]
+	quest.1E87B61D56F45826.title: "Self-Tending"
+	quest.1E87B61D56F45826.quest_subtitle: "Planter and Trial Beds"
+	quest.1E87B61D56F45826.quest_desc: ["&6Planter Beds&r (andesite) are pipe-fed growing stations. Touching beds form one plot. Feed soil, seeds, fertilizer, trellises and water, and they plant, water, harvest and swap in better seeds. Under a grafting frame a bed becomes a &ebreeder&r that banks every newborn.", "&6Trial Beds&r (brass) are research plots: fed seeds and a Ledger, they cross-test with every limiter removed and record every mutation they find. A full 9×9 also turns up bonus discoveries."]
+	quest.1A1744C38956C9AA.title: "Diamonds in the Rough"
+	quest.1A1744C38956C9AA.quest_desc: ["&bDiamond Briar&r: Emerald Fern × Quartz Lily, on heat-dried ground. Nine crosses from vanilla, with a 3% diamond per roll.", "A maxed plot pays it back slowly. That's the point."]
+	quest.254FBCAD082090D6.title: "Complete Herbarium"
+	quest.254FBCAD082090D6.quest_subtitle: "Every plant known"
+	quest.254FBCAD082090D6.quest_desc: ["Learn every species in the pack, crops, blooms and all. A Trial Bed plot fills a Ledger faster than you can by hand."]
+	chapter.10E207A2A56A7AB6.title: "Wilds \\& Ruins"
+	chapter.10E207A2A56A7AB6.chapter_subtitle: ["The world as it was left"]
+	quest.7541C864FF992537.title: "The Lay of the Land"
+	quest.7541C864FF992537.quest_subtitle: "Read the world"
+	quest.7541C864FF992537.quest_desc: ["&2The Hollow is wide.&r Redwood forests, maple groves, rosewood rainforests, salt flats and frozen holly woods. Most of it hasn't seen a living villager in years.", "This chapter sends you out to look at it."]
+	quest.1DB9AC93B6A15FCE.title: "Nature's Compass"
+	quest.1DB9AC93B6A15FCE.quest_desc: ["Name a biome and the compass points the way. Indispensable with this many biomes."]
+	quest.0B385E6864BCD839.title: "Explorer's Compass"
+	quest.0B385E6864BCD839.quest_desc: ["The same, for structures. Fortresses, monuments, ruins, chapels."]
+	quest.1774B9311712BB20.title: "Gone Quiet"
+	quest.1774B9311712BB20.quest_subtitle: "Find an abandoned settlement"
+	quest.1774B9311712BB20.quest_desc: ["Find an abandoned village, hamlet or ruin.", "Some were simply left. Others went dark one window at a time. Watch the shadows at night: the dead still walk the streets."]
+	quest.1D3F59246D486289.title: "Old Paths"
+	quest.1D3F59246D486289.quest_subtitle: "A ruined waystone"
+	quest.1D3F59246D486289.quest_desc: ["Every abandoned village keeps one ruined waystone, mossy (or sandy in the south) and missing its glow. It still works. Activate one. Tick this when you have."]
+	quest.6A9C713BA1D81A63.title: "Landmarks"
+	quest.6A9C713BA1D81A63.quest_subtitle: "Ruins with a story"
+	quest.6A9C713BA1D81A63.quest_desc: ["Ruined chapels, charnel crypts, collapsed mineheads, empty cabins, cold smithies, sealed plague houses. A few still have someone living in them, and they keep odd stock."]
+	quest.58CB18617B1DD9BC.title: "Ruined Chapel"
+	quest.58CB18617B1DD9BC.quest_desc: ["Find a ruined chapel. Mind the crypt."]
+	quest.1FEE284A9EE61BA6.title: "The Plague House"
+	quest.1FEE284A9EE61BA6.quest_desc: ["The doors are nailed shut and the windows boarded. Someone is still inside, and still lucid enough to trade, if you can cure what they have."]
+	quest.60619758FD3C6B9D.title: "Collapsed Minehead"
+	quest.60619758FD3C6B9D.quest_desc: ["Somebody dug here for a reason. The shaft is still open."]
+	quest.07268CF115C7FA2E.title: "Giants of the Coast"
+	quest.07268CF115C7FA2E.quest_subtitle: "Regions Unexplored"
+	quest.07268CF115C7FA2E.quest_desc: ["Redwoods, baobabs, joshua trees, magnolias and glowing bioshrooms underground. Regions Unexplored covers the world in new biomes."]
+	quest.37D2498EB5D60EE3.title: "Rosewood and Dunes"
+	quest.37D2498EB5D60EE3.quest_subtitle: "Atmospheric"
+	quest.37D2498EB5D60EE3.quest_desc: ["Atmospheric brings rainforests, dunes, scrublands and laurel forests. Try a dragon fruit; mind the cacti."]
+	quest.1633BC0C0E33DDE5.title: "Maple Season"
+	quest.1633BC0C0E33DDE5.quest_subtitle: "Autumnity"
+	quest.1633BC0C0E33DDE5.quest_desc: ["Orange and red maple forests, snails and turkeys. Snail shells make a good chestplate."]
+	quest.578AC9E8AC1A8009.title: "Frostbitten"
+	quest.578AC9E8AC1A8009.quest_subtitle: "Windswept"
+	quest.578AC9E8AC1A8009.quest_desc: ["Holly forests, chestnuts and frozen ruins up north. Bring a coat."]
+	quest.186327154F8BCBBD.title: "Silver Underground"
+	quest.186327154F8BCBBD.quest_subtitle: "Caverns \\& Chasms"
+	quest.186327154F8BCBBD.quest_desc: ["Caverns \\& Chasms puts silver in the deep, spinel in the dark, and things in the deep dark you'd rather not meet. Silver hurts the undead."]
+	quest.1A832FD6078FBC3B.title: "Spinel"
+	quest.1A832FD6078FBC3B.quest_desc: ["A gem from the lowest caves. Its tools glow and its lamps never dim."]
+	quest.5963DB0E92299570.title: "Proving Grounds"
+	quest.5963DB0E92299570.quest_desc: ["Find the proving grounds, where the research staff tested their gear underground, and survive what they left running. The vaults still open for a trial key."]
+	quest.63BEA6A674BACF06.title: "Pathfinder"
+	quest.63BEA6A674BACF06.quest_subtitle: "Seen it all, almost"
+	quest.63BEA6A674BACF06.quest_desc: ["You've walked the ruins and the proving grounds. The &bPathfinder&r branch of the skill tree rewards exactly this."]
+	chapter.5AB79DC7FAD446F7.title: "Marks of the Maker"
+	chapter.5AB79DC7FAD446F7.chapter_subtitle: ["Hallmarked: quality, inlays and found gear"]
+	quest.6CFFD5378624442A.title: "Every Forged Thing"
+	quest.6CFFD5378624442A.quest_subtitle: "Hallmarked"
+	quest.6CFFD5378624442A.quest_desc: ["&6Every forged thing bears a mark.&r The first time a weapon, tool or piece of armour reaches your hands it may roll a &equality&r (Keen, Rusted, Masterful, Forsaken...) and a &egrade&r: Shoddy, Common, Journeyman, Masterwork or &6Gearwrought&r.", "Higher grades roll more affixes. Hold &eShift&r on gear for its full stats."]
+	quest.3995CD72FD8FED13.title: "Assay Anvil"
+	quest.3995CD72FD8FED13.quest_subtitle: "Strike the mark"
+	quest.3995CD72FD8FED13.quest_desc: ["An anvil, a crafting table, obsidian and smooth stone. Set gear and its repair material (or obsidian) on top and strike the hammer to re-roll its mark."]
+	quest.1786F1158583BCD1.title: "Smith's Scrap"
+	quest.1786F1158583BCD1.quest_subtitle: "Nothing goes to waste"
+	quest.1786F1158583BCD1.quest_desc: ["Put a plain piece of unwanted gear in a &egrindstone&r and it salvages into scrap. Better grades give more. Scrap feeds the anvil and four of it press into a Smith's Stamp."]
+	quest.798301FF34AEBEA8.title: "Smith's Stamp"
+	quest.798301FF34AEBEA8.quest_desc: ["Copper and paper (or four scrap). Stamps are the template for &einlays&r, and turn up in village smithies, dungeons and mineshafts."]
+	quest.6F66978E8F499CC8.title: "Inlay"
+	quest.6F66978E8F499CC8.quest_subtitle: "Known stats by hand"
+	quest.6F66978E8F499CC8.quest_desc: ["At a &esmithing table&r: Smith's Stamp + gear + a common material. Quartz adds Sharpness, Lapis adds Fortune and Looting, Copper adds Unbreaking. Common gear has the most slots.", "Tick this once you've inlaid a piece."]
+	quest.67F3C299352EBFF5.title: "Unappraised"
+	quest.67F3C299352EBFF5.quest_subtitle: "Found, not made"
+	quest.67F3C299352EBFF5.quest_desc: ["Masterwork and better gear found in ruins and on monsters arrives &eUnappraised&r, its affixes asleep. A loot beam marks it. Strike it at the Assay Anvil (free) to wake it.", "The ruins of the &2Wilds&r and the champions that walk them are the place to look."]
+	quest.7535F0144D924FD5.title: "Baubles"
+	quest.7535F0144D924FD5.quest_desc: ["Emerald and gold. Rings and amulets carry bauble qualities of their own."]
+	quest.15F28AA23EE0F6AC.title: "The Mountebank"
+	quest.15F28AA23EE0F6AC.quest_subtitle: "Sealed parcels"
+	quest.15F28AA23EE0F6AC.quest_desc: ["Place a &eMountebank's Coffer&r near an unemployed villager and he becomes a Mountebank. He sells sealed parcels: cursed junk, honest gear, or exceptional work rolled past its limits. Buy one.", "The coffer is also locked storage only you can open."]
+	quest.428533C96962767F.title: "Sworn Parcel"
+	quest.428533C96962767F.quest_subtitle: "Sets"
+	quest.428533C96962767F.quest_desc: ["Sneak-use the coffer with a spare set piece to trade it for a token. Two tokens buy a Sworn Parcel, always a set piece, usually one you're missing. Fourteen named sets, from the Free Lance to the Salvage Diver."]
+	quest.5D4DCC74CEDAF74B.title: "Ashen Altar"
+	quest.5D4DCC74CEDAF74B.quest_subtitle: "Temper, or ruin"
+	quest.5D4DCC74CEDAF74B.quest_desc: ["Crying obsidian, polished blackstone and candles: Nether stone. Hold an appraised piece and an &eEcho Shard&r and use the altar. It may ascend, gain a forbidden affix, or be marred. Either way it's locked."]
+	quest.5286E4BAFA2210CD.title: "Gearwright's Seal"
+	quest.5286E4BAFA2210CD.quest_subtitle: "One mark more"
+	quest.5286E4BAFA2210CD.quest_desc: ["A Smith's Stamp and a Nether Star (or the Dragon Egg). The Seal adds one permanent inlay to any grade, even repeating one already there."]
+	chapter.6A3D5B7FCAB349BA.title: "Into the Depths"
+	chapter.6A3D5B7FCAB349BA.chapter_subtitle: ["Fire below, void beyond"]
+	quest.070E24F3E92D4B6F.title: "Through the Gate"
+	quest.070E24F3E92D4B6F.quest_subtitle: "Enter the Nether"
+	quest.070E24F3E92D4B6F.quest_desc: ["Obsidian, flint and nerve. Step through."]
+	quest.35B1CCDBAD614213.title: "The Foundry"
+	quest.35B1CCDBAD614213.quest_desc: ["Find the Nether foundry: kilns and bridges built over the lava. Blazes and wither skeletons both live here."]
+	quest.1425B0501B3F27A2.title: "Scavenger Hold"
+	quest.1425B0501B3F27A2.quest_desc: ["Find a scavenger stronghold: a dead village the piglins fortified. Their best loot sits in the keep. Wear gold, or regret it."]
+	quest.60D4C0E4C7720E32.title: "Blaze Hunter"
+	quest.60D4C0E4C7720E32.quest_desc: ["Slay 8 blazes. Their rods power brewing stands, and Create needs a living blaze for its burner."]
+	quest.5207C9DA4C228358.title: "Ancient Debris"
+	quest.5207C9DA4C228358.quest_desc: ["Deep in the Nether, near bedrock. Create's crushing wheels can grind debris into extra scrap."]
+	quest.32F0732C2DD29F30.title: "Netherite"
+	quest.32F0732C2DD29F30.quest_desc: ["Four scrap, four gold. The toughest metal in the world."]
+	quest.3D4A1BEBF9C314F1.title: "Three Skulls"
+	quest.3D4A1BEBF9C314F1.quest_subtitle: "Grim harvest"
+	quest.3D4A1BEBF9C314F1.quest_desc: ["Wither skeletons in the fortress drop their skulls, rarely. Three of them, and soul sand, call something worse."]
+	quest.4965BC2D6846DA0F.title: "The Wither"
+	quest.4965BC2D6846DA0F.quest_subtitle: "Summon it somewhere you don't mind losing"
+	quest.4965BC2D6846DA0F.quest_desc: ["Soul sand in a T, three skulls on top. Kill the Wither for a &eNether Star&r: stellar alloy and the Gearwright's Seal both need one."]
+	quest.10A4CC779CC59E78.title: "Eyes of Ender"
+	quest.10A4CC779CC59E78.quest_desc: ["Pearls and blaze powder. Throw one and follow it."]
+	quest.17C8F9BB8620D884.title: "The Stronghold"
+	quest.17C8F9BB8620D884.quest_desc: ["Eyes of ender lead the way."]
+	quest.244DF6AF8B1FC0A4.title: "The End"
+	quest.244DF6AF8B1FC0A4.quest_desc: ["Step into the void."]
+	quest.4A437BA327C9FF46.title: "Dragonslayer"
+	quest.4A437BA327C9FF46.quest_desc: ["Kill the Ender Dragon.", "The End's outer islands hold elytra and shulkers. EnderIO's late tier needs what lives out there."]
+	chapter.5BF0E4E55BAA45E5.title: "Gears and Steam"
+	chapter.5BF0E4E55BAA45E5.chapter_subtitle: ["Create: rotation, pressure and brass"]
+	quest.4CC9003A2E596184.title: "The Wrench"
+	quest.4CC9003A2E596184.quest_subtitle: "Engineer's first tool"
+	quest.4CC9003A2E596184.quest_desc: ["Cogs turn the world. Craft a wrench: it rotates, picks up and adjusts almost every Create block.", "Get &eGoggles&r soon too: they show stress, speed and what a machine is doing."]
+	quest.1D3FF85AB21ECA7F.title: "Shafts and Cogs"
+	quest.1D3FF85AB21ECA7F.quest_desc: ["Shafts carry rotation in a line; cogwheels pass it sideways. A large cog meshed with a small one changes speed: twice as fast one way, half as fast the other."]
+	quest.32E0A65FD167F57B.title: "Engineer's Goggles"
+	quest.32E0A65FD167F57B.quest_desc: ["Look at a machine to read its speed and stress. Look at a source to see its capacity."]
+	quest.2D76F3037C35D2BF.title: "Andesite Casing"
+	quest.2D76F3037C35D2BF.quest_subtitle: "The shell of every early machine"
+	quest.2D76F3037C35D2BF.quest_desc: ["Andesite alloy on a stripped log (or a log in the grid) makes andesite casing. The millstone, press, mixer and fan are all built around it."]
+	quest.5CC63310366E9AD5.title: "Turn the Water"
+	quest.5CC63310366E9AD5.quest_desc: ["Free rotation from flowing water. Water must run along the wheel's side to turn it."]
+	quest.148745C99315421F.title: "Catch the Wind"
+	quest.148745C99315421F.quest_desc: ["A windmill bearing turns any structure glued to it. More sails, more stress capacity. The village mills you find have one on the gable."]
+	quest.12014A0369691327.title: "Millstone"
+	quest.12014A0369691327.quest_desc: ["Grinds wheat into flour and gravel into flint. Feed it from the top."]
+	quest.0D5D16F0841B07DE.title: "Press On"
+	quest.0D5D16F0841B07DE.quest_desc: ["Sheets, plates, everything flat. Over a depot it flattens; over a basin it compacts."]
+	quest.3424FB5E01665A34.title: "Belts"
+	quest.3424FB5E01665A34.quest_desc: ["Connect two shafts with a belt to carry items, and drive the second shaft."]
+	quest.02080E25D0CF6943.title: "Bulk Processing"
+	quest.02080E25D0CF6943.quest_subtitle: "Fans and fire"
+	quest.02080E25D0CF6943.quest_desc: ["Air blown through &9water&r washes, through &6lava or fire&r smelts, through &7soul fire&r haunts, through &esmoke&r smokes. Items on the floor or on a belt in front of it are processed in bulk."]
+	quest.280004C378E1D020.title: "Mixing"
+	quest.280004C378E1D020.quest_desc: ["A mixer over a basin combines ingredients: shapeless recipes in bulk, and alloys once you add heat."]
+	quest.7F704BE48487E60B.title: "Blaze Burner"
+	quest.7F704BE48487E60B.quest_subtitle: "Heat with a heartbeat"
+	quest.7F704BE48487E60B.quest_desc: ["Trap a blaze in an empty burner (right-click a live blaze with it), then feed it fuel. Heated mixing is how Create makes brass."]
+	quest.18D84EB3B7A2DBD3.title: "Brass Age"
+	quest.18D84EB3B7A2DBD3.quest_subtitle: "Copper and zinc, melded in fire"
+	quest.18D84EB3B7A2DBD3.quest_desc: ["Copper and zinc in a heated basin. Brass is the gate to Create's second tier.", "Zinc ore sits in the deep layers. Silver and tin come from Caverns \\& Chasms."]
+	quest.00E2BA4FA89B0FA6.title: "Brass Casing"
+	quest.00E2BA4FA89B0FA6.quest_desc: ["Brass on a stripped log makes brass casing: the body of every smart machine, from electron-tube crafters to the deployer's big cousins."]
+	quest.2957A8594BBB6732.title: "Electron Tubes"
+	quest.2957A8594BBB6732.quest_desc: ["Polished rose quartz on iron sheets. Smart blocks and crafters need them."]
+	quest.7A4A46A438D5138B.title: "Deployer"
+	quest.7A4A46A438D5138B.quest_subtitle: "A hand on a stick"
+	quest.7A4A46A438D5138B.quest_desc: ["A deployer uses whatever it holds: places blocks, clicks items, applies tools. It's half of sequenced assembly."]
+	quest.5A578CF49600D837.title: "Precision Mechanism"
+	quest.5A578CF49600D837.quest_subtitle: "The peak of the craft"
+	quest.5A578CF49600D837.quest_desc: ["Sequenced assembly: a golden sheet passes under deployers and presses, cogwheel, large cogwheel and iron nugget, five times round. Some come out scrap.", "The &6Industry&r branch of the skill tree makes your machines hum faster."]
+	quest.1582F2BAEEC13269.title: "Mechanical Crafters"
+	quest.1582F2BAEEC13269.quest_desc: ["Crafters link into big grids for recipes too large for any table: crushing wheels, the flywheels of late Create."]
+	quest.1F5719DABDF0AA60.title: "Crushing Wheels"
+	quest.1F5719DABDF0AA60.quest_subtitle: "Ore doubling"
+	quest.1F5719DABDF0AA60.quest_desc: ["Two wheels spinning inward crush ore into crushed ore and experience. Wash it with a fan for nuggets: more metal per ore."]
+	quest.13FDF3EDE4493C97.title: "Steam Power"
+	quest.13FDF3EDE4493C97.quest_desc: ["Fluid tanks over blaze burners boil water; steam engines on the tank turn a shaft. Bigger boiler, more heat, more power."]
+	quest.1F3B0FA167BF8B66.title: "Plumbing"
+	quest.1F3B0FA167BF8B66.quest_desc: ["Pumps push fluid through pipes. Spouts fill items below them. Item drains empty them."]
+	quest.2D4E65541D71B5C0.title: "Mechanical Arm"
+	quest.2D4E65541D71B5C0.quest_desc: ["Picks from one place and drops in another. Sorting, feeding, stacking."]
+	quest.7CEDCF68120F0C81.title: "All Aboard"
+	quest.7CEDCF68120F0C81.quest_subtitle: "Trains"
+	quest.7CEDCF68120F0C81.quest_desc: ["Lay track, build a station, glue a carriage to a bogey and add controls. Trains run on schedules between stations."]
+	quest.3AB1AE232997455F.title: "Backtank"
+	quest.3AB1AE232997455F.quest_desc: ["Stores air for diving helmets and tools. Place it and give it rotation to fill it with air."]
+	quest.1B69733D2BDECEE4.title: "Make It Pretty"
+	quest.1B69733D2BDECEE4.quest_subtitle: "Create Deco \\& Connected"
+	quest.1B69733D2BDECEE4.quest_desc: ["Create Deco adds catwalks, bars, lamps, sheet metal and bricks. Create: Connected and Bits'n'Bobs add more machines and kinetic oddities. Build like you mean it."]
+	quest.643F841BEB11A18B.title: "Master Engineer"
+	quest.643F841BEB11A18B.quest_subtitle: "Create's second tier, complete"
+	quest.643F841BEB11A18B.quest_desc: ["Brass, precision and steam. Everything Create needs from here is scale."]
+	chapter.123C69407B30874B.title: "Coke and Current"
+	chapter.123C69407B30874B.chapter_subtitle: ["Immersive Engineering \\& Petroleum"]
+	quest.512192F48B4F34D9.title: "Engineer's Hammer"
+	quest.512192F48B4F34D9.quest_subtitle: "Immersive Engineering"
+	quest.512192F48B4F34D9.quest_desc: ["IE builds machines as &emultiblocks&r: lay out the blocks, then hit the right one with this hammer.", "Read the &6Engineer's Manual&r for every layout. The hammer also crushes ore and plates ingots in the grid."]
+	quest.1B713EA6423EAA9E.title: "Coke Oven"
+	quest.1B713EA6423EAA9E.quest_desc: ["27 coke bricks in a 3x3x3 cube, hammer the middle. Coal becomes &6coal coke&r, and the oven fills with &6creosote&r."]
+	quest.12C59ECADC68FE65.title: "Coal Coke"
+	quest.12C59ECADC68FE65.quest_desc: ["Hotter, cleaner fuel. The blast furnace needs it to make steel."]
+	quest.5189E5BA548B4584.title: "Treated Wood"
+	quest.5189E5BA548B4584.quest_desc: ["Planks soaked in creosote. Weatherproof, and half of IE's structures are made of it."]
+	quest.141E76CC209AFCBF.title: "Alloy Kiln"
+	quest.141E76CC209AFCBF.quest_desc: ["A 2x2x2 of kiln bricks makes &eelectrum&r (gold + silver) and &econstantan&r (copper + nickel). Wiring needs both."]
+	quest.134A31A62327D252.title: "Blast Furnace"
+	quest.134A31A62327D252.quest_desc: ["Blast bricks, 3x3x3. Iron plus coal coke makes steel and slag, slowly."]
+	quest.197FA0167B33DAD3.title: "Steel"
+	quest.197FA0167B33DAD3.quest_subtitle: "The second metal"
+	quest.197FA0167B33DAD3.quest_desc: ["Steel is IE's backbone, and EnderIO's machine chassis needs it later. A &ehammer&r turns ingots into plates."]
+	quest.1EC077742EA87C36.title: "Low Voltage"
+	quest.1EC077742EA87C36.quest_desc: ["Copper wire coils and LV connectors. IE power runs along hanging wires between connectors."]
+	quest.1A9AC2EFB97DEFF6.title: "Iron Components"
+	quest.1A9AC2EFB97DEFF6.quest_subtitle: "Gears in a box"
+	quest.1A9AC2EFB97DEFF6.quest_desc: ["Iron plates (hammer an ingot in the grid) around a copper ingot. Dynamos, fans and pumps all need them."]
+	quest.10A3E568309AE8C3.title: "Kinetic Dynamo"
+	quest.10A3E568309AE8C3.quest_subtitle: "Create meets IE"
+	quest.10A3E568309AE8C3.quest_desc: ["Turns rotation into Flux. Put a Create shaft into the back of a dynamo, and your water wheels become a power plant."]
+	quest.743A71B1064BEBFE.title: "Accumulator"
+	quest.743A71B1064BEBFE.quest_desc: ["Store power. The LV accumulator takes lead plates, copper and redstone acid from the IE mixer, and buffers a dynamo's output."]
+	quest.6A9A2246C6E8E625.title: "Wind and Water"
+	quest.6A9A2246C6E8E625.quest_desc: ["IE's own mills turn its dynamos directly. Treated wood and a lot of space."]
+	quest.1F376662908AD2CB.title: "Engineer's Workbench"
+	quest.1F376662908AD2CB.quest_desc: ["Place a blueprint in it to make components: casings, bullets, electron tubes and circuit backplanes."]
+	quest.5AC23E278BB98153.title: "Steel Components"
+	quest.5AC23E278BB98153.quest_desc: ["Steel mechanical components. The heavier multiblocks eat these."]
+	quest.6540E65438CC404E.title: "Light Engineering"
+	quest.6540E65438CC404E.quest_desc: ["The blocks inside the crusher, metal press, sawmill, squeezer, fermenter and more."]
+	quest.7CC21D67AA058B66.title: "Heavy Engineering"
+	quest.7CC21D67AA058B66.quest_desc: ["The guts of the arc furnace, excavator and refinery. Steel and electrum."]
+	quest.1083FE0E6167893A.title: "Vacuum Tubes"
+	quest.1083FE0E6167893A.quest_subtitle: "Electronics"
+	quest.1083FE0E6167893A.quest_desc: ["Electron tubes from the workbench's components blueprint. Needed by everything with a brain."]
+	quest.5EDE560AA6FB9B18.title: "Medium Voltage"
+	quest.5EDE560AA6FB9B18.quest_desc: ["Electrum wire carries more. Transformers step between voltages."]
+	quest.1DB17218C17AF38C.title: "Mining Drill"
+	quest.1DB17218C17AF38C.quest_desc: ["A diesel-fuelled drill that mines a 3x3. Fuel it with biodiesel or IP diesel."]
+	quest.1FFCC6EA199D201F.title: "Petroleum"
+	quest.1FFCC6EA199D201F.quest_subtitle: "Immersive Petroleum"
+	quest.1FFCC6EA199D201F.quest_desc: ["Oil lies in reservoirs under the surface. Find one with a core sample drill, then build a pumpjack, distillation tower and refinery. The projector shows you each multiblock in place."]
+	quest.2C724421DD6DBB58.title: "Refined Fuels"
+	quest.2C724421DD6DBB58.quest_desc: ["Distil crude oil into lubricant, diesel, kerosene and gasoline. Engines, generators and drills drink them."]
+	quest.13316C5626F88BC7.title: "Railgun"
+	quest.13316C5626F88BC7.quest_desc: ["Magnetic acceleration, steel rods, a very loud noise."]
+	quest.63122C347D76CD65.title: "Tesla Coil"
+	quest.63122C347D76CD65.quest_desc: ["Zaps anything hostile that gets close. Expensive, dramatic, effective."]
+	quest.1D08C7212F053161.title: "Chief Engineer"
+	quest.1D08C7212F053161.quest_subtitle: "IE's mid-game, complete"
+	quest.1D08C7212F053161.quest_desc: ["Steel, heavy engineering and electronics. The big multiblocks are yours to build."]
+	chapter.156F61F3859C6D15.title: "Sparks and Sails"
+	chapter.156F61F3859C6D15.chapter_subtitle: ["Electricity, flight and the long road"]
+	quest.144D3DB8A8212C23.title: "Second Tier"
+	quest.144D3DB8A8212C23.quest_subtitle: "Brass and steel"
+	quest.144D3DB8A8212C23.quest_desc: ["With brass and steel in hand, Create's add-ons open up: electric motors, enchanting machines, aircraft, thrusters and wheels."]
+	quest.1C5483584593A5FF.title: "Copper Wire"
+	quest.1C5483584593A5FF.quest_subtitle: "Create: New Age"
+	quest.1C5483584593A5FF.quest_desc: ["Saw-cut copper plates. Generator coils are wound from it."]
+	quest.5321873E518AA3DE.title: "Generator"
+	quest.5321873E518AA3DE.quest_desc: ["A generator coil with carbon brushes turns rotation into electricity. Create's kinetic world gets a power grid."]
+	quest.10BC5205866CCBE0.title: "Energiser"
+	quest.10BC5205866CCBE0.quest_desc: ["Charges items with electricity: overcharged metals and charged parts."]
+	quest.1AFD332FD6A46723.title: "Electric Motor"
+	quest.1AFD332FD6A46723.quest_desc: ["Electricity back into rotation, anywhere you can run a wire."]
+	quest.5104D335CD2940FB.title: "Advanced Motor"
+	quest.5104D335CD2940FB.quest_desc: ["More speed, more stress capacity."]
+	quest.1E025228F8BD35A9.title: "Solar Heat"
+	quest.1E025228F8BD35A9.quest_desc: ["Sunlight heats a boiler without fuel. Free steam during the day."]
+	quest.1C94616AF7AFA114.title: "Fission"
+	quest.1C94616AF7AFA114.quest_desc: ["A nuclear reactor: rods, casings, a lot of heat, and a lot of power if it doesn't melt."]
+	quest.1AAC296738057B01.title: "Blaze Enchanter"
+	quest.1AAC296738057B01.quest_subtitle: "Create: Enchantment Industry"
+	quest.1AAC296738057B01.quest_desc: ["Grind items into liquid experience, then enchant with a blaze. Pick exactly the enchantment you want from a template."]
+	quest.1A814004DE1E5793.title: "Printer"
+	quest.1A814004DE1E5793.quest_desc: ["Copy written books, enchanted books and schedules with ink or experience."]
+	quest.00E6858C4D66AFEA.title: "Thrusters"
+	quest.00E6858C4D66AFEA.quest_subtitle: "Create Propulsion"
+	quest.00E6858C4D66AFEA.quest_desc: ["Fuel-burning thrusters push contraptions through the air. Combine with Aeronautics' envelopes for proper airships."]
+	quest.024E9E3A769200FB.title: "Vectored Thrust"
+	quest.024E9E3A769200FB.quest_desc: ["Steerable thrust for ships that turn."]
+	quest.1D12C7F2B8996F30.title: "Biplane"
+	quest.1D12C7F2B8996F30.quest_subtitle: "Immersive Aircraft"
+	quest.1D12C7F2B8996F30.quest_desc: ["Hull, engine, propeller, wings. A biplane flies on coal and carries two. Airships are slower and carry more."]
+	quest.7E22D5FFB030228D.title: "On the Road"
+	quest.7E22D5FFB030228D.quest_subtitle: "Offroad"
+	quest.7E22D5FFB030228D.quest_desc: ["Tires and wheel mounts for Create vehicles that actually drive."]
+	quest.1F1A8EFA4F4B56C7.title: "Electrified"
+	quest.1F1A8EFA4F4B56C7.quest_subtitle: "Power, enchantment and flight"
+	quest.1F1A8EFA4F4B56C7.quest_desc: ["Electric motors, enchanting machines and something that flies."]
+	chapter.2AE42626CE7638A4.title: "Crates and Conduits"
+	chapter.2AE42626CE7638A4.chapter_subtitle: ["Storage and logistics"]
+	quest.16FAC7ED36D37B93.title: "A Place for Everything"
+	quest.16FAC7ED36D37B93.quest_subtitle: "Sophisticated Storage"
+	quest.16FAC7ED36D37B93.quest_desc: ["Sophisticated barrels and chests upgrade in place (iron, gold, diamond, netherite) and take the same upgrades as backpacks."]
+	quest.46BD39B12D79FEFF.title: "Upgraded Barrel"
+	quest.46BD39B12D79FEFF.quest_desc: ["Use a tier upgrade on a placed barrel. It keeps its contents."]
+	quest.1779EFF92A4833D6.title: "Storage Controller"
+	quest.1779EFF92A4833D6.quest_desc: ["A controller joins adjacent Sophisticated storage into one network you can open from any block."]
+	quest.4B30B481AFDBE073.title: "Terminal Access"
+	quest.4B30B481AFDBE073.quest_subtitle: "Tom's Simple Storage"
+	quest.4B30B481AFDBE073.quest_desc: ["An inventory connector reads every chest it touches (or reaches through cables). A crafting terminal searches and crafts from all of them."]
+	quest.13C9242AD1C383A9.title: "Wireless Terminal"
+	quest.13C9242AD1C383A9.quest_desc: ["Your whole storage, in your pocket."]
+	quest.2BCDDD34148FFD5E.title: "Pipes"
+	quest.2BCDDD34148FFD5E.quest_subtitle: "Modern Dynamics"
+	quest.2BCDDD34148FFD5E.quest_desc: ["Item and fluid pipes with attachments for extraction and filtering."]
+	quest.7D0A910209341E16.title: "Factory Manager"
+	quest.7D0A910209341E16.quest_subtitle: "Super Factory Manager"
+	quest.7D0A910209341E16.quest_desc: ["One manager, a program on a disk, cables to every inventory. Move anything anywhere with a few lines of code."]
+	quest.27C8D5C6173BEEE8.title: "Tar Storage"
+	quest.27C8D5C6173BEEE8.quest_subtitle: "Tarbound"
+	quest.27C8D5C6173BEEE8.quest_desc: ["Tarbound stores items in black tar pools tended by bound spirits. The &8Tar and Spirits&r chapter covers it."]
+	quest.18043DBA9C6C7564.title: "Odds and Ends"
+	quest.18043DBA9C6C7564.quest_desc: ["A trash can for junk, a collector for drops, an elevator so you stop climbing ladders."]
+	quest.16C11D1CA0974225.title: "Quartermaster"
+	quest.16C11D1CA0974225.quest_subtitle: "Everything in its place"
+	quest.16C11D1CA0974225.quest_desc: ["A network, a terminal and a manager. Your base runs itself."]
+	chapter.003226919CF36109.title: "Blood and Ritual"
+	chapter.003226919CF36109.chapter_subtitle: ["Neo Vitae"]
+	quest.0BCCE13FE16F5EFD.title: "Beyond the Veil"
+	quest.0BCCE13FE16F5EFD.quest_subtitle: "Blood and old contracts"
+	quest.0BCCE13FE16F5EFD.quest_desc: ["&5Some power isn't forged. It's bargained for.&r", "Three threads wait in this group: &4blood&r and ritual here, &8tar&r and spirits in &8Tar and Spirits&r, and the Guild's own records in &5The Incursion&r: what the Gearwrights opened, and what came through."]
+	quest.676BFBF2B0FA5E96.title: "Ara Vitae"
+	quest.676BFBF2B0FA5E96.quest_subtitle: "Neo Vitae"
+	quest.676BFBF2B0FA5E96.quest_desc: ["&4Blood is currency.&r The Ara Vitae is a furnace, gold and deepslate. Stand near it with something to transmute and it draws &4Essentia Vitae (EV)&r from you.", "Don't let it take too much."]
+	quest.3E6EAE7C7791FCEB.title: "First Blood"
+	quest.3E6EAE7C7791FCEB.quest_subtitle: "Novicius Orb of Vitae"
+	quest.3E6EAE7C7791FCEB.quest_desc: ["A diamond in the altar becomes your first orb. The orb binds to you and holds your personal network of EV, which sigils and rituals draw on."]
+	quest.60DBB225B57F41C9.title: "Tabula Rasa"
+	quest.60DBB225B57F41C9.quest_subtitle: "Slates"
+	quest.60DBB225B57F41C9.quest_desc: ["Deepslate in the altar becomes Tabula Rasa. Each slate tier (Robur, Animata, Spiritus, Aetherea) needs a higher altar tier."]
+	quest.1AA8F55AA07123FE.title: "Tabula Vitae"
+	quest.1AA8F55AA07123FE.quest_subtitle: "The alchemy table"
+	quest.1AA8F55AA07123FE.quest_desc: ["Neo Vitae's alchemy table: reagents, catalysts, flask upgrades and arcane tools, paid in EV from your orb."]
+	quest.02125D4D8DD1ED8B.title: "Divination"
+	quest.02125D4D8DD1ED8B.quest_desc: ["Inscribe an alchemy array with redstone and a Tabula Rasa. The sigil reads your network and the altar's tier."]
+	quest.00A027F0F6E654B9.title: "Elemental Sigils"
+	quest.00A027F0F6E654B9.quest_desc: ["Reagents from the Tabula Vitae on arrays: endless water, endless lava, both paid in EV."]
+	quest.33E5B1351885CBCE.title: "Tier One"
+	quest.33E5B1351885CBCE.quest_subtitle: "Runes of the altar"
+	quest.33E5B1351885CBCE.quest_desc: ["Eight blank runes around the altar make Tier 1. Swap the cardinal runes for Speed, Sacrifice, Self-Sacrifice or Capacity."]
+	quest.10718B2480884D37.title: "Discipulus Orb"
+	quest.10718B2480884D37.quest_desc: ["A Tier 1 altar upgrades your orb, and your network grows."]
+	quest.14499DB1DC5AABD0.title: "Hellfire Forge"
+	quest.14499DB1DC5AABD0.quest_subtitle: "Spiritus"
+	quest.14499DB1DC5AABD0.quest_desc: ["The forge crafts with &5Spiritus&r, the essence left by slain monsters. Its first gift: a petty spiritus gem to hold that essence."]
+	quest.1210AF3C76111BF1.title: "Petty Spiritus Gem"
+	quest.1210AF3C76111BF1.quest_desc: ["Carry it and kill things. It collects their spiritus."]
+	quest.1043FBC3EE5F85BB.title: "Sentient Sword"
+	quest.1043FBC3EE5F85BB.quest_desc: ["An iron sword forged with a filled gem. It hits harder the more spiritus you carry."]
+	quest.6678398A93730B68.title: "Master Ritual"
+	quest.6678398A93730B68.quest_desc: ["Ritual stones around a master stone, inscribed with the scribe tools, form a ritual. Activate with a crystal.", "The &5Occult&r branch of the skill tree turns this power on yourself."]
+	quest.6DE4A25BC52F5DCB.title: "Activation Crystal"
+	quest.6DE4A25BC52F5DCB.quest_desc: ["A lava crystal in the altar. It starts rituals and pays their EV."]
+	quest.10D5F4379889D914.title: "Incense Altar"
+	quest.10D5F4379889D914.quest_subtitle: "Tranquility"
+	quest.10D5F4379889D914.quest_desc: ["Surround it with calming blocks and walk its paths. Tranquility raises what you get from self-sacrifice."]
+	quest.26A86968083FBC04.title: "Athanor"
+	quest.26A86968083FBC04.quest_desc: ["Uses tools and cutting fluids to process ores and reverse reinforced runes."]
+	quest.57BA6B8AE5057DBC.title: "Veneficus Orb"
+	quest.57BA6B8AE5057DBC.quest_subtitle: "Tier Two"
+	quest.57BA6B8AE5057DBC.quest_desc: ["24 runes. A block of gold in the altar."]
+	quest.1ABA65DC155850C5.title: "Teleposer"
+	quest.1ABA65DC155850C5.quest_desc: ["Swaps blocks, or you, between two teleposers."]
+	quest.0D00FBD6E5D00B30.title: "Lex Vitae"
+	quest.0D00FBD6E5D00B30.quest_subtitle: "Hellforged"
+	quest.0D00FBD6E5D00B30.quest_desc: ["A sentient sword, netherite, a greater spiritus gem and hellforged metal from the demon dungeons. A blade of law and blood."]
+	quest.79956F1A7D01DDF1.title: "Deus Inscription"
+	quest.79956F1A7D01DDF1.quest_subtitle: "The fifth tier"
+	quest.79956F1A7D01DDF1.quest_desc: ["Infused from a prismatic spiritus gem on a Tier 5 altar. The rituals it writes reshape the world."]
+	chapter.629BFE84AD23C816.title: "Tar and Spirits"
+	chapter.629BFE84AD23C816.chapter_subtitle: ["Tarbound"]
+	quest.1C4C5E5A4D91FB07.title: "Black Tar"
+	quest.1C4C5E5A4D91FB07.quest_subtitle: "Tarbound"
+	quest.1C4C5E5A4D91FB07.quest_desc: ["&8Some pools in the world are tar, not water.&r Fill a bucket. Tar soaks into planks and logs, and something in it is listening."]
+	quest.3CA4380C39607708.title: "Spirit Board"
+	quest.3CA4380C39607708.quest_desc: ["Tar-soaked planks, an amethyst shard, ink and bone. Something answers."]
+	quest.05C1A55100CFBB38.title: "Scrying Font"
+	quest.05C1A55100CFBB38.quest_desc: ["Look into the tar. The font shows what the spirits hold."]
+	quest.3E961021C0E5BA63.title: "Weakened Blaze"
+	quest.3E961021C0E5BA63.quest_subtitle: "Something burnt out"
+	quest.3E961021C0E5BA63.quest_desc: ["Put down a weakened blaze."]
+	quest.0D546E2ACE78BCE6.title: "Blank Contract"
+	quest.0D546E2ACE78BCE6.quest_desc: ["Read the fine print before you sign. Spirit contracts bind a spirit to a task."]
+	quest.59CF596AC2C13B60.title: "Reliquary"
+	quest.59CF596AC2C13B60.quest_desc: ["Bone, a book, candles, soul fire and tar. Keep what you've bound."]
+	quest.111DF059A82E0716.title: "Steward"
+	quest.111DF059A82E0716.quest_desc: ["A bound servant that tends the tar's storage."]
+	quest.679E22B36236EB13.title: "Tar Antenna"
+	quest.679E22B36236EB13.quest_desc: ["Reach the pool from further away."]
+	quest.1EB49F9792831E37.title: "Votive Skull"
+	quest.1EB49F9792831E37.quest_subtitle: "Every head"
+	quest.1EB49F9792831E37.quest_desc: ["Skeleton, wither skeleton, zombie, creeper, piglin and dragon. An offering worth making."]
+	chapter.1596DA5CED2F4715.title: "Ender Engineering"
+	chapter.1596DA5CED2F4715.chapter_subtitle: ["EnderIO and EnderIO Evolution"]
+	quest.6820D6A44DE1E5E0.title: "Grains of Infinity"
+	quest.6820D6A44DE1E5E0.quest_subtitle: "EnderIO"
+	quest.6820D6A44DE1E5E0.quest_desc: ["Set fire to bedrock (or deepslate) and catch what falls: grains of infinity. EnderIO's machines start here."]
+	quest.151752E057C6E8BD.title: "Void Chassis"
+	quest.151752E057C6E8BD.quest_desc: ["Steel sheets, brass casing and grains. The frame every EnderIO machine is built on."]
+	quest.31D1DD15F8E1717E.title: "Alloy Smelter"
+	quest.31D1DD15F8E1717E.quest_desc: ["Two or three ingredients into one alloy. EnderIO's whole metal ladder runs through it."]
+	quest.0DF300F6E16E2372.title: "Stirling Generator"
+	quest.0DF300F6E16E2372.quest_desc: ["Burns fuel for power. Capacitors in its slot make it better."]
+	quest.6A1F0339E7EA6AD7.title: "SAG Mill"
+	quest.6A1F0339E7EA6AD7.quest_subtitle: "Ore tripling"
+	quest.6A1F0339E7EA6AD7.quest_desc: ["Built around a crushing wheel. With grinding balls it turns ore into the most dust of any machine in the pack."]
+	quest.3482EC3D6857F4C0.title: "The Alloy Ladder"
+	quest.3482EC3D6857F4C0.quest_desc: ["Conductive alloy for energy, redstone alloy for signals, dark steel for armour and tools."]
+	quest.7C4AC0DDE7E1C0A9.title: "Conduits"
+	quest.7C4AC0DDE7E1C0A9.quest_desc: ["One block, many channels: energy, items, fluids and redstone share a single conduit line."]
+	quest.1171D34458A76C8C.title: "Capacitors"
+	quest.1171D34458A76C8C.quest_desc: ["Capacitors upgrade machines: faster, larger buffers, lower costs."]
+	quest.03604322E3B8EAA1.title: "Energetic and Vibrant"
+	quest.03604322E3B8EAA1.quest_desc: ["The second rung: more capacity, ender-tuned metals."]
+	quest.1DA7932FFF339A21.title: "Octadic Capacitor"
+	quest.1DA7932FFF339A21.quest_desc: ["The best plain capacitor."]
+	quest.1A1F1B5F4FABD86B.title: "Soularium"
+	quest.1A1F1B5F4FABD86B.quest_desc: ["Soul sand and gold become soularium. Soul vials capture a living mob for the soul binder."]
+	quest.1AA3A8364A645A71.title: "Soul Binder"
+	quest.1AA3A8364A645A71.quest_desc: ["Binds captured souls into items: enderman skulls, broken spawners, the z-logic controller."]
+	quest.6D2A5A9B3FEE36A7.title: "Staff of Travelling"
+	quest.6D2A5A9B3FEE36A7.quest_desc: ["Blink short distances, or between travel anchors."]
+	quest.5546B2118F187120.title: "Crude Steel"
+	quest.5546B2118F187120.quest_subtitle: "EnderIO Evolution"
+	quest.5546B2118F187120.quest_desc: ["Evolution adds a second alloy ladder: crude steel, construction alloy, crystalline, melodic and stellar. Every rung means a new alloy smelter."]
+	quest.1834DD7C470E7D35.title: "Crystalline Alloy"
+	quest.1834DD7C470E7D35.quest_desc: ["The middle rung of Evolution's ladder."]
+	quest.7FA2D4388268577E.title: "Melodic Alloy"
+	quest.7FA2D4388268577E.quest_desc: ["Tuned to the End. You'll need what lives on its outer islands."]
+	quest.1473FE71148C64CD.title: "Stellar Alloy"
+	quest.1473FE71148C64CD.quest_subtitle: "The top of the ladder"
+	quest.1473FE71148C64CD.quest_desc: ["Melodic alloy, clay and a &eNether Star&r in the alloy smelter. The deepest crafting chain in the Hollow."]
+	quest.23019BC6BBA03951.title: "Stellar Infinity Generator"
+	quest.23019BC6BBA03951.quest_desc: ["Power that does not run out."]
+	chapter.047B3BEDA87CB20D.title: "Master of the Hollow"
+	chapter.047B3BEDA87CB20D.chapter_subtitle: ["Every road ends here"]
+	quest.19B194ACE385364D.title: "The Long Road"
+	quest.19B194ACE385364D.quest_desc: ["Each line of the Hollow has a top. This chapter collects them.", "It's not the end of play, just the end of the map."]
+	quest.153A17B48234DF69.title: "Gears"
+	quest.153A17B48234DF69.quest_desc: ["Sixteen precision mechanisms. Create at scale."]
+	quest.1FFEA22C220CA8CD.title: "Current"
+	quest.1FFEA22C220CA8CD.quest_desc: ["Sixteen vacuum tubes from IE's workbench."]
+	quest.298327E3CA3B811D.title: "Blood"
+	quest.298327E3CA3B811D.quest_desc: ["A Deus inscription tool."]
+	quest.1B48676417F25F95.title: "Mark"
+	quest.1B48676417F25F95.quest_desc: ["A Gearwright's Seal."]
+	quest.24FF8D3D7D8BAFF7.title: "Void"
+	quest.24FF8D3D7D8BAFF7.quest_desc: ["Eight stellar alloy ingots."]
+	quest.173CBECFD212577A.title: "Master of the Hollow"
+	quest.173CBECFD212577A.quest_subtitle: "Every road walked"
+	quest.173CBECFD212577A.quest_desc: ["Gears, current, blood, the maker's mark and void. You came out of an old, hungry world and built all of it.", "&6Thank you for playing Gearwright's Hollow."]
+	reward_table.1E1E5E7EE1000001.title: "Engineer's Crate"
+	reward_table.1E1E5E7EE1000002.title: "Ender Cache"
+	chapter.6E5C1A7D0B9F4A21.title: "The Incursion"
+	chapter.6E5C1A7D0B9F4A21.chapter_subtitle: ["The Gearwrights records"]
+	quest.1B305531C9754245.title: "Smoke on the Horizon"
+	quest.1B305531C9754245.quest_subtitle: "What the Gearwrights opened"
+	quest.1B305531C9754245.quest_desc: ["Columns of smoke rise beyond the hills and are gone by the time you get there. A bell tolls at midnight with no one to ring it. The groves grow pale.", "None of it is natural. Somebody kept records of what they did here, and the records are still lying in the ruins."]
+	quest.0367FB39849A0B1B.title: "The Penitent"
+	quest.0367FB39849A0B1B.quest_subtitle: "A light left on"
+	quest.0367FB39849A0B1B.quest_desc: ["An old man keeps a lamp burning in a cottage far from any road. He was chaplain to the Gearwrights, and he blessed the first gate when they cut it.", "His account is in the chest, and so is a map to the nearest gatehouse. He trades, if you are polite."]
+	quest.4304179F7BF9D77A.title: "The Gatehouse"
+	quest.4304179F7BF9D77A.quest_subtitle: "Registers, Below and Beyond"
+	quest.4304179F7BF9D77A.quest_desc: ["The Guild built gatehouses in the wilds: a hall, a sanctum, and a frame that opens onto the Nether or the End.", "Read the register in the archive. Every one of them ends the same way: the gate does not close as fast as it opens."]
+	quest.67FF97C261DB7159.title: "Quarantine"
+	quest.67FF97C261DB7159.quest_subtitle: "Nailed shut"
+	quest.67FF97C261DB7159.quest_desc: ["The Guild's archivist copied every register that came off the gatehouses. The black got into the ink, then into him.", "He is still lucid most days. A weakness potion and a golden apple would cure him, and he kept what he could of the archive."]
+	quest.1F60B04AB8499F43.title: "The Apprentice"
+	quest.1F60B04AB8499F43.quest_subtitle: "Mends anything but frames"
+	quest.1F60B04AB8499F43.quest_desc: ["A tinker poured rebar for three gatehouses and saw one whole frame drawn up by the masters at the Hollow.", "He will fix your tools. He will not build a gate, for any price."]
+	quest.1846668C3317855B.title: "Requisitions"
+	quest.1846668C3317855B.quest_subtitle: "The proving grounds"
+	quest.1846668C3317855B.quest_desc: ["Every suit, hood and wind-engine bound for the far stations was tested under a Guild hut first. Follow the mast.", "The sergeant there is still holding his post. His ledger has the supply routes to the far laboratories."]
+	quest.21F2227B14BC1310.title: "The Tidewell"
+	quest.21F2227B14BC1310.quest_subtitle: "Cooling halls under the sea"
+	quest.21F2227B14BC1310.quest_desc: ["The sea cooled the draught lines from the gatehouses. Then the water in the halls went dark, and the keeper flooded them herself.", "Mind the great one. It woke for a reason."]
+	quest.0E0F7020DA98D7FA.title: "The Listening Post"
+	quest.0E0F7020DA98D7FA.quest_subtitle: "Wear wax. Do not drop tools."
+	quest.0E0F7020DA98D7FA.quest_desc: ["Deep in the dark the Guild dug down to an older gate, and set the growth to listen to their own.", "The growth hums at the frames' pitch even with every gate shut. Read the transcript in the survey desk, and do not ring the bell.", "Brandt's waxed hood is yours now. Strike it at an assay anvil to read it."]
+	quest.4D0B9594321F0785.title: "Station Below"
+	quest.4D0B9594321F0785.quest_subtitle: "Harrow's day book"
+	quest.4D0B9594321F0785.quest_desc: ["The draught Below is not heat, though it comes with heat. It is closer to will.", "Master Harrow went through to find out why the gates would not close. Her day book is in the station's archive, with a route to the foundry."]
+	quest.111B2C7B9D27BC0F.title: "The Foundry"
+	quest.111B2C7B9D27BC0F.quest_subtitle: "It is not our smoke"
+	quest.111B2C7B9D27BC0F.quest_desc: ["Every measure of draught was fired here before it went up. The caged blazes went dim feeding it.", "Foreman Gale banked the kilns rather than double the draught. Find his orders; one line explains the smoke you keep seeing.", "Gale's banking shovel is yours now. Strike it at an assay anvil to read it."]
+	quest.7229A829F49344D4.title: "Far Station"
+	quest.7229A829F49344D4.quest_subtitle: "We are being drawn on"
+	quest.7229A829F49344D4.quest_desc: ["Doctor Marsh watched the void under the islands and wrote to the Guild four times.", "Each measure of draught sent home carried passengers. The clerks called them lodgers. They are still riding the cold back into the world.", "Marsh's field boots are yours now. Strike them at an assay anvil to read them."]
+	quest.1A3E1F30A5BA9297.title: "The Wound Below"
+	quest.1A3E1F30A5BA9297.quest_subtitle: "The Eroded Yard"
+	quest.1A3E1F30A5BA9297.quest_desc: ["In places the Nether has grown flesh: carrion, clotted stone, eyes in the walls. As if the draught tore a wound Below and it healed wrong.", "Harrow's day book stops short of saying where her crew went."]
+	quest.71AE846C5B761176.title: "Those Who Stayed"
+	quest.71AE846C5B761176.quest_subtitle: "Skeleton cultists"
+	quest.71AE846C5B761176.quest_desc: ["Skeletons keep vigil in the yard with candles in their hands. They tend the wound like something sacred.", "Some of the Guild's crews never came back up. Put three of the vigil to rest."]
+	quest.145E2E5CADBEDC99.title: "Burial Knife"
+	quest.145E2E5CADBEDC99.quest_subtitle: "Seer fangs on a stick"
+	quest.145E2E5CADBEDC99.quest_desc: ["The seers that drift through the yard leave vile fangs behind. Two on a stick make a knife for cutting away what the yard grows."]
+	quest.422704930DFDEDE0.title: "Draught Condensate"
+	quest.422704930DFDEDE0.quest_subtitle: "Chromatic Compound"
+	quest.422704930DFDEDE0.quest_desc: ["The Guild bottled what came through. Superheat three powdered obsidian, a polished rose quartz and glowstone with a measure of tar in a mixer.", "It is the closest thing to the draught you can hold in your hand."]
+	quest.7C7AF263DF9FAD3D.title: "Steeped in the Beyond"
+	quest.7C7AF263DF9FAD3D.quest_subtitle: "Shadow Steel"
+	quest.7C7AF263DF9FAD3D.quest_desc: ["Mix the compound with an echo shard and two popped chorus fruit. The listening post and the far station each gave you half of it.", "It never quite warms in the hand."]
+	quest.0E6E2FD709279ED7.title: "Fired from Below"
+	quest.0E6E2FD709279ED7.quest_subtitle: "Refined Radiance"
+	quest.0E6E2FD709279ED7.quest_desc: ["Superheat the compound with two glowstone and a weakened soul, a spark of what the foundry burned out of its blazes.", "Brighter than it has any right to be."]
+	quest.525BBB1B92B4A239.title: "The Guild's Own Mark"
+	quest.525BBB1B92B4A239.quest_subtitle: "Gearwright's Seal"
+	quest.525BBB1B92B4A239.quest_desc: ["A smith's stamp, shadow steel and refined radiance make the Guild's seal without a nether star or a dragon egg.", "The Gearwrights marked their best work with it. Now you can mark yours.", "The seal fits one lock the Guild never sold. The register with it marks the way to the Hollow."]
+	quest.54A48D92052194BA.title: "What They Opened"
+	task.07E86BA017B85A28.title: "Put down what waits in the Hollow"
+	quest.54A48D92052194BA.quest_subtitle: "Every register ends the same way"
+	quest.54A48D92052194BA.quest_desc: ["Gatehouses, a station Below, a station Beyond, a foundry to feed them, a post to listen and a well to cool them. Each one built to fix the last.", "Every record points back to the Hollow, where the first gate was cut. Whatever is still open there, the Gearwrights never closed it.", "The hermit's lamp is yours now. Strike it at an assay anvil to read it.", "Take a seal down to the dais in the Hollow and set it on the altar. What comes up is wearing your face, and your gear."]
+	quest.4DD6EF4C9ACAD67F.title: "A Weakened Soul"
+	quest.4DD6EF4C9ACAD67F.quest_subtitle: "Scraped out of soul sand"
+	quest.4DD6EF4C9ACAD67F.quest_desc: ["Strike flint and steel against soul sand and a dim spark of soul comes loose. A bucket and a soul make a bucket of tar.", "The Guild called it the black. It leaked through their gates long before anyone thought to bottle it."]
+	quest.04678A5E0FD64487.title: "Scorched Earth"
+	quest.04678A5E0FD64487.quest_subtitle: "Dimmed on purpose"
+	quest.04678A5E0FD64487.quest_desc: ["Scorch a blaze spawner with flint and steel and it only gives up weakened blazes.", "The foundry did this to its caged stock for years. Foreman Gale's orders say it plainly."]
+	quest.63443DC43CBDEA67.title: "Feeding Time"
+	quest.63443DC43CBDEA67.quest_subtitle: "Lodgers are hungry"
+	quest.63443DC43CBDEA67.quest_desc: ["The spirits in your tar are the same lodgers that rode the draught home. Feed them a candle or a soul and they work for you.", "Keep them fed. The registers do not say what they do when they are not."]
+	quest.468B1993B7E5B2D2.title: "Work Order"
+	quest.468B1993B7E5B2D2.quest_subtitle: "Something to make"
+	quest.468B1993B7E5B2D2.quest_desc: ["Order an item from the radio and let a bound spirit make it.", "The Guild ran whole workshops this way, near the end."]
+	quest.2604B72385407A09.title: "Someone's Watching"
+	quest.2604B72385407A09.quest_subtitle: "A shade over your orders"
+	quest.2604B72385407A09.quest_desc: ["A shade holds the parts of a long order so nothing else takes them. Feed it votive skulls to raise its rank.", "It watches the work. Try not to wonder what else it watches."]
+	quest.6CE83700F1014A22.title: "Bone Library"
+	quest.6CE83700F1014A22.quest_subtitle: "Every contract in one place"
+	quest.6CE83700F1014A22.quest_desc: ["An ossuary keeps every reliquary's contracts on one radio, to hand out and take back.", "The archivist kept the Guild's contracts like this, until the ink went dark."]
+	quest.05AFF3BA28CE976A.title: "Can You Hear Me Now?"
+	quest.05AFF3BA28CE976A.quest_subtitle: "A broadcast mast"
+	quest.05AFF3BA28CE976A.quest_desc: ["Stack an antenna three pieces tall. The tar carries further than it should.", "The drowned radio sets along the coast were the Guild's. Some of them are still listening."]
+	quest.33C617431F051EB9.title: "Here and Not"
+	quest.33C617431F051EB9.quest_subtitle: "Transient Antenna"
+	quest.33C617431F051EB9.quest_desc: ["An antenna that is only partly in the world. The lodgers find it comfortable."]
+	quest.0EC548C0E8795C69.title: "Sixteen Candles"
+	quest.0EC548C0E8795C69.quest_subtitle: "A well-kept reliquary"
+	quest.0EC548C0E8795C69.quest_desc: ["Light sixteen candles around one reliquary. The wayside shrines did this for spirits nobody remembered binding."]
+	quest.485C09286B93C404.title: "Bottled Void"
+	quest.485C09286B93C404.quest_subtitle: "Essence of the Void"
+	quest.485C09286B93C404.quest_desc: ["Fill a bucket with essence of the void.", "Doctor Marsh wrote that the void beneath the islands is not empty. This is what she meant."]
+	quest.6DC75C3C4F11BF6F.title: "Someone Was Here"
+	quest.6DC75C3C4F11BF6F.quest_subtitle: "A researcher's cabin"
+	quest.6DC75C3C4F11BF6F.quest_desc: ["A cabin in the woods, left in a hurry. Whoever lived here was studying the tar before the Guild was."]
+	quest.068325E50C620419.title: "A Coin for the Box"
+	quest.068325E50C620419.quest_subtitle: "A wayside shrine"
+	quest.068325E50C620419.quest_desc: ["A reliquary still minds a dead furnace by the road. Leave it something."]
+	quest.43C410D1E680B619.title: "Dead Air"
+	quest.43C410D1E680B619.quest_subtitle: "A drowned radio"
+	quest.43C410D1E680B619.quest_desc: ["A radio set the tar swallowed. It was tuned to a Guild frequency."]
+	quest.23C03FFD02803CD3.title: "The Sexton's Count"
+	quest.23C03FFD02803CD3.quest_subtitle: "A charnel crypt"
+	quest.23C03FFD02803CD3.quest_desc: ["Climb down into a charnel crypt. The sexton counted every bone. The count is off by one."]
+	quest.05618F9306EA04D2.title: "Scriptura Vitae"
+	quest.05618F9306EA04D2.quest_subtitle: "Read first"
+	quest.05618F9306EA04D2.quest_desc: ["The guidebook to everything below. Keep it on you; this chapter only marks the road."]
+	quest.686BBB6FCE3719DC.title: "Throwing Daggers"
+	quest.686BBB6FCE3719DC.quest_subtitle: "Soul snare"
+	quest.686BBB6FCE3719DC.quest_desc: ["A dagger that marks what it hits. Kill a marked creature and it gives up raw spiritus, before you ever hold a sentient sword."]
+	quest.6D9C3E6DBF8F2976.title: "Blood Lantern"
+	quest.6D9C3E6DBF8F2976.quest_subtitle: "A light left on"
+	quest.6D9C3E6DBF8F2976.quest_desc: ["A soul lantern reforged in the altar. It wards sixteen blocks against wandering spawns.", "The hermit keeps one burning. Now you know why nothing troubles him."]
+	quest.679FB6B2F879995D.title: "Sigil of Holding"
+	quest.679FB6B2F879995D.quest_subtitle: "Nine sigils in one hand"
+	quest.679FB6B2F879995D.quest_desc: ["Carries up to nine other sigils. Cycle them with a hotkey."]
+	quest.1350FB05A3F1E8AC.title: "Sigil of the Green Grove"
+	quest.1350FB05A3F1E8AC.quest_subtitle: "Life, paid in blood"
+	quest.1350FB05A3F1E8AC.quest_desc: ["The pale groves are what the draught does to growing things. This sigil is what blood does instead."]
+	quest.12566167BEFCCF0A.title: "Ritual Awakening"
+	quest.12566167BEFCCF0A.quest_subtitle: "Your first rite"
+	quest.12566167BEFCCF0A.quest_desc: ["Inscribe the stones, set a crystal to the master stone, and pay the cost. The Ritual Diviner shows each layout."]
+	quest.4060040CD98A95BE.title: "A Crack in the Veil"
+	quest.4060040CD98A95BE.quest_subtitle: "Breaching the Edge of Demon Realm"
+	quest.4060040CD98A95BE.quest_desc: ["A Tier II rite that opens a way into the Demon Realm, once.", "Understand what you are doing. You are cutting a gate, the way the Gearwrights did. Every one of their registers ends with the gate not closing as fast as it opened. Yours, at least, is paid for in your own blood."]
+	quest.60DBF1D87DA15350.title: "Forged in the Pit"
+	quest.60DBF1D87DA15350.quest_subtitle: "Raw demonite"
+	quest.60DBF1D87DA15350.quest_desc: ["Dig a sliver of demonite out of the Endless Realm. It smelts into hellforged metal."]
+	quest.494EEC611CFA869C.title: "Bloodstone"
+	quest.494EEC611CFA869C.quest_subtitle: "Tier III capstones"
+	quest.494EEC611CFA869C.quest_desc: ["Tau grows in the Demon Realm. Saturated tau and the sanguine reverter in an athanor give weak blood shards, and shards make bloodstone.", "Four bricks cap the corners of a Tier III altar: 28 more runes, a ring lower, at radius five."]
+	quest.0DB354D68F862E86.title: "Magus Orb"
+	quest.0DB354D68F862E86.quest_subtitle: "Tier Three"
+	quest.0DB354D68F862E86.quest_desc: ["A weak blood shard in a Tier III altar. Your network deepens again."]
+	quest.600D5D480975FE2D.title: "Dominus Orb"
+	quest.600D5D480975FE2D.quest_subtitle: "Tier Four"
+	quest.600D5D480975FE2D.quest_desc: ["Hellforged blocks cap a Tier IV altar, 48 runes further out at radius eight. A hellforged block in the basin becomes the Dominus orb."]
+	quest.273598A81C9EC9AA.title: "Crystal Cluster"
+	quest.273598A81C9EC9AA.quest_subtitle: "Sculk and a star"
+	quest.273598A81C9EC9AA.quest_desc: ["Forged from sculk, a Tabula Aetherea, a weak blood shard and a nether star. Four crown a Tier V altar.", "The sculk is easiest got from the Guild's dig in the deep dark. They were listening to it; you are going to build on it."]
+	quest.0C4D9A5C8A9B4AB0.title: "Divinus Orb"
+	quest.0C4D9A5C8A9B4AB0.quest_subtitle: "Tier Five"
+	quest.0C4D9A5C8A9B4AB0.quest_desc: ["A crystal cluster in a Tier V altar: 172 runes in five rings.", "The Guild drew its power through a gate and never paid for it. You have paid for every drop of yours."]
+	quest.36C14B7B7950F73C.title: "Aspectum Omnia"
+	quest.36C14B7B7950F73C.quest_subtitle: "Four aspects of spiritus"
+	quest.36C14B7B7950F73C.quest_desc: ["Transmute a raw cluster into each of the four aspects: invictus, nihilum, ruina and vindicta."]
+	quest.2818380DD10682E5.title: "What the Foundry Leaves"
+	quest.2818380DD10682E5.quest_subtitle: "Foundry Residue"
+	quest.2818380DD10682E5.quest_desc: ["Grit that should not be there: in the deepslate, in the ash of things that should have stayed dead. Only those who see the Foundry find it.", "Keep it. The Guild's ledgers count it by the ounce, and the further down their trail you go, the more of it you will find."]
+	quest.7EC8AFFE4D90AD2F.title: "The Escapement"
+	quest.7EC8AFFE4D90AD2F.quest_subtitle: "The world runs on without asking"
+	quest.7EC8AFFE4D90AD2F.quest_desc: ["Build a movement from residue, shadow steel and refined radiance; bleed it on an altar; wind it with the void; set it on the Hollow's altar.", "The first one lets you go. After that the Foundry is behind a lens, and every Escapement it gives you costs Distilled Residue gathered through it.", "An Escapement sits at the heart of every creative machine the Guild ever built."]
+}

@@ -1,0 +1,40 @@
+{
+  "_comment": "pass 9-51: friendly/neutral mobs the Hollow has taken (tagged by kubejs 85_hollow_taken.js near Hollow-heavy players)",
+  "priority": 90,
+  "stop": true,
+  "conditions": {
+    "has_tags": [
+      "gh_hollow_taken"
+    ]
+  },
+  "behavior": {
+    "hostile_to": [
+      "minecraft:player"
+    ],
+    "attack_damage": 3,
+    "angry_on_spawn": true,
+    "griefing": false
+  },
+  "attributes": {
+    "movement_speed": {
+      "multiply": 1.25
+    },
+    "follow_range": {
+      "set": 24
+    }
+  },
+  "name": {
+    "text": "Taken {mob}",
+    "color": "dark_gray"
+  },
+  "loot": {
+    "drops": [
+      {
+        "item": "gearwrights:foundry_residue",
+        "count": 1,
+        "chance": 0.15,
+        "player_kill_only": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "dying_world:road_sign",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 10,
+    "salt": 764411631,
+    "exclusion_zone": {
+      "other_set": "dying_world:settlements",
+      "chunk_count": 6
+    }
+  }
+}

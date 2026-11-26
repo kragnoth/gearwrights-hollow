@@ -1,0 +1,213 @@
+[bulwark]
+	#Last Stand cooldown in seconds
+	# Default: 300
+	# Range: 10 ~ 36000
+	last_stand_cooldown = 300
+	#Damage reduction for allies near a blocking Shield Wall player
+	# Default: 0.25
+	# Range: 0.0 ~ 0.9
+	shield_wall_reduction = 0.25
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	shield_wall_radius = 4.0
+	#Chance per durability point that armor takes no wear
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	ironclad_durability_save = 0.5
+
+[warpath]
+	# Default: 5
+	# Range: 1 ~ 20
+	bloodrush_max_stacks = 5
+	#Attack damage and attack speed bonus per stack
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	bloodrush_per_stack = 0.05
+	#Seconds a stack lasts (refreshed on each kill)
+	# Default: 8
+	# Range: 1 ~ 120
+	bloodrush_duration = 8
+	#Fraction of a melee hit dealt to enemies around the target
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	cleave_fraction = 0.3
+	# Default: 2.5
+	# Range: 0.5 ~ 8.0
+	cleave_radius = 2.5
+	#Double damage against targets below this health fraction
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	execute_bonus_below = 0.2
+	#Non-boss targets below this health fraction die outright
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	execute_kill_below = 0.1
+
+[deadeye]
+	# Default: 6.0
+	# Range: 1.0 ~ 32.0
+	ricochet_range = 6.0
+	#Extra damage marked targets take from everyone
+	# Default: 0.2
+	# Range: 0.0 ~ 2.0
+	hunters_mark_bonus = 0.2
+	#Seconds a mark lasts
+	# Default: 10
+	# Range: 1 ~ 120
+	hunters_mark_duration = 10
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	long_shot_max_bonus = 0.5
+	#Distance in blocks at which Long Shot reaches its full bonus
+	# Default: 40.0
+	# Range: 4.0 ~ 256.0
+	long_shot_max_distance = 40.0
+
+[pathfinder]
+	#Dash cooldown in ticks
+	# Default: 80
+	# Range: 5 ~ 1200
+	dash_cooldown = 80
+	# Default: 1.4
+	# Range: 0.2 ~ 4.0
+	dash_speed = 1.4
+	# Default: 0.55
+	# Range: 0.1 ~ 2.0
+	double_jump_strength = 0.55
+	#Max fall speed while clinging to a wall
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	wall_slide_speed = 0.08
+
+[foreman]
+	# Default: 12
+	# Range: 2 ~ 32
+	prospector_radius = 12
+	#Prospector's Sense cooldown in seconds
+	# Default: 10
+	# Range: 0 ~ 600
+	prospector_cooldown = 10
+	# Default: 128
+	# Range: 1 ~ 2048
+	prospector_max_blocks = 128
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	auto_smelt_chance = 0.5
+	#Chance per stone block mined to roll kskills_perks:treasure/stone
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	treasure_chance = 0.01
+
+[occult]
+	#Heal this fraction of the victim's max health on kill
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	soul_siphon_heal_fraction = 0.1
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	soul_siphon_heal_max = 4.0
+	#NeoVitae LP added to your soul network per point of victim max health (0 = off)
+	# Default: 10
+	# Range: 0 ~ 10000
+	soul_siphon_lp_per_health = 10
+	#Arcane Ward shield size (absorption points) before magic proficiency
+	# Default: 4
+	# Range: 0 ~ 100
+	arcane_ward_base = 4
+	# Default: 12
+	# Range: 0 ~ 100
+	arcane_ward_max = 12
+	#Seconds without taking damage before the ward refills
+	# Default: 8
+	# Range: 0 ~ 600
+	arcane_ward_out_of_combat = 8
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	hex_chance = 0.25
+
+[industry]
+	#Extra random-tick chance per growable block every 2 seconds, levels 1/2/3
+	crop_chance = [0.05, 0.1, 0.2]
+	#Crop growth radius for levels 1/2/3
+	crop_radius = [5, 7, 9]
+	# Default: 8
+	# Range: 1 ~ 32
+	rancher_radius = 8
+	#Seconds of growth added to nearby babies every 2 seconds
+	# Default: 4
+	# Range: 1 ~ 60
+	rancher_seconds = 4
+	#Overclock radius for levels 1/2/3
+	overclock_radius = [6, 8, 12]
+	#Extra ticks per game tick for levels 1/2/3 (1 = 2x speed)
+	overclock_extra_ticks = [1, 2, 4]
+	# Default: 48
+	# Range: 1 ~ 1024
+	overclock_max_per_player = 48
+	#Mod ids whose block entities are never accelerated (Create and its addons are always excluded)
+	overclock_blacklist_mods = ["ae2", "refinedstorage", "sophisticatedstorage", "sophisticatedbackpacks", "storagedrawers", "functionalstorage", "toms_storage", "tarbound", "storagehub"]
+	#Magnet radius for levels 1/2
+	magnet_radius = [5, 10]
+	# Default: 0.45
+	# Range: 0.05 ~ 2.0
+	magnet_speed = 0.45
+	# Default: 24
+	# Range: 1 ~ 128
+	hearth_radius = 24
+	# Default: 8
+	# Range: 1 ~ 32
+	stoker_radius = 8
+	#Fuel lasts this much longer in furnaces near you
+	# Default: 0.5
+	# Range: 0.0 ~ 4.0
+	stoker_bonus = 0.5
+	#Chance per durability point that tools take no wear
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	careful_hands_save = 0.4
+
+#The Hollow (Gearwright's Hollow endgame). Residue tier 1-4 comes from quests (tags gh_residue_<n>), 5 = Hollowed.
+[hollow]
+	enabled = true
+	#Wasteland Vision vision a Hollowed player is held in
+	vision = "occult_foundry"
+	#Tag Wasteland Vision gives players who see that vision
+	vision_tag = "wv_occult_foundry"
+	#Chance a friendly/neutral spawn near the player is 'taken' (turns hostile), residue tiers 1-5
+	taken_by_tier = [0.02, 0.05, 0.08, 0.12, 0.15]
+	#Added per in-game day held after the Hollow
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	taken_per_day_held = 0.03
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	taken_cap = 0.5
+	# Default: 48
+	# Range: 8 ~ 256
+	taken_radius = 48
+	residue_item = "gearwrights:foundry_residue"
+	distilled_item = "gearwrights:distilled_residue"
+	residue_blocks = ["minecraft:deepslate", "minecraft:cobbled_deepslate"]
+	#Residue chance per residue block mined, tiers 1-5 (only while seeing the vision)
+	residue_block_chance = [0.005, 0.01, 0.02, 0.03, 0.03]
+	#Residue chance per undead killed, tiers 1-5
+	residue_undead_chance = [0.02, 0.04, 0.06, 0.08, 0.08]
+	#Foundry Revenant mob (overworld): 1-2 residue at tier 5
+	revenant = "incision:skeletoncultist"
+	#Released players only
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	distilled_undead = 0.02
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	distilled_revenant = 0.25
+	# Default: 0.004
+	# Range: 0.0 ~ 1.0
+	distilled_block = 0.004
+	#Held players killing a revenant: chance of one of locked_uniques (Hallmarked)
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	locked_unique_chance = 0.02
+	locked_uniques = ["revenants_shroud", "kiln_hook", "hollow_bell"]
+	#Hallmarked set whose pieces (and the locked uniques) go cold on released players
+	hollowed_set = "hallmarked.set.hollowed"

@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "tarbound:spirit_contract"
+	}
+	id: "69C10E45500045A4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "0932CD687D755128"
+			item: {
+				count: 1
+				id: "tarbound:tallow"
+			}
+		}
+		{
+			count: 16
+			id: "48BF872351510BEB"
+			item: {
+				count: 1
+				id: "tarbound:plant_wax"
+			}
+		}
+		{
+			count: 4
+			id: "77565F9D430D3505"
+			item: {
+				count: 1
+				id: "tarbound:votive_skull"
+			}
+		}
+		{
+			count: 2
+			id: "17DE36D797D811A6"
+			item: {
+				count: 1
+				id: "tarbound:spirit_contract"
+			}
+		}
+	]
+}

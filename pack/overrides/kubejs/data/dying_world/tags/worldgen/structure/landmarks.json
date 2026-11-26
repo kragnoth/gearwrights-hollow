@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "dying_world:abandoned_cabin",
+    "dying_world:abandoned_cabin_oak",
+    "dying_world:abandoned_cabin_dark_oak",
+    "dying_world:abandoned_smithy",
+    "dying_world:abandoned_smithy_arid",
+    "dying_world:hermit_cottage",
+    "dying_world:tinker_workshop",
+    "dying_world:plague_house",
+    "dying_world:ruined_chapel",
+    "dying_world:charnel_crypt",
+    "dying_world:collapsed_minehead",
+    "dying_world:concrete_pad_temperate",
+    "dying_world:concrete_pad_cold",
+    "dying_world:concrete_pad_arid",
+    "dying_world:concrete_pad_wild",
+    "dying_world:dig_site_arid",
+    "dying_world:dig_site_temp",
+    "dying_world:researcher_cabin",
+    "dying_world:wayside_shrine",
+    "dying_world:lighthouse",
+    "dying_world:drowned_radio"
+  ]
+}
